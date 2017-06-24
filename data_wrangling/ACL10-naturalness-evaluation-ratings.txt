@@ -1,0 +1,203 @@
+ID	TASK	DA	RAND_20_naturalness	AL_20_naturalness	RAND_40_naturalness	AL_40_naturalness	RAND_100_naturalness	AL_100_naturalness	FULLTRAINSET_naturalness	GOLD_naturalness	RAND_20_informativeness	AL_20_informativeness	RAND_40_informativeness	AL_40_informativeness	RAND_100_informativeness	AL_100_informativeness	FULLTRAINSET_informativeness	GOLD_informativeness
+100	1ACH8XILT7MNSGB9RWS6FYSOFJJSND	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,area="X2",near="X3")	2	3	3	3	5	4	3	4	1	5	5	5	5	5	5	4
+101	1F4NMXEG4RS5A1BLSBSJUNST5TOSOS	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,area=riverside)	5	5	3	5	3	5	3	4	4	4	4	4	4	4	4	4
+102	1F4NMXEG4RS5A1BLSBSJUNST5TOSOS	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,food=Fastfood)	4	4	4	3	4	3	4	4	5	4	5	4	4	4	4	4
+103	1F4NMXEG4RS5A1BLSBSJUNST5TOSOS	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",pricerange=moderate,food=Indian,food="Indian takeaway")	3	4	4	4	4	3	3	4	4	5	5	3	4	4	4	4
+104	1F4NMXEG4RS5A1BLSBSJUNST5TOSOS	inform(name="X1",type=placetoeat,pricerange=expensive,near="X2",eattype=restaurant)	3	4	3	4	4	4	4	4	5	4	5	4	4	4	4	4
+105	1VMEQEXIMKIHQRSRU6XHKZ6OEG9DN4	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area=citycentre)	4	2	4	3	4	4	4	4	5	4	5	4	5	4	4	4
+106	1VMEQEXIMKIHQRSRU6XHKZ6OEG9DN4	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",food=Fastfood)	1	4	1	4	4	4	4	4	1	4	1	4	4	4	4	4
+107	1VMEQEXIMKIHQRSRU6XHKZ6OEG9DN4	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area="X3",food=Italian)	3	3	3	3	5	5	3	5	3	4	3	3	5	5	3	5
+108	1VMEQEXIMKIHQRSRU6XHKZ6OEG9DN4	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area=riverside,food=Italian)	3	5	5	5	5	5	5	2	4	4	4	4	4	4	4	4
+109	1WLQAKWATGZJU5HFZJ69YSSHXDKKGG	inform(name="X1",eattype=restaurant,area="X2")	5	4	5	5	5	5	5	5	5	4	5	5	5	5	5	5
+10	1WLQAKWATGZJU5HFZJ69YSSHXDKGKC	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",area=riverside,near="X3",food=Indian)	4	5	3	4	4	4	5	4	4	4	4	3	5	5	3	5
+110	1WLQAKWATGZJU5HFZJ69YSSHXDKKGG	inform(name="X1",eattype=restaurant,postcode="X2")	1	1	1	1	1	1	1	5	2	2	2	2	2	2	2	5
+111	1WLQAKWATGZJU5HFZJ69YSSHXDKKGG	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=moderate,area="X2",food=Italian)	1	2	2	2	1	2	2	4	1	3	3	3	3	3	3	5
+112	1WLQAKWATGZJU5HFZJ69YSSHXDKKGG	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,food="Chinese takeaway",food=Japanese)	1	2	2	5	5	5	5	5	2	3	4	5	5	5	5	4
+113	12H618GL59M4VH27QOYWYSTNYOZAQM	inform(name="X1",type=placetoeat,eattype=restaurant,food=Chinese)	4	3	4	4	4	4	4	4	4	3	4	4	4	4	4	4
+114	12H618GL59M4VH27QOYWYSTNYOZAQM	inform(name="X1",type=placetoeat,pricerange=moderate,area="X2",eattype=restaurant)	4	4	4	4	4	3	3	3	4	3	4	4	3	4	3	3
+115	12H618GL59M4VH27QOYWYSTNYOZAQM	inform(name="X1",type=placetoeat,eattype=restaurant,food=Seafood)	4	4	4	4	4	4	4	4	4	3	4	3	4	3	3	3
+116	12H618GL59M4VH27QOYWYSTNYOZAQM	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",pricerange=expensive,area=citycentre)	3	4	4	4	4	4	4	4	3	4	4	3	3	3	3	4
+117	1BGTDEXOH7H7VM3KZ8ZRYX9X3SMV2U	inform(name="X1",type=placetoeat,area=riverside,near="X2",eattype=restaurant)	4	5	4	4	4	4	4	4	5	4	5	5	5	5	5	3
+118	1BGTDEXOH7H7VM3KZ8ZRYX9X3SMV2U	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",pricerange=moderate,food=Indian)	5	5	4	5	4	5	5	3	4	4	5	4	3	4	4	4
+119	1BGTDEXOH7H7VM3KZ8ZRYX9X3SMV2U	inform(name="X1",type=placetoeat,near="X2",area="X3",eattype=restaurant)	4	5	5	5	4	5	4	4	4	5	4	4	5	4	5	3
+11	1WLQAKWATGZJU5HFZJ69YSSHXDKGKC	inform(name="X1",type=placetoeat,pricerange=moderate,eattype=restaurant)	5	4	4	4	5	5	5	4	4	5	4	5	4	4	4	4
+120	1BGTDEXOH7H7VM3KZ8ZRYX9X3SMV2U	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,near="X2",food=French)	5	4	3	4	5	5	4	4	4	5	5	3	4	4	4	4
+121	1A791BNX5EZXOIHWJPY0PMHLAUBZUG	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",near="X3",food="Cafe food",food=English)	3	4	3	4	5	4	4	4	4	4	4	4	4	5	5	4
+122	1A791BNX5EZXOIHWJPY0PMHLAUBZUG	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,area="X2")	3	3	5	3	4	4	3	3	3	4	5	4	4	4	4	4
+123	1A791BNX5EZXOIHWJPY0PMHLAUBZUG	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=moderate,area="X2")	4	4	4	4	5	3	3	4	4	5	4	5	4	4	4	4
+124	1A791BNX5EZXOIHWJPY0PMHLAUBZUG	inform(name="X1",food=Chinese,eattype=restaurant,area=riverside)	5	4	5	3	5	3	5	4	5	3	5	4	5	4	5	5
+125	1V5L5XZAO7OWG4Z338DWH7EP96MV35	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,area=citycentre,near="X2",food=Chinese)	2	2	2	3	5	4	4	3	2	2	2	1	1	4	4	4
+126	1V5L5XZAO7OWG4Z338DWH7EP96MV35	inform(name="X1",type=placetoeat,pricerange=expensive,eattype=restaurant)	3	3	2	3	3	3	3	3	3	3	3	3	3	3	3	3
+127	1V5L5XZAO7OWG4Z338DWH7EP96MV35	inform(name="X1",type=placetoeat,eattype=restaurant,food=Continental,food=French)	2	5	2	5	5	5	5	4	2	5	2	5	5	5	5	3
+128	1V5L5XZAO7OWG4Z338DWH7EP96MV35	inform(name="X1",type=placetoeat,pricerange=expensive,near="X2",near="X3",area="X4",eattype=restaurant)	2	5	5	5	5	5	5	5	2	5	5	4	5	5	4	5
+129	1J5JUNGAB4WPCQH0XQKPFRA7SHFIDT	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,area=riverside,near="X2")	1	5	1	5	3	5	5	4	1	2	3	3	3	2	2	2
+12	1WLQAKWATGZJU5HFZJ69YSSHXDKGKC	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,near="X2",near="X3")	5	4	5	4	4	5	5	5	4	5	4	4	4	4	4	4
+130	1J5JUNGAB4WPCQH0XQKPFRA7SHFIDT	inform(name="X1",eattype=restaurant,addr="X2")	1	5	1	5	1	5	5	5	2	5	2	5	2	5	5	5
+131	1J5JUNGAB4WPCQH0XQKPFRA7SHFIDT	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area="X3",food=Indian)	1	3	1	1	5	3	5	5	2	5	2	3	5	5	5	5
+132	1J5JUNGAB4WPCQH0XQKPFRA7SHFIDT	inform(name="X1",type=placetoeat,area="X2",eattype=restaurant)	3	2	4	2	4	3	4	3	3	3	3	3	3	3	3	3
+133	1Y4VRW0HJIEX2BQ8EH0KWW618ZN86J	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",food=Indian)	1	5	1	5	5	5	5	5	2	5	1	5	5	5	5	5
+134	1Y4VRW0HJIEX2BQ8EH0KWW618ZN86J	inform(name="X1",type=placetoeat,area=citycentre,near="X2",eattype=restaurant)	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5
+135	1Y4VRW0HJIEX2BQ8EH0KWW618ZN86J	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,near="X2",near="X3",food=Italian)	5	1	5	5	5	5	5	5	5	2	5	5	5	5	5	5
+136	1Y4VRW0HJIEX2BQ8EH0KWW618ZN86J	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",food=Chinese)	4	4	4	4	4	4	4	3	4	4	4	4	4	4	4	4
+137	1FPQOPFKY85XU1CQJPORJS4ICDXKHF	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area="X3",area="X4")	4	3	4	5	3	3	3	2	5	4	5	5	4	4	4	4
+138	1FPQOPFKY85XU1CQJPORJS4ICDXKHF	inform(name="X1",type=placetoeat,pricerange=expensive,area="X2",eattype=restaurant)	2	3	4	5	3	4	5	4	3	3	4	5	4	4	5	4
+139	1FPQOPFKY85XU1CQJPORJS4ICDXKHF	inform(name="X1",eattype=restaurant,area=riverside)	2	2	2	2	2	2	2	4	4	4	3	4	3	4	3	4
+13	1K6HBYUWS882O04TCSK3NVWAVW180I	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=cheap,near="X2")	4	4	4	4	5	5	5	3	4	4	4	4	4	4	4	4
+140	1FPQOPFKY85XU1CQJPORJS4ICDXKHF	inform(name="X1",area="X2",eattype=restaurant,food=Chinese)	5	4	5	3	3	4	4	5	4	4	4	4	4	4	4	4
+141	1H6HYW7640AG6B4DXR5C2A6X3A787I	inform(name="X1",type=placetoeat,near="X2",area=citycentre,eattype=restaurant)	3	2	3	4	4	4	4	3	4	3	4	4	4	4	4	4
+142	1H6HYW7640AG6B4DXR5C2A6X3A787I	inform(name="X1",type=placetoeat,eattype=restaurant,food="Cafe food",food=English)	2	2	2	2	2	2	2	3	2	2	3	2	3	3	3	3
+143	1H6HYW7640AG6B4DXR5C2A6X3A787I	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",food=Indian,food="Indian takeaway")	2	2	2	3	2	3	3	3	2	3	3	4	3	4	4	4
+144	1H6HYW7640AG6B4DXR5C2A6X3A787I	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",near="X3",near="X4",food=Italian)	2	5	5	5	5	4	3	4	3	4	4	4	4	4	4	4
+145	1GH2WJ0RNR747IH733NW3I3SUA1ARN	inform(name="X1",type=placetoeat,near="X2",pricerange=expensive,eattype=restaurant)	3	5	5	5	5	5	5	5	4	5	5	5	5	5	5	5
+146	1GH2WJ0RNR747IH733NW3I3SUA1ARN	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,food=Italian,food="Takeaway pizza")	1	4	1	4	5	4	5	4	2	4	2	4	5	4	4	5
+147	1GH2WJ0RNR747IH733NW3I3SUA1ARN	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,area="X2",near="X3",near="X4")	4	4	5	5	5	4	5	5	5	4	5	5	5	4	5	5
+148	1GH2WJ0RNR747IH733NW3I3SUA1ARN	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",food=Italian)	1	5	5	4	4	5	5	5	2	5	5	5	5	5	5	5
+149	1TEYCB4T2YZIWP7SB0JCS6IAAEB55Y	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,food=Chinese)	5	2	5	2	5	2	5	4	5	5	5	4	5	4	5	5
+14	1K6HBYUWS882O04TCSK3NVWAVW180I	inform(name="X1",eattype=restaurant,near="X2")	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5
+150	1TEYCB4T2YZIWP7SB0JCS6IAAEB55Y	inform(name="X1",type=placetoeat,area="X2",eattype=restaurant,pricerange=moderate)	4	5	4	5	5	5	5	4	5	3	5	5	5	5	5	5
+151	1TEYCB4T2YZIWP7SB0JCS6IAAEB55Y	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",near="X3",food=French)	1	4	3	4	5	5	5	5	1	5	5	5	5	5	5	5
+152	1TEYCB4T2YZIWP7SB0JCS6IAAEB55Y	inform(name="X1",type=placetoeat,eattype=restaurant,food="Chinese takeaway",food=Takeaway)	1	3	2	1	2	2	2	5	2	4	4	2	4	4	4	4
+153	1JP4T8PPQEJXQWNAP76CJ45XCQCKI8	inform(name=none,near="X1",area=citycentre)	2	1	1	1	1	2	4	4	3	1	2	1	2	2	4	4
+154	1JP4T8PPQEJXQWNAP76CJ45XCQCKI8	inform(name="X1",type=placetoeat,pricerange=cheap,area=citycentre,near="X2",eattype=restaurant)	5	2	5	5	2	5	5	5	5	4	5	5	4	5	5	5
+155	1JP4T8PPQEJXQWNAP76CJ45XCQCKI8	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",near="X3",food="Chinese takeaway",food=Japanese)	1	3	3	5	5	5	5	5	1	3	3	5	5	5	5	5
+156	1JP4T8PPQEJXQWNAP76CJ45XCQCKI8	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,food="Chinese takeaway",food=Takeaway)	2	2	2	5	1	1	1	4	2	3	3	5	2	2	2	4
+157	1J39CIUHWSJTL77G7PRCV5KXP51KJK	inform(name="X1",type=placetoeat,pricerange=expensive,near="X2",area="X3",eattype=restaurant)	2	3	5	5	5	5	4	3	3	3	5	5	5	5	4	4
+158	1J39CIUHWSJTL77G7PRCV5KXP51KJK	inform(name="X1",area=riverside,eattype=restaurant,food=Fastfood,pricerange=cheap)	1	5	3	5	4	5	4	5	2	5	4	5	4	5	4	5
+159	1J39CIUHWSJTL77G7PRCV5KXP51KJK	inform(name="X1",type=placetoeat,eattype=restaurant,food=Italian,food="Takeaway pizza")	2	5	2	5	5	4	4	4	3	5	3	5	5	5	3	4
+15	1K6HBYUWS882O04TCSK3NVWAVW180I	inform(name="X1",area=riverside,food=Chinese,eattype=restaurant)	2	3	4	4	5	4	5	5	4	3	4	4	5	4	5	5
+160	1J39CIUHWSJTL77G7PRCV5KXP51KJK	inform(name=none,near="X1",area=riverside)	4	1	4	4	5	5	5	3	4	1	4	4	5	5	5	3
+161	10EK4ETDX4OZ8CS3VLXUZO6T4QEDOJ	inform(name="X1",type=placetoeat,area=citycentre,eattype=restaurant)	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4
+162	10EK4ETDX4OZ8CS3VLXUZO6T4QEDOJ	inform(name="X1",type=placetoeat,near="X2",pricerange=expensive,area=riverside,eattype=restaurant)	3	4	3	5	3	5	5	3	4	4	4	4	4	4	4	3
+163	10EK4ETDX4OZ8CS3VLXUZO6T4QEDOJ	inform(name="X1",type=placetoeat,area=citycentre,near="X2",near="X3",eattype=restaurant)	4	1	4	4	4	4	4	5	4	3	4	4	4	4	4	4
+164	10EK4ETDX4OZ8CS3VLXUZO6T4QEDOJ	inform(name="X1",type=placetoeat,pricerange=expensive,area="X2",near="X3",near="X4",eattype=restaurant)	1	2	2	2	2	2	2	5	4	3	3	3	3	3	3	4
+165	1X8SMNMNASFOWRDYPAROWKKA4U1KKJ	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,near="X2",food=Italian)	4	3	4	4	4	4	4	4	4	4	4	4	4	4	4	4
+166	1X8SMNMNASFOWRDYPAROWKKA4U1KKJ	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",food=Continental,food=French)	1	5	1	5	1	5	5	4	2	5	2	5	3	5	5	5
+167	1X8SMNMNASFOWRDYPAROWKKA4U1KKJ	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",pricerange=expensive,food=Chinese)	2	4	2	3	3	5	3	5	2	4	2	5	4	5	4	5
+168	1X8SMNMNASFOWRDYPAROWKKA4U1KKJ	inform(name="X1",type=placetoeat,near="X2",area="X3",area="X4",eattype=restaurant)	2	5	5	1	5	5	5	5	3	5	5	2	5	5	5	5
+169	12R2RFS1AOAZGXVGAA3PBKXPTU6KLM	inform(name="X1",type=placetoeat,pricerange=moderate,area="X2",near="X3",eattype=restaurant)	4	4	5	4	3	4	4	3	4	4	4	4	3	4	4	3
+16	1K6HBYUWS882O04TCSK3NVWAVW180I	inform(name="X1",type=placetoeat,eattype=restaurant,food="Chinese takeaway",food=Japanese)	1	5	2	5	4	5	5	5	2	5	4	5	4	5	5	5
+170	12R2RFS1AOAZGXVGAA3PBKXPTU6KLM	inform(name="X1",type=placetoeat,area=riverside,eattype=restaurant)	4	4	4	4	4	4	4	3	4	4	3	4	3	3	3	3
+171	12R2RFS1AOAZGXVGAA3PBKXPTU6KLM	inform(name="X1",eattype=coffeeshop,eattype=restaurant)	3	3	3	3	3	3	3	4	3	3	3	3	3	3	3	3
+172	12R2RFS1AOAZGXVGAA3PBKXPTU6KLM	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,near="X2",food=Italian)	5	4	3	3	4	3	3	3	4	3	3	3	3	3	3	3
+173	1LRFJT8XHFEX1X6WOF85L8J4O1KZV5	inform(name="X1",type=placetoeat,eattype=restaurant,food=Fastfood)	1	5	1	5	5	5	5	5	2	4	2	4	4	4	4	4
+174	1LRFJT8XHFEX1X6WOF85L8J4O1KZV5	inform(name="X1",type=placetoeat,eattype=restaurant,food="Chinese takeaway",food=Fusion)	1	4	1	4	5	4	4	4	1	5	1	5	4	5	5	5
+175	1LRFJT8XHFEX1X6WOF85L8J4O1KZV5	inform(name="X1",eattype=restaurant)	5	5	5	5	5	5	5	5	3	3	3	3	3	3	3	3
+176	1LRFJT8XHFEX1X6WOF85L8J4O1KZV5	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,near="X2",near="X3",food=Italian)	1	5	1	1	4	4	5	4	2	5	2	2	5	5	5	5
+177	15XX1E89IUEAGM61EPD17A2IVAMZWF	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",food=Italian)	1	1	5	5	5	5	5	5	2	1	5	5	5	5	5	5
+178	15XX1E89IUEAGM61EPD17A2IVAMZWF	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,food=Italian,food="Takeaway pizza")	1	1	2	3	5	5	5	3	3	2	3	4	5	5	4	4
+179	15XX1E89IUEAGM61EPD17A2IVAMZWF	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",pricerange=cheap)	4	4	1	4	4	4	4	4	4	3	2	3	3	3	3	4
+17	1EZ0TQ5XIKXUWY4WKHWKRM6WJF7PJQ	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",pricerange=moderate,near="X3",near="X4")	5	4	5	4	5	5	3	4	4	5	4	5	5	5	4	5
+180	15XX1E89IUEAGM61EPD17A2IVAMZWF	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,near="X2",near="X3",food=Fastfood)	2	5	2	5	5	5	5	2	3	5	3	5	5	5	5	3
+181	1BFFMEKAXURP5MBROU9N9TGP4CSZX8	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,near="X2",food=Chinese)	4	5	4	5	4	5	5	5	5	5	5	5	5	5	5	5
+182	1BFFMEKAXURP5MBROU9N9TGP4CSZX8	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=cheap,area=riverside,food=Fastfood)	2	2	4	3	4	3	4	4	3	3	5	4	4	4	4	4
+183	1BFFMEKAXURP5MBROU9N9TGP4CSZX8	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",food=Indian,food="Indian takeaway")	5	2	4	2	2	4	2	4	5	4	5	4	4	5	4	5
+184	1BFFMEKAXURP5MBROU9N9TGP4CSZX8	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=moderate,area="X2",food=Contemporary,food=English)	4	2	4	2	5	4	2	5	5	4	4	2	5	4	3	5
+185	1JSOY3WRMWTK6P9W7WXIGA2SEUD885	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,near="X2",near="X3")	1	4	1	4	4	4	4	3	2	5	2	5	5	5	5	4
+186	1JSOY3WRMWTK6P9W7WXIGA2SEUD885	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,near="X2",near="X3",food="Chinese takeaway")	1	4	2	3	3	3	4	3	2	4	2	4	3	3	4	3
+187	1JSOY3WRMWTK6P9W7WXIGA2SEUD885	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area="X3")	4	3	4	5	4	4	2	4	4	4	4	4	4	4	3	4
+188	1JSOY3WRMWTK6P9W7WXIGA2SEUD885	inform(name="X1",type=placetoeat,eattype=restaurant,food=Italian)	5	5	5	5	5	5	5	4	3	3	3	3	3	3	3	3
+189	14NFDRGOGN6U4WV0TLV9L9SSSTGIEM	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=moderate,area="X2",area="X3",food=Indian)	5	1	4	5	5	4	5	4	5	3	4	5	5	4	5	5
+18	1EZ0TQ5XIKXUWY4WKHWKRM6WJF7PJQ	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,near="X2",food=Italian)	1	1	1	5	5	5	4	4	2	2	2	5	5	5	5	5
+190	14NFDRGOGN6U4WV0TLV9L9SSSTGIEM	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area="X3",area=riverside)	2	3	3	4	4	2	4	3	3	3	2	3	3	2	3	3
+191	14NFDRGOGN6U4WV0TLV9L9SSSTGIEM	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,area="X2",near="X3",near="X4")	1	1	2	1	2	2	1	3	1	2	1	2	1	4	3	5
+192	14NFDRGOGN6U4WV0TLV9L9SSSTGIEM	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,food="Cafe food",food=English)	1	2	1	2	1	4	4	4	3	4	3	4	4	5	5	5
+193	15ZO5SH9IFXKKUS6CO3WG6X3Y0V89U	inform(name="X1",type=placetoeat,pricerange=moderate,area="X2",area="X3",eattype=restaurant)	1	5	1	1	5	1	1	5	4	5	4	4	5	4	4	5
+194	15ZO5SH9IFXKKUS6CO3WG6X3Y0V89U	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",food=Contemporary,food=English)	1	1	1	3	5	3	3	4	4	2	4	4	5	4	4	4
+195	15ZO5SH9IFXKKUS6CO3WG6X3Y0V89U	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",food="Chinese takeaway",food=Japanese)	1	3	1	5	5	5	5	2	1	5	3	5	5	5	5	3
+196	15ZO5SH9IFXKKUS6CO3WG6X3Y0V89U	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",near="X3",food=Chinese)	1	5	5	5	5	5	5	5	2	5	5	5	5	5	5	5
+197	1MJYHRUTZXBMAAVWOWFF3RDS4UVIF4	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",near="X3",near="X4")	3	3	4	4	4	4	4	4	4	3	4	4	4	4	4	4
+198	1MJYHRUTZXBMAAVWOWFF3RDS4UVIF4	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area=citycentre,food=Italian)	2	5	4	5	5	5	5	4	3	5	5	5	5	5	5	5
+199	1MJYHRUTZXBMAAVWOWFF3RDS4UVIF4	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,near="X2",near="X3",area="X4")	2	2	4	5	2	5	4	4	3	3	4	5	3	5	4	4
+19	1EZ0TQ5XIKXUWY4WKHWKRM6WJF7PJQ	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area=riverside,area=citycentre,food=Chinese)	4	5	4	4	2	5	5	5	4	4	4	4	3	4	4	4
+1	1J5J03HC2HM58QPFFV3VKBU13V7ZRC	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area=riverside,food=Chinese)	4	3	5	1	1	5	5	5	4	3	5	1	1	5	5	5
+200	1MJYHRUTZXBMAAVWOWFF3RDS4UVIF4	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area=riverside,food=French)	5	5	5	5	5	5	5	3	5	5	5	5	5	5	5	4
+201	1L17JL616JLJMFD1AM44BXCETZWKMO	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",food="Chinese takeaway",food=Fusion)	1	4	1	3	2	5	5	4	1	3	2	3	2	3	3	4
+202	1L17JL616JLJMFD1AM44BXCETZWKMO	inform(name="X1",type=placetoeat,pricerange=expensive,area=riverside,eattype=restaurant)	1	2	5	2	5	2	5	3	1	2	4	2	4	2	4	4
+20	1EZ0TQ5XIKXUWY4WKHWKRM6WJF7PJQ	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area=riverside,food=Indian)	5	2	5	5	3	5	5	5	4	3	4	4	4	4	4	4
+21	1A791BNX5EZXOIHWJPY0PMHLAUCUZC	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area=riverside)	5	5	5	4	5	5	5	4	5	5	5	5	5	5	5	4
+22	1A791BNX5EZXOIHWJPY0PMHLAUCUZC	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",near="X3",food=Contemporary,food=English)	4	4	5	4	4	4	4	4	5	5	5	5	5	4	5	5
+23	1A791BNX5EZXOIHWJPY0PMHLAUCUZC	inform(name=none,area=citycentre,near="X1")	2	1	2	4	5	4	4	5	3	1	3	4	5	4	5	5
+24	1A791BNX5EZXOIHWJPY0PMHLAUCUZC	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=moderate,area=riverside,food=Indian,food="Indian takeaway")	1	2	2	3	3	3	3	5	2	4	3	4	4	4	4	5
+25	1NVGG8T6XL8WXTJGJUTJK1M7PW3IBM	inform(name=none,type=placetoeat,eattype=restaurant,near="X1",food=English)	4	4	4	4	4	4	4	3	4	4	4	4	4	4	4	3
+26	1NVGG8T6XL8WXTJGJUTJK1M7PW3IBM	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside)	3	3	4	3	4	3	4	4	4	4	3	4	3	4	3	3
+27	1NVGG8T6XL8WXTJGJUTJK1M7PW3IBM	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=cheap,area=riverside,near="X2")	4	4	4	4	3	4	4	4	3	4	3	3	3	4	4	4
+28	1NVGG8T6XL8WXTJGJUTJK1M7PW3IBM	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",near="X3",food=Chinese)	4	4	4	4	3	3	4	4	4	4	4	3	2	2	3	4
+29	1140FC2OTCUUEBZXKJIADS5WMDPGLF	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",area="X3")	2	5	2	5	5	2	2	5	4	5	4	5	5	3	3	4
+2	1J5J03HC2HM58QPFFV3VKBU13V7ZRC	inform(name="X1",type=placetoeat,eattype=restaurant)	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5
+30	1140FC2OTCUUEBZXKJIADS5WMDPGLF	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,near="X2")	5	5	5	5	5	5	5	5	5	5	5	5	5	4	4	5
+31	1140FC2OTCUUEBZXKJIADS5WMDPGLF	inform(name="X1",type=placetoeat,pricerange=expensive,near="X2",near="X3",eattype=restaurant)	1	5	5	5	5	5	5	3	2	5	5	5	5	5	5	4
+32	1140FC2OTCUUEBZXKJIADS5WMDPGLF	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area=riverside,area="X3")	4	2	3	3	3	4	3	3	5	4	4	4	4	5	4	4
+33	1QAKWUM3TEA0ZC06KLVDF9GI6U2V0A	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,area="X2",near="X3")	4	3	3	5	4	4	5	4	4	5	4	4	4	4	5	4
+34	1QAKWUM3TEA0ZC06KLVDF9GI6U2V0A	inform(name="X1",type=placetoeat,near="X2",pricerange=moderate,eattype=restaurant)	3	5	3	3	3	3	3	4	4	4	4	4	4	4	4	5
+35	1QAKWUM3TEA0ZC06KLVDF9GI6U2V0A	inform(name="X1",type=placetoeat,near="X2",area=riverside,area=citycentre,eattype=restaurant)	5	5	5	4	5	3	3	4	5	4	5	4	4	4	4	4
+36	1QAKWUM3TEA0ZC06KLVDF9GI6U2V0A	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area="X3",food=Continental,food=French)	5	4	5	5	5	5	3	5	4	4	4	4	4	4	4	4
+37	1LHMK0XMR9YB897RI5IH7KHO9QZDM4	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,near="X2",food="Cafe food",food=English)	4	5	4	4	4	4	4	3	5	4	3	4	3	4	4	2
+38	1LHMK0XMR9YB897RI5IH7KHO9QZDM4	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive)	5	5	4	2	2	2	2	2	4	4	4	3	3	3	3	3
+39	1LHMK0XMR9YB897RI5IH7KHO9QZDM4	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=moderate,area="X2",area="X3")	4	5	4	4	5	4	5	4	5	4	5	5	4	4	4	5
+3	1J5J03HC2HM58QPFFV3VKBU13V7ZRC	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",food=Indian)	4	2	4	4	4	4	4	4	4	2	4	4	4	4	4	4
+40	1LHMK0XMR9YB897RI5IH7KHO9QZDM4	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",food=Chinese)	5	5	5	5	5	5	5	5	4	4	4	4	4	4	4	4
+41	1J1EBNNUK2MH95PSUK30ALZXPXQZS0	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",near="X3",area=riverside,area="X4")	5	5	4	4	4	4	4	3	4	4	4	4	4	4	4	3
+42	1J1EBNNUK2MH95PSUK30ALZXPXQZS0	inform(name="X1",eattype=restaurant,addr="X2",phone="X3")	4	4	4	4	4	3	4	4	4	3	4	3	4	3	3	4
+43	1J1EBNNUK2MH95PSUK30ALZXPXQZS0	inform(name="X1",type=placetoeat,near="X2",eattype=restaurant)	3	3	3	3	3	3	3	3	4	4	4	4	4	4	4	3
+44	1J1EBNNUK2MH95PSUK30ALZXPXQZS0	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area="X3",food=Chinese)	3	4	4	3	3	3	3	3	4	4	4	3	3	3	3	3
+45	1FWPVT5C52YIO527JK8QKQVJRG4ZTP	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area=citycentre,area=riverside)	5	4	5	3	3	3	5	4	5	5	4	5	5	5	5	3
+46	1FWPVT5C52YIO527JK8QKQVJRG4ZTP	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",area="X3",food=Indian)	4	5	5	5	3	3	3	5	4	5	3	5	3	3	3	5
+47	1FWPVT5C52YIO527JK8QKQVJRG4ZTP	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",near="X3")	2	1	5	5	2	5	2	5	4	1	5	5	4	5	4	5
+48	1FWPVT5C52YIO527JK8QKQVJRG4ZTP	inform(name=none,near="X1",area="X2")	5	1	5	1	5	1	5	5	5	1	5	1	5	2	5	5
+49	1JS10QMFUUF2VPPB8BO310FK0O781L	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2")	3	3	3	3	4	3	3	3	4	3	4	3	4	3	3	3
+4	1J5J03HC2HM58QPFFV3VKBU13V7ZRC	inform(name="X1",type=placetoeat,area="X2",near="X3",eattype=restaurant)	4	2	4	2	4	4	3	5	4	2	4	2	4	4	3	5
+50	1JS10QMFUUF2VPPB8BO310FK0O781L	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,food=Italian)	4	4	3	4	3	3	3	3	4	4	4	4	4	4	4	4
+51	1JS10QMFUUF2VPPB8BO310FK0O781L	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area=riverside,pricerange=expensive)	3	4	4	5	5	4	4	3	3	3	4	4	4	3	3	4
+52	1JS10QMFUUF2VPPB8BO310FK0O781L	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",near="X3",food=Indian,food="Indian takeaway")	5	4	3	4	4	4	4	4	4	4	3	3	3	3	4	4
+53	1S4J3VX3WKTP7IAE22WWS169Y47PKP	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,pricerange=cheap,near="X2",near="X3")	3	2	3	1	4	5	5	5	4	1	4	1	4	5	5	5
+54	1S4J3VX3WKTP7IAE22WWS169Y47PKP	inform(name="X1",eattype=restaurant,phone="X2")	3	3	3	3	3	3	3	5	3	4	3	4	3	4	4	5
+55	1S4J3VX3WKTP7IAE22WWS169Y47PKP	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",food=French)	5	5	5	5	5	5	5	5	4	4	4	4	4	4	4	4
+56	1S4J3VX3WKTP7IAE22WWS169Y47PKP	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,area="X2",food=Continental,food=French)	3	5	3	5	3	2	2	5	3	5	3	5	3	3	3	5
+57	1CEA5LYB25WMKAQ6UJ0QN6BKLOESK8	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,food=French)	3	5	3	4	5	5	5	4	4	4	4	4	4	4	4	3
+58	1CEA5LYB25WMKAQ6UJ0QN6BKLOESK8	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,area=riverside,food=Indian)	4	3	4	3	3	3	4	5	5	4	4	4	4	4	4	5
+59	1CEA5LYB25WMKAQ6UJ0QN6BKLOESK8	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=moderate,area="X2",food=Indian)	5	5	5	5	4	5	5	4	4	4	4	4	3	4	4	3
+5	11MFAPXTV9E0063SXV02NECWAIG54T	inform(name="X1",type=placetoeat,area="X2",near="X3",near="X4",eattype=restaurant)	4	4	4	4	4	4	4	4	4	3	4	4	3	3	4	3
+60	1CEA5LYB25WMKAQ6UJ0QN6BKLOESK8	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",area=citycentre,food="Cafe food",food=English)	5	5	3	4	4	4	4	3	3	4	5	4	5	4	4	5
+61	1HXKAD4P21RX4G8OFJCR26OZAOJSLB	inform(name="X1",type=placetoeat,pricerange=moderate,area=riverside,near="X2",near="X3",eattype=restaurant)	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5
+62	1HXKAD4P21RX4G8OFJCR26OZAOJSLB	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",food=Contemporary,food=English)	2	5	4	5	4	4	4	5	2	5	3	5	3	4	4	4
+63	1HXKAD4P21RX4G8OFJCR26OZAOJSLB	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=cheap,area=riverside,food=Indian)	1	3	1	4	5	4	4	4	2	4	3	5	5	5	5	4
+64	1HXKAD4P21RX4G8OFJCR26OZAOJSLB	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,near="X2",food=Italian,food="Takeaway pizza")	1	3	4	3	5	3	4	5	1	4	3	4	5	4	4	5
+65	15CQSI5HG1F9KA77RFOH6JPPSUL822	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,food=Indian,food="Indian takeaway")	4	3	4	3	4	4	4	4	4	4	4	4	3	4	3	4
+66	15CQSI5HG1F9KA77RFOH6JPPSUL822	inform(name=none,area="X1",near="X2")	4	4	4	4	4	4	4	4	4	3	4	3	4	3	4	4
+67	15CQSI5HG1F9KA77RFOH6JPPSUL822	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,near="X2",near="X3")	4	4	4	4	4	4	4	4	4	4	4	3	3	3	3	3
+68	15CQSI5HG1F9KA77RFOH6JPPSUL822	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",food="Chinese takeaway",food=Fusion)	5	4	4	4	4	5	5	4	4	4	5	4	4	4	4	5
+69	1W365D51ZR4JV51SQBJ7YN3DTSDAPV	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=cheap,area=citycentre)	1	1	1	4	5	4	5	5	3	3	3	4	5	4	5	5
+6	11MFAPXTV9E0063SXV02NECWAIG54T	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=cheap,area=citycentre,near="X2")	4	3	4	4	4	4	4	4	4	3	3	4	3	3	3	3
+70	1W365D51ZR4JV51SQBJ7YN3DTSDAPV	inform(name="X1",type=placetoeat,near="X2",pricerange=moderate,area=riverside,eattype=restaurant)	1	3	5	5	5	5	5	4	3	5	5	5	5	5	5	5
+71	1W365D51ZR4JV51SQBJ7YN3DTSDAPV	inform(name="X1",type=placetoeat,near="X2",area="X3",eattype=restaurant,pricerange=expensive)	1	1	4	4	4	4	3	5	3	3	5	5	5	5	4	5
+72	1W365D51ZR4JV51SQBJ7YN3DTSDAPV	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,near="X2",near="X3",food=Italian)	5	5	3	5	5	5	5	5	5	5	4	5	5	5	5	5
+73	1P1IK173N1MY5S3QVF2MPTUHY8L83D	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",food=Seafood)	4	4	4	3	3	3	3	3	3	4	3	3	3	3	3	3
+74	1P1IK173N1MY5S3QVF2MPTUHY8L83D	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,area=citycentre,near="X2",near="X3")	4	4	5	3	5	4	4	5	3	4	5	4	4	4	4	3
+75	1P1IK173N1MY5S3QVF2MPTUHY8L83D	inform(name="X1",type=placetoeat,area=riverside,near="X2",near="X3",eattype=restaurant)	4	3	3	3	3	3	3	3	3	4	3	3	3	3	3	3
+76	1P1IK173N1MY5S3QVF2MPTUHY8L83D	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,food=Indian)	4	3	4	3	4	3	4	3	3	4	3	3	3	3	3	3
+77	1ETA33TAN8BJNOMUVT75ZYMNC8H84Y	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,food=Chinese)	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4
+78	1ETA33TAN8BJNOMUVT75ZYMNC8H84Y	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,near="X2")	1	4	1	4	4	4	4	5	3	4	2	4	4	4	4	5
+79	1ETA33TAN8BJNOMUVT75ZYMNC8H84Y	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,near="X2",food=Chinese)	4	5	4	5	5	5	4	5	4	5	4	5	5	5	4	5
+7	11MFAPXTV9E0063SXV02NECWAIG54T	inform(name="X1",type=placetoeat,eattype=restaurant,food=Indian)	3	4	3	3	3	3	3	3	3	4	3	3	3	3	3	3
+80	1ETA33TAN8BJNOMUVT75ZYMNC8H84Y	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,near="X2",near="X3",food=Chinese)	2	2	3	2	2	4	4	4	4	3	4	3	3	4	4	4
+81	16LT5P0AUXW1J7QU9YQF4QS1C4C853	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,near="X2",food=Seafood)	3	3	5	4	4	4	3	4	3	3	5	4	4	4	4	4
+82	16LT5P0AUXW1J7QU9YQF4QS1C4C853	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=moderate)	3	5	2	5	5	5	5	5	3	5	2	5	5	5	5	5
+83	16LT5P0AUXW1J7QU9YQF4QS1C4C853	inform(name="X1",type=placetoeat,area="X2",pricerange=expensive,eattype=restaurant)	2	5	5	5	5	5	2	5	2	5	5	5	5	5	2	5
+84	16LT5P0AUXW1J7QU9YQF4QS1C4C853	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",pricerange=moderate)	5	3	5	3	3	5	5	5	5	3	5	3	3	5	5	5
+85	1UK1Y4CAXZDF7YBMXUPEVLSP7H3ICT	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2")	4	4	4	4	4	4	4	4	3	3	3	3	3	3	3	3
+86	1UK1Y4CAXZDF7YBMXUPEVLSP7H3ICT	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,near="X2",near="X3",food=French)	2	2	4	2	5	5	4	4	3	3	5	3	5	5	5	4
+87	1UK1Y4CAXZDF7YBMXUPEVLSP7H3ICT	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",food=Italian,food="Takeaway pizza")	3	2	3	2	2	2	2	4	2	3	2	3	3	3	3	4
+88	1UK1Y4CAXZDF7YBMXUPEVLSP7H3ICT	inform(name="X1",type=placetoeat,pricerange=moderate,area=riverside,near="X2",eattype=restaurant)	2	4	5	5	5	5	5	4	2	4	5	5	5	5	5	4
+89	1PW4LMEMV0H061LOG4ZDTEZSBM8V1D	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,near="X2",food=Indian,food="Indian takeaway")	3	4	3	4	4	3	3	4	3	4	3	3	3	2	3	3
+8	11MFAPXTV9E0063SXV02NECWAIG54T	inform(name="X1",type=placetoeat,area="X2",pricerange=moderate,eattype=restaurant)	4	5	4	4	3	3	5	3	4	4	4	4	4	3	3	3
+90	1PW4LMEMV0H061LOG4ZDTEZSBM8V1D	inform(name="X1",type=placetoeat,near="X2",area=riverside,eattype=restaurant)	3	4	3	3	3	3	3	3	3	4	3	3	3	3	3	3
+91	1PW4LMEMV0H061LOG4ZDTEZSBM8V1D	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre,near="X2",food="Chinese takeaway",food=Japanese)	3	4	4	3	3	4	4	4	4	3	4	3	3	4	4	3
+92	1PW4LMEMV0H061LOG4ZDTEZSBM8V1D	inform(name="X1",type=placetoeat,eattype=restaurant,area="X2",pricerange=expensive,food=Continental,food=French)	5	4	5	4	3	4	4	3	4	4	4	3	4	3	3	3
+93	107P2JIPYW2HAYQ9FVD62J3OAT9SMD	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",pricerange=expensive)	2	5	3	5	5	5	5	3	2	5	1	5	5	5	5	4
+94	107P2JIPYW2HAYQ9FVD62J3OAT9SMD	inform(name="X1",type=placetoeat,area="X2",area="X3",eattype=restaurant)	4	5	4	5	5	5	5	5	4	5	4	5	5	5	5	5
+95	107P2JIPYW2HAYQ9FVD62J3OAT9SMD	inform(name="X1",type=placetoeat,eattype=restaurant,area=riverside,near="X2")	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4
+96	107P2JIPYW2HAYQ9FVD62J3OAT9SMD	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=cheap)	3	3	3	5	5	5	5	4	4	4	4	5	5	5	5	4
+97	1ACH8XILT7MNSGB9RWS6FYSOFJJSND	inform(name="X1",type=placetoeat,near="X2",pricerange=cheap,eattype=restaurant)	4	4	1	4	4	4	4	4	5	5	2	5	5	5	5	5
+98	1ACH8XILT7MNSGB9RWS6FYSOFJJSND	inform(name="X1",type=placetoeat,eattype=restaurant,pricerange=expensive,area=riverside,area="X2",food=Italian)	3	2	5	5	5	5	5	5	4	3	5	5	5	5	5	5
+99	1ACH8XILT7MNSGB9RWS6FYSOFJJSND	inform(name="X1",type=placetoeat,eattype=restaurant,near="X2",food=Continental,food=French)	1	4	3	4	5	5	4	5	1	3	3	3	5	5	3	5
+9	1WLQAKWATGZJU5HFZJ69YSSHXDKGKC	inform(name="X1",type=placetoeat,eattype=restaurant,area=citycentre)	4	5	4	4	4	4	4	4	3	4	3	3	3	3	3	3

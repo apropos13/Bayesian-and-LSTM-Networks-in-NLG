@@ -1,0 +1,1212 @@
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.0006902333552055473
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'food', 'Chinese'), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+0.0027578599007170436
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+0.000186336026697009
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'eattype', 'restaurant')]
+0.0062745595132462926
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant')]
+0.2857142857142857
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'expensive')]
+0.0007930214115781126
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+5.923828845588751e-07
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+1.3010350941374403e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'eattype', 'restaurant')]
+0.00011047248230895213
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+4.7581284694686754e-05
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.07692307692307691
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+0.0002643404705260375
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian')]
+1.9162545436191713e-05
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+1.3010350941374403e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+1.3010350941374403e-05
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+6.107942615879122e-06
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+3.834629751141929e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.0009428241278452833
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'X')]
+8.349394797197819e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+3.239945456513001e-06
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway')]
+3.239945456513001e-06
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'food', 'Chinese')]
+4.286602224746555e-05
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Indian')]
+0.00577200577200577
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'eattype', 'restaurant')]
+8.11579169788125e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+2.3418631694473927e-06
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+1.6064098046074988e-06
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.0037860121239399512
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre')]
+0.002713895497400652
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian')]
+0.0007930214115781126
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'food', 'Contemporary'), ('inform', 'food', 'English')]
+8.184779008610855e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap')]
+0.0019027528593855128
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian')]
+0.0003741114852225962
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+4.819229413822496e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap')]
+0.000528680941052075
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'addr'), ('inform', 'addr', 'X')]
+0.002150938014957536
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+7.45344106788036e-05
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+2.3719359285413997e-06
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+0.0003064075561581381
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'eattype', 'restaurant')]
+0.00024295432458697764
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+5.869720826369631e-07
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+8.811349017534584e-06
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'eattype', 'restaurant')]
+2.727322314951181e-05
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive')]
+0.007611011437542051
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'phone', 'X')]
+0.0019240019240019234
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Italian')]
+0.00577200577200577
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.0006244194859175785
+
+[('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant')]
+0.00013700858872590574
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'pricerange', 'moderate')]
+1.6914640583445153e-06
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+5.385298950535228e-07
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Fusion')]
+0.0010261343594676925
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Chinese')]
+0.003848003848003847
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'eattype', 'restaurant')]
+0.00017248470856718283
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.00517150258219898
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Seafood')]
+0.0019240019240019234
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian')]
+2.0991345411062067e-06
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'pricerange', 'expensive')]
+4.746949533727448e-08
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+1.1769811738525788e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+2.145771429270029e-06
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'postcode'), ('inform', 'postcode', 'X')]
+0.0014339586766383573
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre')]
+0.012332044619089875
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+0.0002643404705260375
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+0.0005130671797338463
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate')]
+0.006976760484413546
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Fastfood')]
+0.0019240019240019234
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.07692307692307691
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X')]
+0.026997178760710266
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+1.7771486536766252e-05
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+0.0029606132698916203
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+8.010317288667804e-06
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+0.0029128407222489042
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant')]
+4.1485658575643584e-07
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+1.7771486536766252e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+2.3719359285413997e-06
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X')]
+0.026997178760710266
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant')]
+0.2857142857142857
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'coffeeshop'), ('inform', 'eattype', 'restaurant')]
+0.0014577259475218659
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Chinese')]
+1.6914640583445153e-06
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant')]
+3.845029122319233e-06
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'eattype', 'restaurant')]
+3.913114625799521e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.003425015215911004
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+0.021664402709211942
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+0.0002643404705260375
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+4.819229413822496e-05
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Fusion')]
+1.7622698035069167e-05
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'eattype', 'restaurant')]
+0.014853045465290366
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'eattype', 'restaurant')]
+2.0454917362133855e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.00021033400688555282
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+2.1549494879840015e-06
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Takeaway')]
+0.025974025974025972
+
+[('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'English')]
+0.0016961846858754076
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+2.3719359285413997e-06
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'moderate')]
+0.0003273911603444342
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Cafe food'), ('inform',), ('inform', 'food', 'English')]
+0.0019240019240019234
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'X')]
+1.5221902614533192e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+2.118566112934642e-06
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+7.014590347923679e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'food', 'Indian')]
+7.117199137922482e-05
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+0.00017490926581835667
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+0.021664402709211942
+
+[('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant')]
+1.4782440790423205e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+3.114041364726625e-05
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+0.0017270244074367785
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+1.3010350941374403e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.0009428241278452833
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'moderate')]
+0.0003273911603444342
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'eattype', 'restaurant')]
+3.913114625799521e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+2.145771429270029e-06
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+2.1549494879840015e-06
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'food', 'Contemporary'), ('inform', 'food', 'English')]
+8.184779008610855e-05
+
+[('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.41935483870967744
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'pricerange', 'expensive')]
+4.746949533727448e-08
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+7.014590347923679e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Chinese')]
+0.003848003848003847
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre')]
+0.002713895497400652
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Takeaway')]
+0.025974025974025972
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+5.923828845588751e-07
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'food', 'Chinese'), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+0.0027578599007170436
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.07692307692307691
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+1.3010350941374403e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+0.23333333333333334
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+2.3719359285413997e-06
+
+[('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.7222222222222222
+
+[('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'eattype', 'restaurant')]
+0.00011047248230895213
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Fusion')]
+1.7622698035069167e-05
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Cafe food'), ('inform',), ('inform', 'food', 'English')]
+0.0019240019240019234
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.00517150258219898
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway')]
+3.239945456513001e-06
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+3.834629751141929e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap')]
+0.0019027528593855128
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+0.0029128407222489042
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre')]
+0.012332044619089875
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian')]
+0.0007930214115781126
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Fastfood')]
+0.0019240019240019234
+
+[('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'English')]
+0.0016961846858754076
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+1.3010350941374403e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+4.819229413822496e-05
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant')]
+0.2857142857142857
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'food', 'Chinese')]
+4.286602224746555e-05
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'expensive')]
+0.0007930214115781126
+
+[('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+0.23333333333333334
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'addr'), ('inform', 'addr', 'X')]
+0.002150938014957536
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+0.0002643404705260375
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.0006244194859175785
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'X')]
+8.349394797197819e-05
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian')]
+1.9162545436191713e-05
+
+[('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre')]
+0.36666666666666664
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+8.010317288667804e-06
+
+[('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.7222222222222222
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+1.7771486536766252e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant')]
+4.1485658575643584e-07
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+0.0003064075561581381
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+0.0002643404705260375
+
+[]
+0.0
+
+[('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+0.4
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'postcode'), ('inform', 'postcode', 'X')]
+0.0014339586766383573
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.0006902333552055473
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+2.118566112934642e-06
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+0.00017490926581835667
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+0.0005130671797338463
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+0.0002643404705260375
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X')]
+0.026997178760710266
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+2.3719359285413997e-06
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+6.107942615879122e-06
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.00021033400688555282
+
+[('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'eattype', 'restaurant')]
+8.11579169788125e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+5.385298950535228e-07
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'X')]
+1.5221902614533192e-05
+
+[('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant')]
+0.00013700858872590574
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'eattype', 'restaurant')]
+0.00017248470856718283
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+0.000186336026697009
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'eattype', 'restaurant')]
+0.014853045465290366
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.07692307692307691
+
+[]
+0.0
+
+[('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.41935483870967744
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'eattype', 'restaurant')]
+0.0062745595132462926
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant')]
+1.4782440790423205e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+7.45344106788036e-05
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian')]
+0.0003741114852225962
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+4.7581284694686754e-05
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate')]
+0.006976760484413546
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Fusion')]
+0.0010261343594676925
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+0.021664402709211942
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+8.811349017534584e-06
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Chinese')]
+1.6914640583445153e-06
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'food', 'Indian')]
+7.117199137922482e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive')]
+0.007611011437542051
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+1.1769811738525788e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+5.869720826369631e-07
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+0.0017270244074367785
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'eattype', 'restaurant')]
+0.00024295432458697764
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap')]
+0.000528680941052075
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+3.239945456513001e-06
+
+[('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+0.4
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+1.6064098046074988e-06
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Seafood')]
+0.0019240019240019234
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant')]
+0.2857142857142857
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+4.819229413822496e-05
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.0037860121239399512
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X')]
+0.026997178760710266
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+0.0029606132698916203
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre')]
+0.36666666666666664
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Italian')]
+0.00577200577200577
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant')]
+3.845029122319233e-06
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian')]
+2.0991345411062067e-06
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'phone', 'X')]
+0.0019240019240019234
+
+[('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'pricerange', 'moderate')]
+1.6914640583445153e-06
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+2.3719359285413997e-06
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+0.021664402709211942
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Indian')]
+0.00577200577200577
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'eattype', 'restaurant')]
+2.0454917362133855e-05
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+1.7771486536766252e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+0.003425015215911004
+
+[]
+0.0
+
+[]
+0.0
+
+[]
+0.0
+
+[('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'eattype', 'restaurant')]
+2.727322314951181e-05
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'coffeeshop'), ('inform', 'eattype', 'restaurant')]
+0.0014577259475218659
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+2.3418631694473927e-06
+
+[('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+3.114041364726625e-05
+

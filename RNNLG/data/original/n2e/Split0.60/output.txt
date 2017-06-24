@@ -1,0 +1,1770 @@
+
+
+loading net from file model/sclstm-rest.model ... 
+PANOS MODIFIED THIS....
+PANOS MODIFIED THIS....
+PANOS MODIFIED THIS....
+===============
+Data statistics
+===============
+Train: 242
+Valid: 162
+Test : 162
+Feat : 200
+===============
+setting network structures using theano variables ...
+	setting recurrent generator, type: sclstm ...
+		number of parameters :   254356
+	this may take up to several minutes ...
+start network testing ...
+inform(name="The Golden Curry";type=placetoeat;eattype=restaurant;near="The Six Bells in High Saint";area="romsey";food=Indian)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the romsey area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the romsey area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the romsey area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the romsey area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the romsey area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Wok n Grill";area="trumpington";eattype=restaurant;food=Chinese)
+
+Penalty	TSER	ASER	Gen
+3.8139	3	3	the SLOT_PRICERANGE -ly priced restaurant in the trumpington area .
+5.6549	5	5	the SLOT_PRICERANGE -ly priced restaurant in the trumpington area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range .
+5.6879	5	5	the SLOT_PRICERANGE -ly priced restaurant in the trumpington area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+5.7206	5	5	the SLOT_PRICERANGE -ly priced restaurant in the trumpington area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+5.7219	5	5	the SLOT_PRICERANGE -ly priced restaurant in the trumpington area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range
+
+
+inform(name="The Eagle";type=placetoeat;eattype=restaurant;area=citycentre;near="The Boathouse";near="Michaelhouse Centre";food="Chinese takeaway")
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the citycentre area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Doubletree by Hilton inCambridge Garden House";type=placetoeat;eattype=restaurant;pricerange=expensive;area=riverside;near="The Rock")
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA .
+4.7713	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Burger King";type=placetoeat;eattype=restaurant;food=Fastfood)
+
+Penalty	TSER	ASER	Gen
+4.5285	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range .
+4.6446	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range
+5.5495	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+5.6189	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+6.5453	6	6	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+
+
+inform(name="Wagamama";type=placetoeat;eattype=restaurant;area=citycentre)
+
+Penalty	TSER	ASER	Gen
+3.5610	3	3	the citycentre
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+3.6113	3	3	the citycentre
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area area .
+3.6233	3	3	the citycentre
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+3.6618	3	3	the citycentre
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area
+3.6927	3	3	the citycentre
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA
+
+
+inform(name="Nanna Mexico";type=placetoeat;pricerange=cheap;area=citycentre;near="Limehouse";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA .
+4.7713	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="The Bombay Brasserie";type=placetoeat;eattype=restaurant;area=riverside;food=Indian)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the riverside area in the city area .
+2.5569	2	2	there is a restaurant in the riverside area .
+3.4615	3	3	there is a restaurant in the riverside area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the riverside area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the riverside area in the SLOT_AREA area area .
+
+
+inform(name="Yu Garden";area="fenditton";eattype=restaurant;food=Chinese)
+
+Penalty	TSER	ASER	Gen
+3.8139	3	3	the SLOT_PRICERANGE -ly priced restaurant in the fenditton area .
+5.6549	5	5	the SLOT_PRICERANGE -ly priced restaurant in the fenditton area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range .
+5.6879	5	5	the SLOT_PRICERANGE -ly priced restaurant in the fenditton area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+5.7206	5	5	the SLOT_PRICERANGE -ly priced restaurant in the fenditton area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+5.7219	5	5	the SLOT_PRICERANGE -ly priced restaurant in the fenditton area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range
+
+
+inform(name="Nanna Mexico";type=placetoeat;eattype=restaurant;pricerange=cheap;area=citycentre)
+
+Penalty	TSER	ASER	Gen
+2.5394	2	2	the cheap is a SLOT_PRICERANGE -ly priced restaurant in the citycentre
+ area .
+2.5738	2	2	the cheap is a SLOT_PRICERANGE -ly priced restaurant in the citycentre
+ area area .
+2.6220	2	2	the cheap is a SLOT_PRICERANGE -ly priced restaurant in the citycentre
+ .
+2.6423	2	2	the cheap is a SLOT_PRICERANGE -ly priced restaurant in the citycentre
+ area
+3.5630	3	3	the cheap is a SLOT_PRICERANGE -ly priced restaurant in the citycentre
+ area and SLOT_PRICERANGE price range .
+
+
+inform(name="La Margherita";type=placetoeat;eattype=restaurant;pricerange=expensive;area="castlehill";near="Yippee Noodle Bar")
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA .
+4.7713	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="The Curry House";type=placetoeat;area="castlehill";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5610	3	3	the castlehill is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+3.6113	3	3	the castlehill is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area area .
+3.6233	3	3	the castlehill is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+3.6618	3	3	the castlehill is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area
+3.6927	3	3	the castlehill is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA
+
+
+inform(name="Le Gros Franck";type=placetoeat;pricerange=expensive;near="Cambridge University Real Tennis Club";area="trumpington";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the trumpington area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the trumpington area near the SLOT_AREA .
+4.7713	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the trumpington area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the trumpington area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the trumpington area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="The Golden Palace";type=placetoeat;eattype=restaurant;near="Museum of Archaelogy and Anthropology";food=Seafood)
+
+Penalty	TSER	ASER	Gen
+4.5871	4	4	there is a fast food in the SLOT_PRICERANGE price range . it is located in the city area .
+4.6484	4	4	there is a fast food in the SLOT_PRICERANGE price range .
+5.5449	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5497	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Blue Spice";type=placetoeat;area="girton";eattype=restaurant;pricerange=moderate)
+
+Penalty	TSER	ASER	Gen
+2.5394	2	2	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the girton area .
+2.5738	2	2	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the girton area area .
+2.6220	2	2	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the girton .
+2.6423	2	2	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the girton area
+3.5630	3	3	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the girton area and SLOT_PRICERANGE price range .
+
+
+inform(name=none;near="Mouth Music";area=riverside)
+
+Penalty	TSER	ASER	Gen
+2.9498	2	2	near the riverside
+ near the SLOT_AREA .
+3.7027	3	3	near the riverside
+ near the SLOT_AREA . it is located in the SLOT_AREA area .
+3.7566	3	3	near the riverside
+ near the SLOT_AREA . it is located in the SLOT_AREA .
+3.8015	3	3	near the riverside
+ near the SLOT_AREA . it is located in the SLOT_AREA area
+3.8320	3	3	near the riverside
+ near the SLOT_AREA . it is located in the SLOT_AREA
+
+
+inform(name="De Luca Cucina and Bar";type=placetoeat;eattype=restaurant;near="Iceland Foods Plc";area=riverside;food=Italian)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the riverside area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Lan Hong House";type=placetoeat;eattype=restaurant;area=riverside;near="Dodo Gallery";near="The Empress";food=Chinese)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the riverside area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Fort Saint George";type=placetoeat;near="Le Gros Franck";area=riverside;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the riverside area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the riverside .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area area .
+
+
+inform(name="Tang Chinese";type=placetoeat;eattype=restaurant;near="Bridge Guest House";pricerange=expensive;food=Chinese)
+
+Penalty	TSER	ASER	Gen
+4.6897	4	4	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range .
+5.6244	5	5	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.6275	5	5	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area . it is located in the city area .
+6.5992	6	6	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area . it is located in the SLOT_PRICERANGE price range .
+6.6057	6	6	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area . it is located in the SLOT_AREA area .
+
+
+inform(name="Charlie Chan";type=placetoeat;eattype=restaurant;area=citycentre;near="The Fez Club";food=Chinese)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the citycentre area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Clowns";type=placetoeat;eattype=restaurant;area=citycentre;food=Italian;food="Takeaway pizza")
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the citycentre area in the city area .
+2.5569	2	2	there is a restaurant in the citycentre area .
+3.4615	3	3	there is a restaurant in the citycentre area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the citycentre area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the citycentre area in the SLOT_AREA area area .
+
+
+inform(name="Green Man";type=placetoeat;eattype=restaurant;area="trumpington")
+
+Penalty	TSER	ASER	Gen
+3.5610	3	3	the trumpington"
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+3.6113	3	3	the trumpington"
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area area .
+3.6233	3	3	the trumpington"
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+3.6618	3	3	the trumpington"
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area
+3.6927	3	3	the trumpington"
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA
+
+
+inform(name="The Rice Boat";type=placetoeat;near="Hughes Hall";pricerange=cheap;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5654	3	3	there is a cheap price range near the SLOT_PRICERANGE price range . it is located in the city area .
+3.6000	3	3	there is a cheap price range near the SLOT_PRICERANGE price range .
+4.5271	4	4	there is a cheap price range near the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+4.5288	4	4	there is a cheap price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+4.5678	4	4	there is a cheap price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Prezzo";type=placetoeat;near="The Ancient Shepherds";area="castlehill";area="girton";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the castlehill . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the castlehill area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the castlehill .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the castlehill . it is located in the girton area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the castlehill . it is located in the girton area area .
+
+
+inform(name="The Golden Palace";type=placetoeat;eattype=restaurant;near="Ta Bouche";area=riverside;food=Chinese)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the riverside area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Blue Spice";type=placetoeat;area="girton";eattype=restaurant;pricerange=moderate)
+
+Penalty	TSER	ASER	Gen
+2.5394	2	2	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the girton area .
+2.5738	2	2	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the girton area area .
+2.6220	2	2	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the girton .
+2.6423	2	2	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the girton area
+3.5630	3	3	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the girton area and SLOT_PRICERANGE price range .
+
+
+inform(name="River Bar and Kitchen";type=placetoeat;area="fenditton";area="trumpington";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5610	3	3	the fenditton is a SLOT_PRICERANGE -ly priced restaurant in the trumpington area .
+3.6113	3	3	the fenditton is a SLOT_PRICERANGE -ly priced restaurant in the trumpington area area .
+3.6233	3	3	the fenditton is a SLOT_PRICERANGE -ly priced restaurant in the trumpington .
+3.6618	3	3	the fenditton is a SLOT_PRICERANGE -ly priced restaurant in the trumpington area
+3.6927	3	3	the fenditton is a SLOT_PRICERANGE -ly priced restaurant in the trumpington
+
+
+inform(name=none;area="fenditton";near="Backstreet Bistro")
+
+Penalty	TSER	ASER	Gen
+2.9498	2	2	near the fenditton near the SLOT_AREA .
+3.7027	3	3	near the fenditton near the SLOT_AREA . it is located in the SLOT_AREA area .
+3.7566	3	3	near the fenditton near the SLOT_AREA . it is located in the SLOT_AREA .
+3.8015	3	3	near the fenditton near the SLOT_AREA . it is located in the SLOT_AREA area
+3.8320	3	3	near the fenditton near the SLOT_AREA . it is located in the SLOT_AREA
+
+
+inform(name="La Mimosa";type=placetoeat;eattype=restaurant;area="girton";near="Cazimir";near="Ugly Duckling";food=Italian)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the girton area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the girton area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the girton area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the girton area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the girton area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Carlton Arms";type=placetoeat;eattype=restaurant;area=citycentre;food="Chinese takeaway";food=Japanese)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the citycentre area in the city area .
+2.5569	2	2	there is a restaurant in the citycentre area .
+3.4615	3	3	there is a restaurant in the citycentre area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the citycentre area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the citycentre area in the SLOT_AREA area area .
+
+
+inform(name="Arundel House Hotel";type=placetoeat;eattype=restaurant;food="Chinese takeaway";food=Takeaway)
+
+Penalty	TSER	ASER	Gen
+4.5285	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range .
+4.6446	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range
+5.5495	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+5.6189	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+6.5453	6	6	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+
+
+inform(name="The Cambridge Chop House";eattype=restaurant;area="girton")
+
+Penalty	TSER	ASER	Gen
+3.5792	3	3	the girton"
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+3.6307	3	3	the girton"
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area area .
+3.6395	3	3	the girton"
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+3.6841	3	3	the girton"
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area
+3.7150	3	3	the girton"
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA
+
+
+inform(name="Doubletree by Hilton inCambridge Garden House";type=placetoeat;near="Polonia";pricerange=expensive;area=riverside;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA .
+4.7713	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="The Punter";type=placetoeat;eattype=restaurant;pricerange=expensive;area="castlehill")
+
+Penalty	TSER	ASER	Gen
+2.5394	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the castlehill"
+ area .
+2.5738	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the castlehill"
+ area area .
+2.6220	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the castlehill"
+ .
+2.6423	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the castlehill"
+ area
+3.5630	3	3	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the castlehill"
+ area and SLOT_PRICERANGE price range .
+
+
+inform(name="Lan Hong House";type=placetoeat;eattype=restaurant;near="Great Saint Mary's Church";area=riverside;food=Chinese)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the riverside area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Asia";type=placetoeat;eattype=restaurant;pricerange=expensive;area=riverside;food=Indian)
+
+Penalty	TSER	ASER	Gen
+3.6628	3	3	the expensive is a SLOT_PRICERANGE restaurant in the riverside area .
+4.6301	4	4	the expensive is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price range .
+4.6418	4	4	the expensive is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price -s .
+4.6654	4	4	the expensive is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE -ly priced .
+5.6044	5	5	the expensive is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+
+
+inform(name="Royal Cambridge Hotel";type=placetoeat;eattype=restaurant;near="Stazione Restaurant and Coffee bar";near="Cambridge Waffle Company";food="Cafe food";food=English)
+
+Penalty	TSER	ASER	Gen
+4.5871	4	4	there is a fast food in the SLOT_PRICERANGE price range . it is located in the city area .
+4.6484	4	4	there is a fast food in the SLOT_PRICERANGE price range .
+5.5449	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5497	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="The Lion and Lamb";type=placetoeat;eattype=restaurant;area="fenditton";pricerange=moderate;near="Central Post Office";near="Sitar Tandoori")
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the moderate is a SLOT_PRICERANGE -ly priced near the fenditton area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the moderate is a SLOT_PRICERANGE -ly priced near the fenditton area near the SLOT_AREA .
+4.7713	4	4	the moderate is a SLOT_PRICERANGE -ly priced near the fenditton area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the moderate is a SLOT_PRICERANGE -ly priced near the fenditton area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the moderate is a SLOT_PRICERANGE -ly priced near the fenditton area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Crowne Plaza Hotel";type=placetoeat;eattype=restaurant;area=citycentre;food="Chinese takeaway";food=Japanese)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the citycentre area in the city area .
+2.5569	2	2	there is a restaurant in the citycentre area .
+3.4615	3	3	there is a restaurant in the citycentre area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the citycentre area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the citycentre area in the SLOT_AREA area area .
+
+
+inform(name="Alimentum";type=placetoeat;eattype=restaurant;near="The Alma";area="addenbrookes";food=Continental;food=French)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the addenbrookes area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the addenbrookes area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the addenbrookes area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the addenbrookes area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the addenbrookes area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="d'Arry's";type=placetoeat;eattype=restaurant;near="Arts Picture House and Cafe-Bar";pricerange=expensive;area=citycentre)
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the citycentre
+ area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the citycentre
+ area near the SLOT_AREA .
+4.7713	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the citycentre
+ area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the citycentre
+ area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the citycentre
+ area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Teri-Aki";type=placetoeat;pricerange=moderate;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+1.5711	1	1	there is a moderate price -s -s -s friendly .
+1.5733	1	1	there is a moderate price -s -s -s -s -s -s friendly .
+1.5740	1	1	there is a moderate price -s -s -s -s -s friendly .
+1.5747	1	1	there is a moderate price -s -s -s -s friendly .
+1.5756	1	1	there is a moderate price -s -s -s -s -s -s -s -s .
+
+
+inform(name="The Fleur Bar and Bistro";type=placetoeat;eattype=restaurant;food=Seafood)
+
+Penalty	TSER	ASER	Gen
+4.5285	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range .
+4.6446	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range
+5.5495	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+5.6189	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+6.5453	6	6	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+
+
+inform(name="Backstreet Bistro";type=placetoeat;eattype=restaurant;area="romsey";food=Contemporary;food=English)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the romsey area in the city area .
+2.5569	2	2	there is a restaurant in the romsey area .
+3.4615	3	3	there is a restaurant in the romsey area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the romsey area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the romsey area in the SLOT_AREA area area .
+
+
+inform(name="Cafe Rouge";type=placetoeat;eattype=restaurant;near="The Cambridge Corn Exchange";area=riverside;food=French)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the riverside area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Shiraz";type=placetoeat;eattype=restaurant;pricerange=expensive;area=riverside)
+
+Penalty	TSER	ASER	Gen
+2.5394	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside
+ area .
+2.5738	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside
+ area area .
+2.6220	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside
+ .
+2.6423	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside
+ area
+3.5630	3	3	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside
+ area and SLOT_PRICERANGE price range .
+
+
+inform(name="Beall Italia Grafton Centre";type=placetoeat;area=riverside;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5610	3	3	the riverside is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+3.6113	3	3	the riverside is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area area .
+3.6233	3	3	the riverside is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+3.6618	3	3	the riverside is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area
+3.6927	3	3	the riverside is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA
+
+
+inform(name="Twenty-four";type=placetoeat;eattype=restaurant;food=Seafood)
+
+Penalty	TSER	ASER	Gen
+4.5285	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range .
+4.6446	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range
+5.5495	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+5.6189	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+6.5453	6	6	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+
+
+inform(name="Alimentum";type=placetoeat;eattype=restaurant;area="addenbrookes";food=Continental;food=French)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the addenbrookes area in the city area .
+2.5569	2	2	there is a restaurant in the addenbrookes area .
+3.4615	3	3	there is a restaurant in the addenbrookes area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the addenbrookes area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the addenbrookes area in the SLOT_AREA area area .
+
+
+inform(name="Jinling";type=placetoeat;near="Tang Chinese";area=citycentre;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the SLOT_AREA area area .
+
+
+inform(name="Ugly Duckling";type=placetoeat;eattype=restaurant;near="John Lewis Brasserie";food=Chinese)
+
+Penalty	TSER	ASER	Gen
+4.5871	4	4	there is a fast food in the SLOT_PRICERANGE price range . it is located in the city area .
+4.6484	4	4	there is a fast food in the SLOT_PRICERANGE price range .
+5.5449	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5497	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="The Vaults";type=placetoeat;eattype=restaurant;pricerange=expensive;near="Frankie and Benny's";near="Hat and Feathers")
+
+Penalty	TSER	ASER	Gen
+3.5654	3	3	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the city area .
+3.6000	3	3	there is a expensive price range near the SLOT_PRICERANGE price range .
+4.5271	4	4	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+4.5288	4	4	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+4.5678	4	4	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Ali Baba";eattype=restaurant;area=riverside)
+
+Penalty	TSER	ASER	Gen
+3.5792	3	3	the riverside
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+3.6307	3	3	the riverside
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area area .
+3.6395	3	3	the riverside
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+3.6841	3	3	the riverside
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area
+3.7150	3	3	the riverside
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA
+
+
+inform(name="Sitar Tandoori";type=placetoeat;eattype=restaurant;area="cherryhinton";area="romsey")
+
+Penalty	TSER	ASER	Gen
+3.5610	3	3	the cherryhinton is a SLOT_PRICERANGE -ly priced restaurant in the romsey"
+ area .
+3.6113	3	3	the cherryhinton is a SLOT_PRICERANGE -ly priced restaurant in the romsey"
+ area area .
+3.6233	3	3	the cherryhinton is a SLOT_PRICERANGE -ly priced restaurant in the romsey"
+ .
+3.6618	3	3	the cherryhinton is a SLOT_PRICERANGE -ly priced restaurant in the romsey"
+ area
+3.6927	3	3	the cherryhinton is a SLOT_PRICERANGE -ly priced restaurant in the romsey"
+
+
+
+inform(name="Ugly Duckling";type=placetoeat;eattype=restaurant;area=citycentre;food=Chinese)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the citycentre area in the city area .
+2.5569	2	2	there is a restaurant in the citycentre area .
+3.4615	3	3	there is a restaurant in the citycentre area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the citycentre area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the citycentre area in the SLOT_AREA area area .
+
+
+inform(name="The Rice Boat";type=placetoeat;eattype=restaurant;near="Dodo Gallery";pricerange=cheap)
+
+Penalty	TSER	ASER	Gen
+3.5654	3	3	there is a cheap
+ price range near the SLOT_PRICERANGE price range . it is located in the city area .
+3.6000	3	3	there is a cheap
+ price range near the SLOT_PRICERANGE price range .
+4.5271	4	4	there is a cheap
+ price range near the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+4.5288	4	4	there is a cheap
+ price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+4.5678	4	4	there is a cheap
+ price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Burger King";area=riverside;eattype=restaurant;food=Fastfood;pricerange=cheap)
+
+Penalty	TSER	ASER	Gen
+3.7046	3	3	the cheap
+ is a SLOT_PRICERANGE restaurant in the riverside area .
+4.6473	4	4	the cheap
+ is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price range .
+4.6594	4	4	the cheap
+ is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price -s .
+5.6147	5	5	the cheap
+ is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+5.6745	5	5	the cheap
+ is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range
+
+
+inform(name="Giraffe";type=placetoeat;eattype=restaurant;area=citycentre;near="Saint Catharine's College")
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the SLOT_AREA area area .
+
+
+inform(name="All Bar One";type=placetoeat;eattype=restaurant;area=citycentre;near="The Sorrento Hotel and Restaurant";food="Chinese takeaway";food=Japanese)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the citycentre area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="India House";type=placetoeat;area=riverside;near="The Cherry Hinton Village Centre";near="Primavera";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the riverside area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the riverside .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area area .
+
+
+inform(name="Burger King";area=riverside;eattype=restaurant;food=Fastfood;pricerange=cheap)
+
+Penalty	TSER	ASER	Gen
+3.7046	3	3	the cheap
+ is a SLOT_PRICERANGE restaurant in the riverside area .
+4.6473	4	4	the cheap
+ is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price range .
+4.6594	4	4	the cheap
+ is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price -s .
+5.6147	5	5	the cheap
+ is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+5.6745	5	5	the cheap
+ is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range
+
+
+inform(name="Cafe Naz";type=placetoeat;area="castlehill";near="Tree Hugging Hippy Juice Bar";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the castlehill . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the castlehill area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the castlehill .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the castlehill . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the castlehill . it is located in the SLOT_AREA area area .
+
+
+inform(name=none;area=citycentre;near="d'Arry's")
+
+Penalty	TSER	ASER	Gen
+2.9498	2	2	near the citycentre near the SLOT_AREA .
+3.7027	3	3	near the citycentre near the SLOT_AREA . it is located in the SLOT_AREA area .
+3.7566	3	3	near the citycentre near the SLOT_AREA . it is located in the SLOT_AREA .
+3.8015	3	3	near the citycentre near the SLOT_AREA . it is located in the SLOT_AREA area
+3.8320	3	3	near the citycentre near the SLOT_AREA . it is located in the SLOT_AREA
+
+
+inform(name="The Cambridge Chop House";type=placetoeat;near="The Geldart";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+4.5955	4	4	there is a SLOT_PRICERANGE price range near the SLOT_PRICERANGE price range . it is located in the city area .
+4.6090	4	4	there is a SLOT_PRICERANGE price range near the SLOT_PRICERANGE price range .
+5.5552	5	5	there is a SLOT_PRICERANGE price range near the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5599	5	5	there is a SLOT_PRICERANGE price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a SLOT_PRICERANGE price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="d'Arry's";eattype=restaurant;addr="2-4 King Street";phone="01223902119")
+
+Penalty	TSER	ASER	Gen
+4.6433	4	4	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range .
+5.5711	5	5	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+5.6587	5	5	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+6.5541	6	6	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+6.6181	6	6	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+
+
+inform(name="La Margherita";type=placetoeat;pricerange=expensive;near="VUE Cinema";near="Mumford Theatre";area="castlehill";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA .
+4.7713	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Al Casbah";type=placetoeat;eattype=restaurant;area="romsey";pricerange=moderate;near="Ranch";near="Devonshire Arms")
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the moderate is a SLOT_PRICERANGE -ly priced near the romsey area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the moderate is a SLOT_PRICERANGE -ly priced near the romsey area near the SLOT_AREA .
+4.7713	4	4	the moderate is a SLOT_PRICERANGE -ly priced near the romsey area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the moderate is a SLOT_PRICERANGE -ly priced near the romsey area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the moderate is a SLOT_PRICERANGE -ly priced near the romsey area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Wagamama";type=placetoeat;eattype=restaurant;near="Wok n Grill";area=citycentre;food="Cafe food";food=English)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the citycentre area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="The Red Bull";type=placetoeat;eattype=restaurant;pricerange=moderate;area="newnham";food=Italian)
+
+Penalty	TSER	ASER	Gen
+3.6628	3	3	the moderate is a SLOT_PRICERANGE restaurant in the newnham area .
+4.6301	4	4	the moderate is a SLOT_PRICERANGE restaurant in the newnham area . it is a SLOT_PRICERANGE price range .
+4.6418	4	4	the moderate is a SLOT_PRICERANGE restaurant in the newnham area . it is a SLOT_PRICERANGE price -s .
+4.6654	4	4	the moderate is a SLOT_PRICERANGE restaurant in the newnham area . it is a SLOT_PRICERANGE -ly priced .
+5.6044	5	5	the moderate is a SLOT_PRICERANGE restaurant in the newnham area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+
+
+inform(name="Zizzi";type=placetoeat;eattype=restaurant;food=Italian)
+
+Penalty	TSER	ASER	Gen
+4.5285	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range .
+4.6446	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range
+5.5495	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+5.6189	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+6.5453	6	6	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+
+
+inform(name="Shiraz";type=placetoeat;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+2.5467	2	2	there is a SLOT_PRICERANGE price range .
+2.5795	2	2	there is a SLOT_PRICERANGE price -s .
+3.4896	3	3	there is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+3.5938	3	3	there is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+4.5054	4	4	there is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+
+
+inform(name="The Punter";type=placetoeat;pricerange=expensive;area="castlehill";near="Prezzo";near="The Pickerel Inn";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA .
+4.7713	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the castlehill area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="The Punter";type=placetoeat;eattype=restaurant;pricerange=expensive;near="Tatties (Trinity Street)";near="Clare Hall";area="castlehill")
+
+Penalty	TSER	ASER	Gen
+3.5654	3	3	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the city area .
+3.6000	3	3	there is a expensive price range near the SLOT_PRICERANGE price range .
+4.5271	4	4	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+4.5288	4	4	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+4.5678	4	4	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Little Seoul";type=placetoeat;eattype=restaurant;area=riverside)
+
+Penalty	TSER	ASER	Gen
+3.5610	3	3	the riverside
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+3.6113	3	3	the riverside
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area area .
+3.6233	3	3	the riverside
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+3.6618	3	3	the riverside
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area
+3.6927	3	3	the riverside
+ is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA
+
+
+inform(name="Alimentum";type=placetoeat;eattype=restaurant;near="Cambridge City Football Club";near="addenbrookes";area=riverside;area="Subway")
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the riverside area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the riverside .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the Subway"
+ area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the Subway"
+ area area .
+
+
+inform(name="Tang Chinese";type=placetoeat;eattype=restaurant;near="Sitar Tandoori";area=riverside)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the riverside
+ . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the riverside
+ area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the riverside
+ .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the riverside
+ . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the riverside
+ . it is located in the SLOT_AREA area area .
+
+
+inform(name="Tang Chinese";type=placetoeat;pricerange=expensive;near="Varsity Restaurant";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5654	3	3	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the city area .
+3.6000	3	3	there is a expensive price range near the SLOT_PRICERANGE price range .
+4.5271	4	4	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+4.5288	4	4	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+4.5678	4	4	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Beall Italia Grafton Centre";type=placetoeat;eattype=restaurant;area=riverside;food=Italian;food="Takeaway pizza")
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the riverside area in the city area .
+2.5569	2	2	there is a restaurant in the riverside area .
+3.4615	3	3	there is a restaurant in the riverside area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the riverside area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the riverside area in the SLOT_AREA area area .
+
+
+inform(name="The Punter";type=placetoeat;pricerange=expensive;area="castlehill";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+2.5394	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the castlehill area .
+2.5738	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the castlehill area area .
+2.6220	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the castlehill .
+2.6423	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the castlehill area
+3.5630	3	3	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the castlehill area and SLOT_PRICERANGE price range .
+
+
+inform(name="John Lewis Brasserie";type=placetoeat;area=citycentre;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5610	3	3	the citycentre is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+3.6113	3	3	the citycentre is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area area .
+3.6233	3	3	the citycentre is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+3.6618	3	3	the citycentre is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area
+3.6927	3	3	the citycentre is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA
+
+
+inform(name="The Tram Depot";type=placetoeat;eattype=restaurant;near="The Panton Arms";pricerange=cheap)
+
+Penalty	TSER	ASER	Gen
+3.5654	3	3	there is a cheap
+ price range near the SLOT_PRICERANGE price range . it is located in the city area .
+3.6000	3	3	there is a cheap
+ price range near the SLOT_PRICERANGE price range .
+4.5271	4	4	there is a cheap
+ price range near the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+4.5288	4	4	there is a cheap
+ price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+4.5678	4	4	there is a cheap
+ price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Brasserie Gerard";type=placetoeat;eattype=restaurant;near="Grand Arcade";food=French)
+
+Penalty	TSER	ASER	Gen
+4.5871	4	4	there is a fast food in the SLOT_PRICERANGE price range . it is located in the city area .
+4.6484	4	4	there is a fast food in the SLOT_PRICERANGE price range .
+5.5449	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5497	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Rainbow Vegetarian Cafe";type=placetoeat;eattype=restaurant;pricerange=moderate;area="girton")
+
+Penalty	TSER	ASER	Gen
+2.5394	2	2	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the girton"
+ area .
+2.5738	2	2	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the girton"
+ area area .
+2.6220	2	2	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the girton"
+ .
+2.6423	2	2	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the girton"
+ area
+3.5630	3	3	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the girton"
+ area and SLOT_PRICERANGE price range .
+
+
+inform(name="The Rice Boat";type=placetoeat;eattype=restaurant;pricerange=cheap;area=riverside;food=Indian)
+
+Penalty	TSER	ASER	Gen
+3.6628	3	3	the cheap is a SLOT_PRICERANGE restaurant in the riverside area .
+4.6301	4	4	the cheap is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price range .
+4.6418	4	4	the cheap is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price -s .
+4.6654	4	4	the cheap is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE -ly priced .
+5.6044	5	5	the cheap is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+
+
+inform(name="Alimentum";type=placetoeat;eattype=restaurant;near="Broughton House Gallery";food=Continental;food=French)
+
+Penalty	TSER	ASER	Gen
+4.5871	4	4	there is a fast food in the SLOT_PRICERANGE price range . it is located in the city area .
+4.6484	4	4	there is a fast food in the SLOT_PRICERANGE price range .
+5.5449	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5497	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Eraina Taverna";type=placetoeat;eattype=restaurant;area=citycentre;near="Ask Restaurant")
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the SLOT_AREA area area .
+
+
+inform(name="Rainbow Vegetarian Cafe";type=placetoeat;eattype=restaurant;pricerange=moderate;area="girton";area="fenditton")
+
+Penalty	TSER	ASER	Gen
+2.5394	2	2	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the girton area .
+2.5738	2	2	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the girton area area .
+2.6220	2	2	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the girton .
+2.6423	2	2	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the girton area
+3.5630	3	3	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the girton area and SLOT_PRICERANGE price range .
+
+
+inform(name="Alimentum";type=placetoeat;eattype=restaurant;pricerange=expensive;area="addenbrookes";near="The Clarendon Arms";near="Worth House")
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the addenbrookes area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the addenbrookes area near the SLOT_AREA .
+4.7713	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the addenbrookes area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the addenbrookes area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the addenbrookes area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Tang Chinese";type=placetoeat;pricerange=expensive;area=riverside;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+2.5394	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside area .
+2.5738	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside area area .
+2.6220	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside .
+2.6423	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside area
+3.5630	3	3	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside area and SLOT_PRICERANGE price range .
+
+
+inform(name="Alimentum";type=placetoeat;eattype=restaurant;pricerange=expensive)
+
+Penalty	TSER	ASER	Gen
+1.5711	1	1	there is a expensive
+ price -s -s -s friendly .
+1.5733	1	1	there is a expensive
+ price -s -s -s -s -s -s friendly .
+1.5740	1	1	there is a expensive
+ price -s -s -s -s -s friendly .
+1.5747	1	1	there is a expensive
+ price -s -s -s -s friendly .
+1.5756	1	1	there is a expensive
+ price -s -s -s -s -s -s -s -s .
+
+
+inform(name="Blue Spice";type=placetoeat;eattype=restaurant;pricerange=moderate;area="girton";food=Indian)
+
+Penalty	TSER	ASER	Gen
+3.6628	3	3	the moderate is a SLOT_PRICERANGE restaurant in the girton area .
+4.6301	4	4	the moderate is a SLOT_PRICERANGE restaurant in the girton area . it is a SLOT_PRICERANGE price range .
+4.6418	4	4	the moderate is a SLOT_PRICERANGE restaurant in the girton area . it is a SLOT_PRICERANGE price -s .
+4.6654	4	4	the moderate is a SLOT_PRICERANGE restaurant in the girton area . it is a SLOT_PRICERANGE -ly priced .
+5.6044	5	5	the moderate is a SLOT_PRICERANGE restaurant in the girton area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+
+
+inform(name="Backstreet Bistro";type=placetoeat;eattype=restaurant;pricerange=moderate;area="romsey";food=Contemporary;food=English)
+
+Penalty	TSER	ASER	Gen
+3.6628	3	3	the moderate is a SLOT_PRICERANGE restaurant in the romsey area .
+4.6301	4	4	the moderate is a SLOT_PRICERANGE restaurant in the romsey area . it is a SLOT_PRICERANGE price range .
+4.6418	4	4	the moderate is a SLOT_PRICERANGE restaurant in the romsey area . it is a SLOT_PRICERANGE price -s .
+4.6654	4	4	the moderate is a SLOT_PRICERANGE restaurant in the romsey area . it is a SLOT_PRICERANGE -ly priced .
+5.6044	5	5	the moderate is a SLOT_PRICERANGE restaurant in the romsey area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+
+
+inform(name="The Ancient Shepherds";type=placetoeat;eattype=restaurant;food="Chinese takeaway";food=Japanese)
+
+Penalty	TSER	ASER	Gen
+4.5285	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range .
+4.6446	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range
+5.5495	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+5.6189	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+6.5453	6	6	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+
+
+inform(name="Alimentum";type=placetoeat;eattype=restaurant;near="India Palace";area="addenbrookes";food=Continental;food=French)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the addenbrookes area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the addenbrookes area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the addenbrookes area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the addenbrookes area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the addenbrookes area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Cambridge University Library";type=placetoeat;eattype=restaurant;area=citycentre;food="Cafe food";food=English)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the citycentre area in the city area .
+2.5569	2	2	there is a restaurant in the citycentre area .
+3.4615	3	3	there is a restaurant in the citycentre area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the citycentre area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the citycentre area in the SLOT_AREA area area .
+
+
+inform(name="Hakka";type=placetoeat;eattype=restaurant;area="newchesterton";near="Sesame Restaurant and Bar";food=Chinese)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the newchesterton area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the newchesterton area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the newchesterton area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the newchesterton area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the newchesterton area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Royal Standard";type=placetoeat;eattype=restaurant;area="romsey";pricerange=moderate;food=Indian)
+
+Penalty	TSER	ASER	Gen
+3.6628	3	3	the moderate is a SLOT_PRICERANGE restaurant in the romsey area .
+4.6301	4	4	the moderate is a SLOT_PRICERANGE restaurant in the romsey area . it is a SLOT_PRICERANGE price range .
+4.6418	4	4	the moderate is a SLOT_PRICERANGE restaurant in the romsey area . it is a SLOT_PRICERANGE price -s .
+4.6654	4	4	the moderate is a SLOT_PRICERANGE restaurant in the romsey area . it is a SLOT_PRICERANGE -ly priced .
+5.6044	5	5	the moderate is a SLOT_PRICERANGE restaurant in the romsey area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+
+
+inform(name="Pizza Express";type=placetoeat;eattype=restaurant;area=citycentre;near="Addenbrooke's Hospital";food=Italian;food="Takeaway pizza")
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the citycentre area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="De Luca Cucina and Bar";type=placetoeat;eattype=restaurant;area=riverside;near="Hat and Feathers";near="Kettle's Yard";food=Italian)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the riverside area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Ali Baba";type=placetoeat;eattype=restaurant;area=riverside;food=Indian)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the riverside area in the city area .
+2.5569	2	2	there is a restaurant in the riverside area .
+3.4615	3	3	there is a restaurant in the riverside area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the riverside area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the riverside area in the SLOT_AREA area area .
+
+
+inform(name="Alimentum";type=placetoeat;eattype=restaurant;area="addenbrookes";pricerange=expensive;food=Continental;food=French)
+
+Penalty	TSER	ASER	Gen
+3.6628	3	3	the expensive is a SLOT_PRICERANGE restaurant in the addenbrookes area .
+4.6301	4	4	the expensive is a SLOT_PRICERANGE restaurant in the addenbrookes area . it is a SLOT_PRICERANGE price range .
+4.6418	4	4	the expensive is a SLOT_PRICERANGE restaurant in the addenbrookes area . it is a SLOT_PRICERANGE price -s .
+4.6654	4	4	the expensive is a SLOT_PRICERANGE restaurant in the addenbrookes area . it is a SLOT_PRICERANGE -ly priced .
+5.6044	5	5	the expensive is a SLOT_PRICERANGE restaurant in the addenbrookes area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+
+
+inform(name="La Tasca";type=placetoeat;eattype=restaurant;area=riverside;near="Primavera";near="Thanh Binh")
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the riverside area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the riverside .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area area .
+
+
+inform(name="Yu Garden";type=placetoeat;eattype=restaurant;near="Cambridge University Rugby Union Football Club";near="Saigon City";food=Chinese)
+
+Penalty	TSER	ASER	Gen
+4.5871	4	4	there is a fast food in the SLOT_PRICERANGE price range . it is located in the city area .
+4.6484	4	4	there is a fast food in the SLOT_PRICERANGE price range .
+5.5449	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5497	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Hotel du Vin and Bistro";eattype=restaurant;addr="15-19 Trumpington Street")
+
+Penalty	TSER	ASER	Gen
+3.6405	3	3	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range .
+3.7581	3	3	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range
+4.5724	4	4	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+4.6602	4	4	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+5.5597	5	5	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+
+
+inform(name="Backstreet Bistro";type=placetoeat;eattype=restaurant;area="romsey";area="kingshedges";food=Indian)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the romsey area in the city area .
+2.5569	2	2	there is a restaurant in the romsey area .
+3.4615	3	3	there is a restaurant in the romsey area in the kingshedges area .
+3.4645	3	3	there is a restaurant in the romsey area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the romsey area in the kingshedges area area .
+
+
+inform(name="Backstreet Bistro";type=placetoeat;eattype=restaurant;area="romsey";pricerange=moderate)
+
+Penalty	TSER	ASER	Gen
+2.5394	2	2	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the romsey area .
+2.5738	2	2	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the romsey area area .
+2.6220	2	2	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the romsey .
+2.6423	2	2	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the romsey area
+3.5630	3	3	the moderate
+ is a SLOT_PRICERANGE -ly priced restaurant in the romsey area and SLOT_PRICERANGE price range .
+
+
+inform(name="Alimentum";type=placetoeat;eattype=restaurant;pricerange=expensive;area="addenbrookes";food=Continental;food=French)
+
+Penalty	TSER	ASER	Gen
+3.6628	3	3	the expensive is a SLOT_PRICERANGE restaurant in the addenbrookes area .
+4.6301	4	4	the expensive is a SLOT_PRICERANGE restaurant in the addenbrookes area . it is a SLOT_PRICERANGE price range .
+4.6418	4	4	the expensive is a SLOT_PRICERANGE restaurant in the addenbrookes area . it is a SLOT_PRICERANGE price -s .
+4.6654	4	4	the expensive is a SLOT_PRICERANGE restaurant in the addenbrookes area . it is a SLOT_PRICERANGE -ly priced .
+5.6044	5	5	the expensive is a SLOT_PRICERANGE restaurant in the addenbrookes area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+
+
+inform(name="Ali Baba";type=placetoeat;eattype=restaurant;area=riverside;near="The Bakers";near="Avalon")
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the riverside area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the riverside .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area area .
+
+
+inform(name="Brasserie Gerard";type=placetoeat;eattype=restaurant;area=riverside;near="Wagamama")
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the riverside area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the riverside .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area area .
+
+
+inform(name="The Bombay Brasserie";type=placetoeat;near="The County Arms";pricerange=moderate;area=riverside;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the moderate is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the moderate is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA .
+4.7713	4	4	the moderate is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the moderate is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the moderate is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Midsummer House";type=placetoeat;eattype=restaurant;area=riverside;near="Arts Picture House and Cafe-Bar")
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the riverside area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the riverside .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area area .
+
+
+inform(name="Kelsey Kerridge Sports Centre";type=placetoeat;eattype=restaurant;area=riverside;food="Chinese takeaway";food=Takeaway)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the riverside area in the city area .
+2.5569	2	2	there is a restaurant in the riverside area .
+3.4615	3	3	there is a restaurant in the riverside area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the riverside area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the riverside area in the SLOT_AREA area area .
+
+
+inform(name="La Margherita";type=placetoeat;eattype=restaurant;pricerange=expensive;area=riverside;area="castlehill";food=Italian)
+
+Penalty	TSER	ASER	Gen
+3.6628	3	3	the expensive is a SLOT_PRICERANGE restaurant in the riverside area .
+4.6301	4	4	the expensive is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price range .
+4.6418	4	4	the expensive is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price -s .
+4.6654	4	4	the expensive is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE -ly priced .
+5.6044	5	5	the expensive is a SLOT_PRICERANGE restaurant in the riverside area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+
+
+inform(name="The Tram Depot";type=placetoeat;eattype=restaurant;pricerange=cheap;area=riverside;near="The Oak Bistro")
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA .
+4.7713	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the cheap is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the cheap is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Burger King";type=placetoeat;eattype=restaurant;near="The Baron of Beef";food=Fastfood)
+
+Penalty	TSER	ASER	Gen
+4.5871	4	4	there is a fast food in the SLOT_PRICERANGE price range . it is located in the city area .
+4.6484	4	4	there is a fast food in the SLOT_PRICERANGE price range .
+5.5449	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5497	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Hakka";type=placetoeat;eattype=restaurant;near="Cambridge University Library";area="newchesterton";food=Chinese)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the newchesterton area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the newchesterton area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the newchesterton area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the newchesterton area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the newchesterton area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Pizza Hut";type=placetoeat;area=citycentre;near="The Rice Boat";near="The Lion and Lamb";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the SLOT_AREA area area .
+
+
+inform(name="Cafe Adriatic";type=placetoeat;pricerange=expensive;near="Revolution";area="romsey";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the romsey area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the romsey area near the SLOT_AREA .
+4.7713	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the romsey area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the romsey area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the romsey area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="La Margherita";type=placetoeat;eattype=restaurant;pricerange=expensive;near="Funky Fun House";near="Saint Barnabas Press Gallery";food=Italian)
+
+Penalty	TSER	ASER	Gen
+4.6897	4	4	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range .
+5.6244	5	5	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.6275	5	5	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area . it is located in the city area .
+6.5992	6	6	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area . it is located in the SLOT_PRICERANGE price range .
+6.6057	6	6	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area . it is located in the SLOT_AREA area .
+
+
+inform(name="Le Gros Franck";type=placetoeat;pricerange=expensive;near="Charlie Chan";near="The Waterman";area="trumpington";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the trumpington area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the trumpington area near the SLOT_AREA .
+4.7713	4	4	the expensive is a SLOT_PRICERANGE -ly priced near the trumpington area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the trumpington area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the expensive is a SLOT_PRICERANGE -ly priced near the trumpington area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Michaelhouse Centre";type=placetoeat;eattype=restaurant;near="Winfield";area=citycentre;area=riverside)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the riverside
+ area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the riverside
+ area area .
+
+
+inform(name="The Curry House";type=placetoeat;eattype=restaurant;near="Taxi Gallery";food=Indian)
+
+Penalty	TSER	ASER	Gen
+4.5871	4	4	there is a fast food in the SLOT_PRICERANGE price range . it is located in the city area .
+4.6484	4	4	there is a fast food in the SLOT_PRICERANGE price range .
+5.5449	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5497	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="La Margherita";type=placetoeat;eattype=restaurant;pricerange=expensive;near="The White Hart";near="The Elm Tree";food=Italian)
+
+Penalty	TSER	ASER	Gen
+4.6897	4	4	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range .
+5.6244	5	5	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.6275	5	5	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area . it is located in the city area .
+6.5992	6	6	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area . it is located in the SLOT_PRICERANGE price range .
+6.6057	6	6	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area . it is located in the SLOT_AREA area .
+
+
+inform(name="Nanna Mexico";type=placetoeat;eattype=restaurant;pricerange=cheap;area=citycentre;near="Regency Gallery")
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA .
+4.7713	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="A and B Guest House";type=placetoeat;eattype=restaurant;area="cherryhinton";food="Chinese takeaway";food=Fusion)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the cherryhinton area in the city area .
+2.5569	2	2	there is a restaurant in the cherryhinton area .
+3.4615	3	3	there is a restaurant in the cherryhinton area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the cherryhinton area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the cherryhinton area in the SLOT_AREA area area .
+
+
+inform(name="Lan Hong House";food=Chinese;eattype=restaurant;area=riverside)
+
+Penalty	TSER	ASER	Gen
+3.8139	3	3	the SLOT_PRICERANGE -ly priced restaurant in the riverside
+ area .
+5.6549	5	5	the SLOT_PRICERANGE -ly priced restaurant in the riverside
+ area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range .
+5.6879	5	5	the SLOT_PRICERANGE -ly priced restaurant in the riverside
+ area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+5.7206	5	5	the SLOT_PRICERANGE -ly priced restaurant in the riverside
+ area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+5.7219	5	5	the SLOT_PRICERANGE -ly priced restaurant in the riverside
+ area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range
+
+
+inform(name="The Unicorn Steak and Ale House";type=placetoeat;eattype=restaurant;area="trumpington";near="The Cherry Hinton Village Centre";near="Mumford Theatre")
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the trumpington . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the trumpington area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the trumpington .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the trumpington . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the trumpington . it is located in the SLOT_AREA area area .
+
+
+inform(name="Thanh Binh";type=placetoeat;eattype=restaurant;food="Cafe food";food=English)
+
+Penalty	TSER	ASER	Gen
+4.5285	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range .
+4.6446	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range
+5.5495	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+5.6189	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+6.5453	6	6	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+
+
+inform(name="Backstreet Bistro";type=placetoeat;eattype=restaurant;area="romsey";food=Contemporary;food=English)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the romsey area in the city area .
+2.5569	2	2	there is a restaurant in the romsey area .
+3.4615	3	3	there is a restaurant in the romsey area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the romsey area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the romsey area in the SLOT_AREA area area .
+
+
+inform(name="La Tasca";type=placetoeat;eattype=restaurant;pricerange=cheap;area=riverside;near="Caffe Nero")
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA .
+4.7713	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the cheap is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the cheap is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Al Casbah";type=placetoeat;area="romsey";near="Victoria Internet Cafe";near="Hobsons House";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the romsey . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the romsey area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the romsey .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the romsey . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the romsey . it is located in the SLOT_AREA area area .
+
+
+inform(name="Charlie Chan";type=placetoeat;eattype=restaurant;near="The Phoenix Chinese Restaurant";pricerange=expensive;food=Chinese)
+
+Penalty	TSER	ASER	Gen
+4.6897	4	4	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range .
+5.6244	5	5	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.6275	5	5	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area . it is located in the city area .
+6.5992	6	6	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area . it is located in the SLOT_PRICERANGE price range .
+6.6057	6	6	there is a expensive price -s -s -s friendly and a SLOT_PRICERANGE price range . it is located in the SLOT_AREA area . it is located in the SLOT_AREA area .
+
+
+inform(name="Asia";type=placetoeat;pricerange=expensive;area=riverside;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+2.5394	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside area .
+2.5738	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside area area .
+2.6220	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside .
+2.6423	2	2	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside area
+3.5630	3	3	the expensive is a SLOT_PRICERANGE -ly priced restaurant in the riverside area and SLOT_PRICERANGE price range .
+
+
+inform(name="Rainbow Vegetarian Cafe";type=placetoeat;eattype=restaurant;pricerange=moderate;area="girton";area="trumpington";food=Indian)
+
+Penalty	TSER	ASER	Gen
+3.6628	3	3	the moderate is a SLOT_PRICERANGE restaurant in the girton area .
+4.6301	4	4	the moderate is a SLOT_PRICERANGE restaurant in the girton area . it is a SLOT_PRICERANGE price range .
+4.6418	4	4	the moderate is a SLOT_PRICERANGE restaurant in the girton area . it is a SLOT_PRICERANGE price -s .
+4.6654	4	4	the moderate is a SLOT_PRICERANGE restaurant in the girton area . it is a SLOT_PRICERANGE -ly priced .
+5.6044	5	5	the moderate is a SLOT_PRICERANGE restaurant in the girton area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+
+
+inform(name="Brasserie Gerard";type=placetoeat;eattype=restaurant;area=riverside;near="Sitar Tandoori";near="Blue Spice";food=French)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the riverside area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Bella Italia Leisure Park";type=placetoeat;eattype=restaurant;near="The Eagle";area="addenbrookes";food=Italian)
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the addenbrookes area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the addenbrookes area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the addenbrookes area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the addenbrookes area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the addenbrookes area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Tandoori Palace";type=placetoeat;eattype=restaurant;area="castlehill";area="arbury")
+
+Penalty	TSER	ASER	Gen
+3.5610	3	3	the castlehill is a SLOT_PRICERANGE -ly priced restaurant in the arbury"
+ area .
+3.6113	3	3	the castlehill is a SLOT_PRICERANGE -ly priced restaurant in the arbury"
+ area area .
+3.6233	3	3	the castlehill is a SLOT_PRICERANGE -ly priced restaurant in the arbury"
+ .
+3.6618	3	3	the castlehill is a SLOT_PRICERANGE -ly priced restaurant in the arbury"
+ area
+3.6927	3	3	the castlehill is a SLOT_PRICERANGE -ly priced restaurant in the arbury"
+
+
+
+inform(name="Backstreet Bistro";type=placetoeat;eattype=restaurant;near="Ugly Duckling";food=Contemporary;food=English)
+
+Penalty	TSER	ASER	Gen
+4.5871	4	4	there is a fast food in the SLOT_PRICERANGE price range . it is located in the city area .
+4.6484	4	4	there is a fast food in the SLOT_PRICERANGE price range .
+5.5449	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5497	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Wok n Grill";type=placetoeat;eattype=restaurant;near="The Bakers Arms";near="Fenner s Cricket Ground";food=Chinese)
+
+Penalty	TSER	ASER	Gen
+4.5871	4	4	there is a fast food in the SLOT_PRICERANGE price range . it is located in the city area .
+4.6484	4	4	there is a fast food in the SLOT_PRICERANGE price range .
+5.5449	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5497	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="The Fountain Inn";type=placetoeat;area=citycentre;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5610	3	3	the citycentre is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+3.6113	3	3	the citycentre is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area area .
+3.6233	3	3	the citycentre is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+3.6618	3	3	the citycentre is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area
+3.6927	3	3	the citycentre is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA
+
+
+inform(name="The Vaults";type=placetoeat;eattype=restaurant;area=citycentre;near="Taxi Gallery";near="Grafton Shopping Centre")
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the citycentre .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the citycentre . it is located in the SLOT_AREA area area .
+
+
+inform(name="Clowns";eattype=restaurant;phone="01223355711")
+
+Penalty	TSER	ASER	Gen
+4.6433	4	4	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range .
+5.5711	5	5	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+5.6587	5	5	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+6.5541	6	6	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+6.6181	6	6	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+
+
+inform(name="Cafe Rouge";type=placetoeat;eattype=restaurant;area=riverside;food=French)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the riverside area in the city area .
+2.5569	2	2	there is a restaurant in the riverside area .
+3.4615	3	3	there is a restaurant in the riverside area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the riverside area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the riverside area in the SLOT_AREA area area .
+
+
+inform(name="Charlie Chan";type=placetoeat;near="Nu-Mega Ingredients Ltd";pricerange=expensive;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5654	3	3	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the city area .
+3.6000	3	3	there is a expensive price range near the SLOT_PRICERANGE price range .
+4.5271	4	4	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+4.5288	4	4	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+4.5678	4	4	there is a expensive price range near the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Shiraz";type=placetoeat;area=riverside;near="Kettle's Yard";near="Nu-Mega Ingredients Ltd";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the riverside area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the riverside .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area area .
+
+
+inform(name="Jesus College";type=placetoeat;eattype=restaurant;food="Chinese takeaway";food=Takeaway)
+
+Penalty	TSER	ASER	Gen
+4.5285	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range .
+4.6446	4	4	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range
+5.5495	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+5.6189	5	5	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+6.5453	6	6	there is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+
+
+inform(name="Aki Teri";type=placetoeat;area=riverside;near="Trinity Street Post Office";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the riverside area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the riverside .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the SLOT_AREA area area .
+
+
+inform(name="The Red Bull";type=placetoeat;near="Courtyard Cafe at the Fitzwilliam Museum";area="newnham";area="fenditton";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the newnham . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the newnham area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the newnham .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the newnham . it is located in the fenditton area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the newnham . it is located in the fenditton area area .
+
+
+inform(name="Alimentum";type=placetoeat;eattype=restaurant;area="addenbrookes";food=Continental;food=French)
+
+Penalty	TSER	ASER	Gen
+2.5196	2	2	there is a restaurant in the addenbrookes area in the city area .
+2.5569	2	2	there is a restaurant in the addenbrookes area .
+3.4615	3	3	there is a restaurant in the addenbrookes area in the SLOT_AREA area .
+3.4645	3	3	there is a restaurant in the addenbrookes area in the SLOT_PRICERANGE price range .
+3.5141	3	3	there is a restaurant in the addenbrookes area in the SLOT_AREA area area .
+
+
+inform(name="Meghna";type=placetoeat;eattype=restaurant;area="castlehill";near="London Stansted Airport";food=Indian;food="Indian takeaway")
+
+Penalty	TSER	ASER	Gen
+4.6132	4	4	there is a restaurant in the castlehill area near the SLOT_AREA . it is located in the city area .
+4.6713	4	4	there is a restaurant in the castlehill area near the SLOT_AREA .
+5.5674	5	5	there is a restaurant in the castlehill area near the SLOT_AREA . it is located in the SLOT_PRICERANGE price range .
+5.5756	5	5	there is a restaurant in the castlehill area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.6147	5	5	there is a restaurant in the castlehill area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Tang Chinese";eattype=restaurant;phone="01223902135")
+
+Penalty	TSER	ASER	Gen
+4.6433	4	4	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range .
+5.5711	5	5	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+5.6587	5	5	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+6.5541	6	6	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+6.6181	6	6	the SLOT_PRICERANGE price range is a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+
+
+inform(name="Royal Cambridge Hotel";type=placetoeat;pricerange=moderate;area=riverside;near="Cambridge Waffle Company";eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the moderate is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the moderate is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA .
+4.7713	4	4	the moderate is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the moderate is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the moderate is a SLOT_PRICERANGE -ly priced near the riverside area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Lan Hong House";area=riverside;food=Chinese;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.8139	3	3	the SLOT_PRICERANGE -ly priced restaurant in the riverside area .
+5.6549	5	5	the SLOT_PRICERANGE -ly priced restaurant in the riverside area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range .
+5.6879	5	5	the SLOT_PRICERANGE -ly priced restaurant in the riverside area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA area .
+5.7206	5	5	the SLOT_PRICERANGE -ly priced restaurant in the riverside area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_AREA .
+5.7219	5	5	the SLOT_PRICERANGE -ly priced restaurant in the riverside area . it is a SLOT_PRICERANGE -ly priced restaurant in the SLOT_PRICERANGE price range
+
+
+inform(name="Downing College";type=placetoeat;eattype=restaurant;near="The Anchor";near="Tenpin";food="Chinese takeaway";food=Japanese)
+
+Penalty	TSER	ASER	Gen
+4.5871	4	4	there is a fast food in the SLOT_PRICERANGE price range . it is located in the city area .
+4.6484	4	4	there is a fast food in the SLOT_PRICERANGE price range .
+5.5449	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5497	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Nanna Mexico";type=placetoeat;eattype=restaurant;area=citycentre;pricerange=cheap;near="The Wrestlers";near="The Eagle")
+
+Penalty	TSER	ASER	Gen
+4.7158	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA . it is located in the city area .
+4.7697	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA .
+4.7713	4	4	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA . it is located in the city area
+5.6842	5	5	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA area .
+5.7168	5	5	the cheap is a SLOT_PRICERANGE -ly priced near the citycentre area near the SLOT_AREA . it is located in the SLOT_AREA .
+
+
+inform(name="Henry's Cafe Bar";type=placetoeat;near="Ugly Duckling";area=riverside;area=citycentre;eattype=restaurant)
+
+Penalty	TSER	ASER	Gen
+3.5560	3	3	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the city area .
+3.6583	3	3	there is a SLOT_PRICERANGE restaurant near the riverside area .
+3.6655	3	3	there is a SLOT_PRICERANGE restaurant near the riverside .
+4.4962	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the citycentre area .
+4.5392	4	4	there is a SLOT_PRICERANGE restaurant near the riverside . it is located in the citycentre area area .
+
+
+inform(name="Royal Standard";type=placetoeat;eattype=restaurant;pricerange=moderate;area="romsey")
+
+Penalty	TSER	ASER	Gen
+2.5394	2	2	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the romsey"
+ area .
+2.5738	2	2	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the romsey"
+ area area .
+2.6220	2	2	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the romsey"
+ .
+2.6423	2	2	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the romsey"
+ area
+3.5630	3	3	the moderate is a SLOT_PRICERANGE -ly priced restaurant in the romsey"
+ area and SLOT_PRICERANGE price range .
+
+
+inform(name="Alimentum";type=placetoeat;eattype=restaurant;near="Avalon";near="The Bakers Arms";food=French)
+
+Penalty	TSER	ASER	Gen
+4.5871	4	4	there is a fast food in the SLOT_PRICERANGE price range . it is located in the city area .
+4.6484	4	4	there is a fast food in the SLOT_PRICERANGE price range .
+5.5449	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_PRICERANGE price range .
+5.5497	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA area .
+5.5916	5	5	there is a fast food in the SLOT_PRICERANGE price range . it is located in the SLOT_AREA .
+
+
+inform(name="Blue Spice";type=placetoeat;eattype=restaurant;pricerange=moderate;area="girton";food=Indian)
+
+Penalty	TSER	ASER	Gen
+3.6628	3	3	the moderate is a SLOT_PRICERANGE restaurant in the girton area .
+4.6301	4	4	the moderate is a SLOT_PRICERANGE restaurant in the girton area . it is a SLOT_PRICERANGE price range .
+4.6418	4	4	the moderate is a SLOT_PRICERANGE restaurant in the girton area . it is a SLOT_PRICERANGE price -s .
+4.6654	4	4	the moderate is a SLOT_PRICERANGE restaurant in the girton area . it is a SLOT_PRICERANGE -ly priced .
+5.6044	5	5	the moderate is a SLOT_PRICERANGE restaurant in the girton area . it is a SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+
+
+inform(name="Le Gros Franck";eattype=restaurant;near="Cambridge University Engineering Department")
+
+Penalty	TSER	ASER	Gen
+4.6084	4	4	there is a SLOT_PRICERANGE price range near the SLOT_PRICERANGE price range .
+5.5571	5	5	there is a SLOT_PRICERANGE price range near the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+5.6316	5	5	there is a SLOT_PRICERANGE price range near the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+6.5425	6	6	there is a SLOT_PRICERANGE price range near the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+6.5995	6	6	there is a SLOT_PRICERANGE price range near the SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+
+
+inform(name=chow;food='comfort food';goodformeal=dinner)
+Penalty	TSER	ASER	Gen
+6.0206	5	5	the SLOT_PRICERANGE -ly priced restaurant that serves SLOT_PRICERANGE price -s .
+6.8438	6	6	the SLOT_PRICERANGE -ly priced restaurant that serves SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range .
+7.7631	7	7	the SLOT_PRICERANGE -ly priced restaurant that serves SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+7.8345	7	7	the SLOT_PRICERANGE -ly priced restaurant that serves SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range
+8.7159	8	8	the SLOT_PRICERANGE -ly priced restaurant that serves SLOT_PRICERANGE price -s and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range and a SLOT_PRICERANGE price range .
+
+
+##############################################
+BLEU SCORE & SLOT ERROR on GENERATED SENTENCES
+##############################################
+Metric       :	BLEU	T.ERR	A.ERR
+HDC          :	0.0000	0.00%	0.00%
+Ref          :	1.0000	73.34%	73.10%
+----------------------------------------------
+This Model   :	0.2445	120.83%	120.83%

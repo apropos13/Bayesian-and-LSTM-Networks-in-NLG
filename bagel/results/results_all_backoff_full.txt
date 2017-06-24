@@ -1,0 +1,2020 @@
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.000690233355206
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'and', 'X']
+-> Prob = 0.123850594837
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'food', 'Chinese'), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 0.00275785990072
+R* = ['X', 'is a', 'Chinese', 'restaurant', 'in the', 'riverside']
+-> Prob = 0.528321965155
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 0.000186336026697
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X', 'and', 'X']
+-> Prob = 0.365990990991
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.00627455951325
+R* = ['X', 'is a', 'moderately priced', 'restaurant']
+-> Prob = 0.792018006148
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.285714285714
+R* = ['X', 'restaurant']
+-> Prob = 0.939393939394
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 6.67049365193e-06
+R* = ['X', 'is a', 'expensive', 'in the', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0140448763549
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'expensive')]
+-> Prob = 0.000793021411578
+R* = ['X', 'restaurant', 'near', 'X', 'which offers an', 'expensive']
+-> Prob = 0.438193295336
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+-> Prob = 5.92382884559e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'that offers', 'Chinese', 'food', 'Japanese']
+-> Prob = 0.4263952278
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 1.30103509414e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'providing', 'Chinese']
+-> Prob = 0.204070114245
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Indian')]
+-> Prob = 1.22380931481e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X', 'in the', 'Indian']
+-> Prob = 0.167114711507
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Continental'), ('inform', 'food'), ('inform', 'food', 'French')]
+-> Prob = 4.78270583475e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'Continental', 'and', 'French']
+-> Prob = 0.148131867574
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.000110472482309
+R* = ['X', 'in', 'X', 'with a', 'moderate', 'restaurant']
+-> Prob = 0.420897284534
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 4.75812846947e-05
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.250965250965
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.0769230769231
+R* = ['X', 'restaurant', 'near', 'X']
+-> Prob = 0.587013843111
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 2.51186801826e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'and', 'X', 'in the', 'X']
+-> Prob = 0.119952926095
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Indian')]
+-> Prob = 2.06410609664e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'and', 'X', 'in the', 'Indian']
+-> Prob = 0.157382790529
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian')]
+-> Prob = 1.99786878639e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'riverside', 'serving', 'Indian']
+-> Prob = 0.364495434882
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.78372576684e-07
+R* = ['X', 'is a', 'moderate', 'in the', 'riverside', 'near', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.00996179838203
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+-> Prob = 0.000264340470526
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'French']
+-> Prob = 0.721525096525
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Indian')]
+-> Prob = 2.08115478625e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'in the', 'Indian']
+-> Prob = 0.136360962515
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 3.84469594632e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'and', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.218914090123
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+-> Prob = 1.30103509414e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'providing', 'French']
+-> Prob = 0.201154826899
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 1.30103509414e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.209900688938
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+-> Prob = 6.10794261588e-06
+R* = ['X', 'restaurant', 'in the', 'city centre', 'offering', 'Chinese takeaway', 'and', 'Japanese']
+-> Prob = 0.0972222222222
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 3.83462975114e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'X', 'near', 'X', 'and', 'X']
+-> Prob = 0.167920708065
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.000942824127845
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'and', 'X']
+-> Prob = 0.251591849774
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.63118794346e-05
+R* = ['X', 'is a', 'expensive', 'in the', 'X', 'is an', 'restaurant']
+-> Prob = 0.0243593146515
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.00187723064721
+R* = ['X', 'in the', 'city centre', 'near', 'restaurant']
+-> Prob = 0.394928880643
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'food', 'Chinese')]
+-> Prob = 2.49354951347e-07
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'and also in the', 'centre of the city', 'near', 'Chinese']
+-> Prob = 0.232500103325
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 8.3493947972e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'and', 'X']
+-> Prob = 0.319969802392
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 6.09011533735e-06
+R* = ['X', 'is a', 'moderate', 'in the', 'X', 'is an', 'restaurant']
+-> Prob = 0.0145853912934
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Italian')]
+-> Prob = 0.00020087364506
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'Italian']
+-> Prob = 0.160594684214
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 3.23994545651e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'and', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.41827145025
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 3.32719607671e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'riverside', 'serving', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.121498478294
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway')]
+-> Prob = 3.23994545651e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'and', 'X', 'that offers', 'Chinese takeaway.']
+-> Prob = 0.209135725125
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 9.21105693362e-05
+R* = ['X', 'in', 'X', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.0965117485768
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'food', 'Chinese')]
+-> Prob = 4.28660222475e-05
+R* = ['X', 'restaurant', 'near', 'X', 'which offers an', 'expensive', 'Chinese']
+-> Prob = 0.426021259355
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Indian')]
+-> Prob = 0.00577200577201
+R* = ['X', 'restaurant', 'that has', 'Indian']
+-> Prob = 0.222222222222
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'area', 'citycentre')]
+-> Prob = 2.3290372537e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'cheap', 'in the', 'city centre']
+-> Prob = 0.149571990324
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'pricerange', 'expensive'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 8.77342832257e-05
+R* = ['X', 'in', 'X', 'in the', 'expensive', 'restaurant']
+-> Prob = 0.327659101024
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 2.34186316945e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'providing', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.0699668963125
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+-> Prob = 1.60640980461e-06
+R* = ['X', 'restaurant', 'near', 'X', 'and', 'X', 'that offers', 'Chinese', 'food', 'Japanese']
+-> Prob = 0.738551414083
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.00378601212394
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X']
+-> Prob = 0.163654276985
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Seafood')]
+-> Prob = 9.56125106158e-05
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'seafood.']
+-> Prob = 0.418275418275
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre')]
+-> Prob = 0.0027138954974
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'city centre.']
+-> Prob = 0.118008738698
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Continental'), ('inform', 'food'), ('inform', 'food', 'French')]
+-> Prob = 3.05952328701e-07
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X', 'in the', 'Continental', 'and', 'French']
+-> Prob = 0.146805631984
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.00060894349823
+R* = ['X', 'in the', 'city centre', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.0663571889104
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian')]
+-> Prob = 0.000793021411578
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'Indian']
+-> Prob = 0.752895752896
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'food', 'Contemporary'), ('inform', 'food', 'English')]
+-> Prob = 8.18477900861e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'serving', 'Contemporary', 'English']
+-> Prob = 0.250594621825
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.67004924197e-05
+R* = ['X', 'in the', 'riverside', 'near', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0327849040955
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.000907560021401
+R* = ['X', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.105328871286
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'pricerange', 'cheap')]
+-> Prob = 0.00414479137883
+R* = ['X', 'restaurant', 'in the', 'cheap']
+-> Prob = 0.208333333333
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian')]
+-> Prob = 0.000374111485223
+R* = ['X', 'restaurant', 'in the', 'riverside', 'serving', 'Indian']
+-> Prob = 0.285714285714
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 4.81922941382e-05
+R* = ['X', 'restaurant', 'near', 'X', 'and', 'X', 'providing', 'Chinese']
+-> Prob = 0.718036097025
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 9.17499524184e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'cheap', 'in the', 'city centre', 'near', 'X']
+-> Prob = 0.14721445483
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.61395064853e-07
+R* = ['X', 'near', 'X', 'in the', 'moderate', 'in the', 'riverside', 'near', 'restaurant']
+-> Prob = 0.151154567162
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Chinese')]
+-> Prob = 1.10142838332e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X', 'in the', 'Chinese']
+-> Prob = 0.162472636188
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian')]
+-> Prob = 3.52884432379e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'cheap', 'in the', 'riverside', 'serving', 'Indian']
+-> Prob = 0.364495434882
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Italian')]
+-> Prob = 1.28499978055e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X', 'in the', 'Italian']
+-> Prob = 0.159156868102
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap')]
+-> Prob = 0.000528680941052
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'cheap']
+-> Prob = 0.548986486486
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 6.92341897642e-07
+R* = ['X', 'is a', 'expensive', 'in the', 'X', 'in the', 'X', 'is an', 'restaurant']
+-> Prob = 0.00817426666156
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Indian')]
+-> Prob = 1.7481766132e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'X', 'in the', 'Indian']
+-> Prob = 0.151695676024
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Fastfood')]
+-> Prob = 0.000127483347488
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'fast food.']
+-> Prob = 0.418275418275
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'addr'), ('inform', 'addr', 'X')]
+-> Prob = 0.00215093801496
+R* = ['X', 'is a', 'restaurant', 'located at', 'X.']
+-> Prob = 0.313525902794
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 7.45344106788e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X', 'and', 'riverside']
+-> Prob = 0.283576554763
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Cafe food'), ('inform',), ('inform', 'food', 'English')]
+-> Prob = 2.9052092211e-06
+R* = ['X', 'restaurant', 'near', 'X', 'and', 'X', 'providing', 'cafe', 'which serves', 'English']
+-> Prob = 0.19489551205
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+-> Prob = 2.37193592854e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'and', 'X', 'providing', 'French']
+-> Prob = 0.197322380003
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Chinese')]
+-> Prob = 1.87303930762e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'in the', 'Chinese']
+-> Prob = 0.132573158
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 0.000306407556158
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'city centre', 'and', 'riverside']
+-> Prob = 0.343729157288
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.66567983599e-07
+R* = ['X', 'near', 'X', 'in the', 'expensive', 'in the', 'riverside', 'near', 'restaurant']
+-> Prob = 0.226731850742
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.000282394329928
+R* = ['X', 'in the', 'riverside,', 'near', 'restaurant']
+-> Prob = 0.219404933691
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 6.92045270337e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'near', 'X', 'and', 'X']
+-> Prob = 0.169434030173
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 9.1604189076e-05
+R* = ['X', 'in the', 'riverside', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.0334216610812
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 5.86972082637e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'and also in the', 'centre of the city', 'near', 'X', 'providing', 'Chinese']
+-> Prob = 0.47229863562
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+-> Prob = 8.81134901753e-06
+R* = ['X', 'restaurant', 'near', 'X', 'that offers', 'Chinese', 'food', 'Japanese']
+-> Prob = 0.752895752896
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 2.72732231495e-05
+R* = ['X', 'near', 'X', 'you will find the', 'riverside', 'restaurant']
+-> Prob = 0.357864357864
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Italian')]
+-> Prob = 2.18521252556e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'in the', 'Italian']
+-> Prob = 0.129867583347
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive')]
+-> Prob = 0.00761101143754
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive']
+-> Prob = 0.821139269224
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'riverside')]
+-> Prob = 0.000235748516794
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'riverside']
+-> Prob = 0.257412030284
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'phone', 'X')]
+-> Prob = 0.001924001924
+R* = ['X', 'restaurant,', 'which can be reached at', 'X']
+-> Prob = 0.166666666667
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 5.53905079656e-07
+R* = ['X', 'is a', 'moderate', 'in the', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0136130318738
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 0.00577200577201
+R* = ['X', 'restaurant', 'where you can find', 'Italian']
+-> Prob = 0.21164021164
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Chinese')]
+-> Prob = 0.000172177410051
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'Chinese']
+-> Prob = 0.163940406801
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.000624419485918
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'near', 'X', 'and', 'X']
+-> Prob = 0.188342315009
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.000602862082697
+R* = ['X', 'in', 'X', 'is an', 'restaurant']
+-> Prob = 0.118494980197
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 2.1881083602e-06
+R* = ['X', 'is a', 'cheap', 'in the', 'city centre', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.00867239482309
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate')]
+-> Prob = 3.18821293734e-05
+R* = ['X', 'in', 'X', 'is a', 'restaurant', 'in the', 'moderate']
+-> Prob = 0.208137607074
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+-> Prob = 5.38529895054e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'that', 'Italian', 'takeaway pizza']
+-> Prob = 0.162436277257
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Indian')]
+-> Prob = 0.00019130823339
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'Indian']
+-> Prob = 0.168624418424
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.67928113386e-05
+R* = ['X', 'in', 'X', 'near', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0946729850885
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Fusion')]
+-> Prob = 0.00108225108225
+R* = ['X', 'restaurant is a', 'Chinese', 'Fusion']
+-> Prob = 0.666666666667
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 0.003848003848
+R* = ['X', 'restaurant', 'serving', 'Chinese']
+-> Prob = 0.648148148148
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.000172484708567
+R* = ['X', 'near', 'X', 'which offers an', 'expensive', 'restaurant']
+-> Prob = 0.416561686403
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.0051715025822
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X']
+-> Prob = 0.33244961257
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Seafood')]
+-> Prob = 0.001924001924
+R* = ['X', 'restaurant', 'providing', 'seafood.']
+-> Prob = 0.666666666667
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian')]
+-> Prob = 2.09913454111e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'and', 'riverside', 'near', 'X', 'providing', 'Indian']
+-> Prob = 0.306105171367
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive')]
+-> Prob = 9.7608518544e-07
+R* = ['X', 'near', 'X', 'in the', 'X', 'is a', 'restaurant', 'in the', 'expensive']
+-> Prob = 0.171661344688
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'citycentre')]
+-> Prob = 1.37389466192e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'expensive', 'in the', 'city centre']
+-> Prob = 0.139680965369
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Italian')]
+-> Prob = 4.45956804261e-08
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'riverside', 'and', 'X', 'in the', 'Italian']
+-> Prob = 0.138693189508
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'French')]
+-> Prob = 1.24869287175e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'in the', 'French']
+-> Prob = 0.130679255743
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 1.17698117385e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'near', 'X', 'providing', 'Chinese']
+-> Prob = 0.310333896997
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 2.14577142927e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'near', 'X', 'and', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.313119098703
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 2.66175686137e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'X', 'and', 'X']
+-> Prob = 0.332222401585
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Contemporary'), ('inform', 'food', 'English')]
+-> Prob = 1.5935418436e-05
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'Contemporary', 'English']
+-> Prob = 0.248351029601
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Fastfood'), ('inform', 'pricerange', 'cheap')]
+-> Prob = 1.06804846505e-08
+R* = ['X', 'is a', 'riverfront', 'restaurant', 'providing', 'fast food', 'cheap']
+-> Prob = 0.380777887571
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'X')]
+-> Prob = 0.000291688842813
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X']
+-> Prob = 0.364079344203
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'postcode'), ('inform', 'postcode', 'X')]
+-> Prob = 0.00143395867664
+R* = ['X', 'is a', 'restaurant', 'in the', 'X']
+-> Prob = 0.470288854192
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre')]
+-> Prob = 0.0123320446191
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre.']
+-> Prob = 0.137843284849
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 0.000264340470526
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'Chinese']
+-> Prob = 0.731981981982
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 8.44977342768e-07
+R* = ['X', 'is a', 'moderate', 'in the', 'X', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.0110309682051
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Fusion')]
+-> Prob = 4.78270583475e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'Chinese takeaway', 'Fusion']
+-> Prob = 0.0327880813603
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'near', 'X')]
+-> Prob = 0.000105159560849
+R* = ['X', 'is a', 'restaurant', 'in the', 'cheap', 'in the', 'X']
+-> Prob = 0.254820634006
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+-> Prob = 0.00108225108225
+R* = ['X', 'restaurant is a', 'Chinese takeaway', 'and', 'Japanese']
+-> Prob = 0.291666666667
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+-> Prob = 2.27423395272e-06
+R* = ['X', 'restaurant', 'in the', 'city centre', 'offering', 'Italian', 'takeaway pizza']
+-> Prob = 0.126984126984
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.24351900974e-07
+R* = ['X', 'is a', 'expensive', 'in the', 'X', 'and', 'X', 'in the', 'X', 'is an', 'restaurant']
+-> Prob = 0.00802564363135
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate')]
+-> Prob = 0.00697676048441
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate']
+-> Prob = 0.491665620291
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Fastfood')]
+-> Prob = 0.001924001924
+R* = ['X', 'restaurant', 'providing', 'fast food.']
+-> Prob = 0.666666666667
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Takeaway')]
+-> Prob = 8.7002670982e-06
+R* = ['X', 'restaurant', 'in the', 'riverside', 'serving', 'Chinese takeaway', 'takeaway']
+-> Prob = 0.0416666666667
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Contemporary'), ('inform', 'food', 'English')]
+-> Prob = 7.09527657996e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'near', 'X', 'providing', 'Contemporary', 'English']
+-> Prob = 0.10529185791
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 1.82793030123e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'moderate', 'in the', 'X', 'and', 'X']
+-> Prob = 0.0236068393375
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.0769230769231
+R* = ['X', 'restaurant', 'near', 'X']
+-> Prob = 0.587013843111
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 0.0269971787607
+R* = ['X', 'is a', 'restaurant', 'in the', 'X']
+-> Prob = 0.404709410878
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Continental'), ('inform', 'food'), ('inform', 'food', 'French')]
+-> Prob = 4.92056704066e-08
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'in the', 'Continental', 'and', 'French']
+-> Prob = 0.133260437618
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 1.77714865368e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'providing', 'Chinese']
+-> Prob = 0.414550915917
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 4.39531133006e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'riverside', 'near', 'X']
+-> Prob = 0.206114304078
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 0.00296061326989
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside']
+-> Prob = 0.322256218483
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+-> Prob = 8.01031728867e-06
+R* = ['X', 'restaurant', 'near', 'X', 'that', 'Italian', 'takeaway pizza']
+-> Prob = 0.286817429675
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Indian')]
+-> Prob = 1.88618228362e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'X', 'and', 'X', 'in the', 'Indian']
+-> Prob = 0.141582630956
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Fastfood')]
+-> Prob = 7.9163391952e-08
+R* = ['X', 'is a', 'restaurant', 'in the', 'cheap', 'in the', 'riverside', 'in the', 'fast food']
+-> Prob = 0.0970852326554
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 4.12607854759e-07
+R* = ['X', 'is a', 'expensive', 'in the', 'X', 'near', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0180720117402
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'food', 'Continental'), ('inform', 'food'), ('inform', 'food', 'French')]
+-> Prob = 5.28856895189e-08
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'if you are seeking something', 'expensive', 'in the', 'Continental', 'and', 'French']
+-> Prob = 0.130660548039
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 6.14043167235e-05
+R* = ['X', 'restaurant', 'in the', 'city centre', 'offering', 'Chinese']
+-> Prob = 0.324074074074
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 8.07854720454e-06
+R* = ['X', 'is a', 'expensive', 'in the', 'riverside', 'near', 'restaurant']
+-> Prob = 0.111341533847
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Seafood')]
+-> Prob = 4.70587161709e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'providing', 'seafood.']
+-> Prob = 0.116611493854
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 0.00291284072225
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'and', 'X']
+-> Prob = 0.369297337426
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'food', 'Italian')]
+-> Prob = 1.41838512643e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'city centre', 'near', 'Italian']
+-> Prob = 0.304495931318
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.82544253346e-06
+R* = ['X', 'near', 'X', 'in the', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0546149702966
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 1.77714865368e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.4263952278
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 2.37193592854e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'and', 'X', 'providing', 'Chinese']
+-> Prob = 0.200182124641
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 0.0269971787607
+R* = ['X', 'is a', 'restaurant', 'in the', 'X']
+-> Prob = 0.404709410878
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Chinese')]
+-> Prob = 0.000137060379561
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'in the', 'Chinese']
+-> Prob = 0.220148546276
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.285714285714
+R* = ['X', 'restaurant']
+-> Prob = 0.939393939394
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'coffeeshop'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.00145772594752
+R* = ['X', 'is a', 'cafe', 'restaurant.']
+-> Prob = 0.486413043478
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Fastfood')]
+-> Prob = 4.5686793187e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'in the', 'fast food']
+-> Prob = 0.150959003161
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Continental'), ('inform', 'food'), ('inform', 'food', 'French')]
+-> Prob = 4.60532375426e-05
+R* = ['X', 'restaurant', 'that provides', 'Continental', 'and', 'French']
+-> Prob = 0.184060846561
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'food', 'Chinese')]
+-> Prob = 3.01003258939e-06
+R* = ['X', 'in', 'X', 'is a', 'restaurant', 'in the', 'Chinese']
+-> Prob = 0.154665440445
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.000111880652038
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'and', 'X']
+-> Prob = 0.131677648194
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.6918809881e-05
+R* = ['X', 'near', 'X', 'in the', 'X', 'is an', 'restaurant']
+-> Prob = 0.0585160396035
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 8.48994239111e-07
+R* = ['X', 'near', 'X', 'in the', 'riverside', 'and also in the', 'centre of the city', 'near', 'restaurant']
+-> Prob = 0.227337563568
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 3.9131146258e-05
+R* = ['X', 'near', 'X', 'which offers an', 'moderate', 'restaurant']
+-> Prob = 0.249420613057
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.00342501521591
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'near', 'X']
+-> Prob = 0.248872647153
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 0.0216644027092
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside']
+-> Prob = 0.535132745553
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 0.000264340470526
+R* = ['X', 'restaurant', 'near', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.752895752896
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 4.13936883836e-05
+R* = ['X', 'near', 'X', 'in the', 'city centre', 'near', 'restaurant']
+-> Prob = 0.303937570481
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Italian')]
+-> Prob = 1.83558544386e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'X', 'in the', 'Italian']
+-> Prob = 0.144472072404
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Fastfood')]
+-> Prob = 1.1439123627e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'and', 'X', 'providing', 'fast food.']
+-> Prob = 0.114389785509
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+-> Prob = 4.81922941382e-05
+R* = ['X', 'restaurant', 'near', 'X', 'and', 'X', 'providing', 'French']
+-> Prob = 0.707778438497
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 1.43481175043e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.0562081394747
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Fusion')]
+-> Prob = 1.76226980351e-05
+R* = ['X', 'restaurant', 'near', 'X', 'that offers', 'Chinese takeaway', 'Fusion']
+-> Prob = 0.146396396396
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X')]
+-> Prob = 0.000595364898344
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X']
+-> Prob = 0.254820634006
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.0148530454653
+R* = ['X', 'is an', 'expensive', 'restaurant']
+-> Prob = 0.80616118483
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'cheap'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 4.43915227859e-05
+R* = ['X', 'near', 'X', 'which offers an', 'cheap.', 'restaurant']
+-> Prob = 0.0596440596441
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.000210334006886
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'X', 'near', 'X']
+-> Prob = 0.221887848866
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Italian'), ('inform', 'food'), ('inform', 'food', 'Takeaway pizza')]
+-> Prob = 6.09018696874e-06
+R* = ['X', 'restaurant', 'in the', 'riverside', 'serving', 'Italian', 'food and', 'takeaway pizza']
+-> Prob = 0.108843537415
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 2.15494948798e-06
+R* = ['X', 'restaurant', 'near', 'X', 'which offers an', 'moderate', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.0874575874576
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Takeaway')]
+-> Prob = 0.025974025974
+R* = ['X', 'restaurant is a', 'Chinese', 'takeaway']
+-> Prob = 0.5
+
+S* = [('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'English')]
+-> Prob = 0.00169618468588
+R* = ['restaurant', 'near', 'X', 'that offers', 'English']
+-> Prob = 0.671902421902
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'food', 'Continental'), ('inform', 'food'), ('inform', 'food', 'French')]
+-> Prob = 4.23572267312e-06
+R* = ['X', 'restaurant', 'near', 'X', 'near', 'Continental', 'and', 'French']
+-> Prob = 0.52916307808
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 2.37193592854e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'and', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.205901613916
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'moderate')]
+-> Prob = 0.000327391160344
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'with a', 'moderate']
+-> Prob = 0.220619188592
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Cafe food'), ('inform',), ('inform', 'food', 'English')]
+-> Prob = 0.001924001924
+R* = ['X', 'restaurant', 'is a', 'cafe', 'which serves', 'English']
+-> Prob = 0.633333333333
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 7.76345751233e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'cheap', 'in the', 'riverside', 'near', 'X']
+-> Prob = 0.206114304078
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'pricerange', 'expensive')]
+-> Prob = 3.27781878834e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'in the', 'expensive']
+-> Prob = 0.119045284735
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 3.46627437984e-05
+R* = ['X', 'is a', 'expensive', 'in the', 'X', 'is an', 'restaurant']
+-> Prob = 0.0163485333231
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Chinese'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 6.28335307611e-05
+R* = ['X', 'in the', 'riverside', 'in the', 'Chinese', 'restaurant']
+-> Prob = 0.253561461578
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X')]
+-> Prob = 0.00025907766784
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'X']
+-> Prob = 0.364079344203
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 1.52219026145e-05
+R* = ['X', 'restaurant', 'near', 'X', 'and', 'X', 'in the', 'riverside', 'and', 'X']
+-> Prob = 0.322841484951
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Cafe food'), ('inform',), ('inform', 'food', 'English')]
+-> Prob = 1.07133074867e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'providing', 'cafe', 'which serves', 'English']
+-> Prob = 0.112520962892
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'addr', 'X'), ('inform',), ('inform', 'phone', 'X')]
+-> Prob = 3.41135092908e-06
+R* = ['X', 'restaurant', 'on', 'X.', 'is a', 'X.']
+-> Prob = 0.154846335697
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 2.11856611293e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'near', 'X', 'providing', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.106400193256
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'French')]
+-> Prob = 9.1373586374e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'in the', 'French']
+-> Prob = 0.217003567044
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.000111017371354
+R* = ['X', 'in the', 'city centre', 'near', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0650929368586
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 9.78394817942e-07
+R* = ['X', 'is a', 'moderate', 'in the', 'riverside', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.0101552790368
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'food', 'Cafe food'), ('inform',), ('inform', 'food', 'English')]
+-> Prob = 3.88054149136e-07
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'centre of the city', 'that offers', 'cafe', 'which serves', 'English']
+-> Prob = 0.0903094653095
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 1.99786878639e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.254820634006
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'food', 'Cafe food'), ('inform',), ('inform', 'food', 'English')]
+-> Prob = 2.27423395272e-06
+R* = ['X', 'restaurant', 'in the', 'city centre', 'offering', 'cafe', 'which serves', 'English']
+-> Prob = 0.158333333333
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 7.01459034792e-05
+R* = ['X', 'restaurant', 'in the', 'riverside', 'serving', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.0952380952381
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 6.34356058029e-07
+R* = ['X', 'restaurant', 'in the', 'city centre', 'is a', 'cheap', 'in the', 'X', 'and', 'X']
+-> Prob = 0.0270974438561
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 3.79595069414e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'near', 'X']
+-> Prob = 0.223887529496
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'food', 'Indian')]
+-> Prob = 7.11719913792e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'with a', 'moderate', 'Indian']
+-> Prob = 0.220619188592
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+-> Prob = 0.000174909265818
+R* = ['X', 'restaurant', 'where you can find', 'Italian', 'takeaway pizza']
+-> Prob = 0.0846560846561
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Italian')]
+-> Prob = 0.000159903776155
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'in the', 'Italian']
+-> Prob = 0.215655718801
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform',), ('inform', 'food', 'Contemporary'), ('inform', 'food', 'English')]
+-> Prob = 8.87252287123e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'X', 'serving', 'Contemporary', 'English']
+-> Prob = 0.225436629647
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 0.0216644027092
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside']
+-> Prob = 0.535132745553
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 6.5045360478e-05
+R* = ['X', 'in', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.129027867326
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 3.11404136473e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'and also in the', 'centre of the city', 'near', 'X', 'and', 'X']
+-> Prob = 0.286639066081
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 0.00172702440744
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X']
+-> Prob = 0.401086017524
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Seafood')]
+-> Prob = 9.56125106158e-05
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'seafood.']
+-> Prob = 0.418275418275
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 1.30103509414e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'providing', 'Chinese']
+-> Prob = 0.204070114245
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.000942824127845
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'and', 'X']
+-> Prob = 0.251591849774
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'moderate')]
+-> Prob = 0.000327391160344
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'with a', 'moderate']
+-> Prob = 0.220619188592
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Fastfood')]
+-> Prob = 4.5686793187e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'in the', 'fast food']
+-> Prob = 0.150959003161
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Continental'), ('inform', 'food'), ('inform', 'food', 'French')]
+-> Prob = 4.92056704066e-08
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'in the', 'Continental', 'and', 'French']
+-> Prob = 0.133260437618
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 3.9131146258e-05
+R* = ['X', 'near', 'X', 'which offers an', 'moderate', 'restaurant']
+-> Prob = 0.249420613057
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'food', 'Continental'), ('inform', 'food'), ('inform', 'food', 'French')]
+-> Prob = 4.23572267312e-06
+R* = ['X', 'restaurant', 'near', 'X', 'near', 'Continental', 'and', 'French']
+-> Prob = 0.52916307808
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Fastfood'), ('inform', 'pricerange', 'cheap')]
+-> Prob = 1.06804846505e-08
+R* = ['X', 'is a', 'riverfront', 'restaurant', 'providing', 'fast food', 'cheap']
+-> Prob = 0.380777887571
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 2.14577142927e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'near', 'X', 'and', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.313119098703
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 2.15494948798e-06
+R* = ['X', 'restaurant', 'near', 'X', 'which offers an', 'moderate', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.0874575874576
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'food', 'Contemporary'), ('inform', 'food', 'English')]
+-> Prob = 8.18477900861e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'serving', 'Contemporary', 'English']
+-> Prob = 0.250594621825
+
+S* = [('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.41935483871
+R* = ['city centre', 'near', 'X']
+-> Prob = 0.245715693521
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 2.51186801826e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'and', 'X', 'in the', 'X']
+-> Prob = 0.119952926095
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 8.44977342768e-07
+R* = ['X', 'is a', 'moderate', 'in the', 'X', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.0110309682051
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive')]
+-> Prob = 9.7608518544e-07
+R* = ['X', 'near', 'X', 'in the', 'X', 'is a', 'restaurant', 'in the', 'expensive']
+-> Prob = 0.171661344688
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Italian')]
+-> Prob = 1.83558544386e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'X', 'in the', 'Italian']
+-> Prob = 0.144472072404
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 7.01459034792e-05
+R* = ['X', 'restaurant', 'in the', 'riverside', 'serving', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.0952380952381
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Contemporary'), ('inform', 'food', 'English')]
+-> Prob = 1.5935418436e-05
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'Contemporary', 'English']
+-> Prob = 0.248351029601
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 4.13936883836e-05
+R* = ['X', 'near', 'X', 'in the', 'city centre', 'near', 'restaurant']
+-> Prob = 0.303937570481
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 0.003848003848
+R* = ['X', 'restaurant', 'serving', 'Chinese']
+-> Prob = 0.648148148148
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre')]
+-> Prob = 0.0027138954974
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'city centre.']
+-> Prob = 0.118008738698
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Takeaway')]
+-> Prob = 0.025974025974
+R* = ['X', 'restaurant is a', 'Chinese', 'takeaway']
+-> Prob = 0.5
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 8.07854720454e-06
+R* = ['X', 'is a', 'expensive', 'in the', 'riverside', 'near', 'restaurant']
+-> Prob = 0.111341533847
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X')]
+-> Prob = 0.00025907766784
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'X']
+-> Prob = 0.364079344203
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+-> Prob = 5.92382884559e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'that offers', 'Chinese', 'food', 'Japanese']
+-> Prob = 0.4263952278
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Fastfood')]
+-> Prob = 7.9163391952e-08
+R* = ['X', 'is a', 'restaurant', 'in the', 'cheap', 'in the', 'riverside', 'in the', 'fast food']
+-> Prob = 0.0970852326554
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'food', 'Chinese'), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 0.00275785990072
+R* = ['X', 'is a', 'Chinese', 'restaurant', 'in the', 'riverside']
+-> Prob = 0.528321965155
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Italian')]
+-> Prob = 1.28499978055e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X', 'in the', 'Italian']
+-> Prob = 0.159156868102
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.0769230769231
+R* = ['X', 'restaurant', 'near', 'X']
+-> Prob = 0.587013843111
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian')]
+-> Prob = 3.52884432379e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'cheap', 'in the', 'riverside', 'serving', 'Indian']
+-> Prob = 0.364495434882
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 2.1881083602e-06
+R* = ['X', 'is a', 'cheap', 'in the', 'city centre', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.00867239482309
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Contemporary'), ('inform', 'food', 'English')]
+-> Prob = 7.09527657996e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'near', 'X', 'providing', 'Contemporary', 'English']
+-> Prob = 0.10529185791
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X')]
+-> Prob = 0.000595364898344
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X']
+-> Prob = 0.254820634006
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Chinese')]
+-> Prob = 1.87303930762e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'in the', 'Chinese']
+-> Prob = 0.132573158
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 1.30103509414e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.209900688938
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Chinese')]
+-> Prob = 1.10142838332e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X', 'in the', 'Chinese']
+-> Prob = 0.162472636188
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 3.79595069414e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'near', 'X']
+-> Prob = 0.223887529496
+
+S* = [('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 0.233333333333
+R* = ['X', 'in the', 'X']
+-> Prob = 0.321779902547
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 2.37193592854e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'and', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.205901613916
+
+S* = [('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.722222222222
+R* = ['X', 'near', 'X']
+-> Prob = 0.565437000059
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.000110472482309
+R* = ['X', 'in', 'X', 'with a', 'moderate', 'restaurant']
+-> Prob = 0.420897284534
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Fusion')]
+-> Prob = 1.76226980351e-05
+R* = ['X', 'restaurant', 'near', 'X', 'that offers', 'Chinese takeaway', 'Fusion']
+-> Prob = 0.146396396396
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'pricerange', 'expensive')]
+-> Prob = 3.27781878834e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'in the', 'expensive']
+-> Prob = 0.119045284735
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Cafe food'), ('inform',), ('inform', 'food', 'English')]
+-> Prob = 0.001924001924
+R* = ['X', 'restaurant', 'is a', 'cafe', 'which serves', 'English']
+-> Prob = 0.633333333333
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.0051715025822
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X']
+-> Prob = 0.33244961257
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Continental'), ('inform', 'food'), ('inform', 'food', 'French')]
+-> Prob = 4.60532375426e-05
+R* = ['X', 'restaurant', 'that provides', 'Continental', 'and', 'French']
+-> Prob = 0.184060846561
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway')]
+-> Prob = 3.23994545651e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'and', 'X', 'that offers', 'Chinese takeaway.']
+-> Prob = 0.209135725125
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.24351900974e-07
+R* = ['X', 'is a', 'expensive', 'in the', 'X', 'and', 'X', 'in the', 'X', 'is an', 'restaurant']
+-> Prob = 0.00802564363135
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 3.83462975114e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'X', 'near', 'X', 'and', 'X']
+-> Prob = 0.167920708065
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'pricerange', 'cheap')]
+-> Prob = 0.00414479137883
+R* = ['X', 'restaurant', 'in the', 'cheap']
+-> Prob = 0.208333333333
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 0.00291284072225
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'and', 'X']
+-> Prob = 0.369297337426
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'addr', 'X'), ('inform',), ('inform', 'phone', 'X')]
+-> Prob = 3.41135092908e-06
+R* = ['X', 'restaurant', 'on', 'X.', 'is a', 'X.']
+-> Prob = 0.154846335697
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre')]
+-> Prob = 0.0123320446191
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre.']
+-> Prob = 0.137843284849
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 4.39531133006e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'riverside', 'near', 'X']
+-> Prob = 0.206114304078
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian')]
+-> Prob = 0.000793021411578
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'Indian']
+-> Prob = 0.752895752896
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 7.76345751233e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'cheap', 'in the', 'riverside', 'near', 'X']
+-> Prob = 0.206114304078
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Fastfood')]
+-> Prob = 0.001924001924
+R* = ['X', 'restaurant', 'providing', 'fast food.']
+-> Prob = 0.666666666667
+
+S* = [('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'English')]
+-> Prob = 0.00169618468588
+R* = ['restaurant', 'near', 'X', 'that offers', 'English']
+-> Prob = 0.671902421902
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+-> Prob = 1.30103509414e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'providing', 'French']
+-> Prob = 0.201154826899
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.000111880652038
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'and', 'X']
+-> Prob = 0.131677648194
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Indian')]
+-> Prob = 2.06410609664e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'and', 'X', 'in the', 'Indian']
+-> Prob = 0.157382790529
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 1.82793030123e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'moderate', 'in the', 'X', 'and', 'X']
+-> Prob = 0.0236068393375
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.00060894349823
+R* = ['X', 'in the', 'city centre', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.0663571889104
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 6.92045270337e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'near', 'X', 'and', 'X']
+-> Prob = 0.169434030173
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+-> Prob = 4.81922941382e-05
+R* = ['X', 'restaurant', 'near', 'X', 'and', 'X', 'providing', 'French']
+-> Prob = 0.707778438497
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.285714285714
+R* = ['X', 'restaurant']
+-> Prob = 0.939393939394
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'food', 'Chinese')]
+-> Prob = 4.28660222475e-05
+R* = ['X', 'restaurant', 'near', 'X', 'which offers an', 'expensive', 'Chinese']
+-> Prob = 0.426021259355
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Indian')]
+-> Prob = 1.88618228362e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'X', 'and', 'X', 'in the', 'Indian']
+-> Prob = 0.141582630956
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'expensive')]
+-> Prob = 0.000793021411578
+R* = ['X', 'restaurant', 'near', 'X', 'which offers an', 'expensive']
+-> Prob = 0.438193295336
+
+S* = [('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 0.233333333333
+R* = ['X', 'in the', 'X']
+-> Prob = 0.321779902547
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'addr'), ('inform', 'addr', 'X')]
+-> Prob = 0.00215093801496
+R* = ['X', 'is a', 'restaurant', 'located at', 'X.']
+-> Prob = 0.313525902794
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.67004924197e-05
+R* = ['X', 'in the', 'riverside', 'near', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0327849040955
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 0.000264340470526
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'Chinese']
+-> Prob = 0.731981981982
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.000624419485918
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'near', 'X', 'and', 'X']
+-> Prob = 0.188342315009
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 8.3493947972e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'and', 'X']
+-> Prob = 0.319969802392
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Indian')]
+-> Prob = 2.08115478625e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'in the', 'Indian']
+-> Prob = 0.136360962515
+
+S* = [('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre')]
+-> Prob = 0.366666666667
+R* = ['X', 'in the', 'city centre.']
+-> Prob = 0.0946750541752
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+-> Prob = 8.01031728867e-06
+R* = ['X', 'restaurant', 'near', 'X', 'that', 'Italian', 'takeaway pizza']
+-> Prob = 0.286817429675
+
+S* = [('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.722222222222
+R* = ['X', 'near', 'X']
+-> Prob = 0.565437000059
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 1.77714865368e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.4263952278
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Indian')]
+-> Prob = 0.00019130823339
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'Indian']
+-> Prob = 0.168624418424
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian')]
+-> Prob = 1.99786878639e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'riverside', 'serving', 'Indian']
+-> Prob = 0.364495434882
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.82544253346e-06
+R* = ['X', 'near', 'X', 'in the', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0546149702966
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 0.000306407556158
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'city centre', 'and', 'riverside']
+-> Prob = 0.343729157288
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'French')]
+-> Prob = 9.1373586374e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'in the', 'French']
+-> Prob = 0.217003567044
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Seafood')]
+-> Prob = 4.70587161709e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'providing', 'seafood.']
+-> Prob = 0.116611493854
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 0.000264340470526
+R* = ['X', 'restaurant', 'near', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.752895752896
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Fusion')]
+-> Prob = 4.78270583475e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'Chinese takeaway', 'Fusion']
+-> Prob = 0.0327880813603
+
+S* = [('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 0.4
+R* = ['X', 'in the', 'riverside']
+-> Prob = 0.258536997172
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'postcode'), ('inform', 'postcode', 'X')]
+-> Prob = 0.00143395867664
+R* = ['X', 'is a', 'restaurant', 'in the', 'X']
+-> Prob = 0.470288854192
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.000690233355206
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'and', 'X']
+-> Prob = 0.123850594837
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 2.11856611293e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'near', 'X', 'providing', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.106400193256
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.78372576684e-07
+R* = ['X', 'is a', 'moderate', 'in the', 'riverside', 'near', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.00996179838203
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Chinese')]
+-> Prob = 0.000137060379561
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'in the', 'Chinese']
+-> Prob = 0.220148546276
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+-> Prob = 0.000174909265818
+R* = ['X', 'restaurant', 'where you can find', 'Italian', 'takeaway pizza']
+-> Prob = 0.0846560846561
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+-> Prob = 0.00108225108225
+R* = ['X', 'restaurant is a', 'Chinese takeaway', 'and', 'Japanese']
+-> Prob = 0.291666666667
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+-> Prob = 0.000264340470526
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'French']
+-> Prob = 0.721525096525
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 0.0269971787607
+R* = ['X', 'is a', 'restaurant', 'in the', 'X']
+-> Prob = 0.404709410878
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'French')]
+-> Prob = 2.37193592854e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'and', 'X', 'providing', 'French']
+-> Prob = 0.197322380003
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+-> Prob = 6.10794261588e-06
+R* = ['X', 'restaurant', 'in the', 'city centre', 'offering', 'Chinese takeaway', 'and', 'Japanese']
+-> Prob = 0.0972222222222
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.000210334006886
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'X', 'near', 'X']
+-> Prob = 0.221887848866
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'pricerange', 'expensive'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 8.77342832257e-05
+R* = ['X', 'in', 'X', 'in the', 'expensive', 'restaurant']
+-> Prob = 0.327659101024
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+-> Prob = 5.38529895054e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'that', 'Italian', 'takeaway pizza']
+-> Prob = 0.162436277257
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 1.52219026145e-05
+R* = ['X', 'restaurant', 'near', 'X', 'and', 'X', 'in the', 'riverside', 'and', 'X']
+-> Prob = 0.322841484951
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.000602862082697
+R* = ['X', 'in', 'X', 'is an', 'restaurant']
+-> Prob = 0.118494980197
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.000172484708567
+R* = ['X', 'near', 'X', 'which offers an', 'expensive', 'restaurant']
+-> Prob = 0.416561686403
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Cafe food'), ('inform',), ('inform', 'food', 'English')]
+-> Prob = 2.9052092211e-06
+R* = ['X', 'restaurant', 'near', 'X', 'and', 'X', 'providing', 'cafe', 'which serves', 'English']
+-> Prob = 0.19489551205
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 9.17499524184e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'cheap', 'in the', 'city centre', 'near', 'X']
+-> Prob = 0.14721445483
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 0.000186336026697
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X', 'and', 'X']
+-> Prob = 0.365990990991
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Italian'), ('inform', 'food'), ('inform', 'food', 'Takeaway pizza')]
+-> Prob = 6.09018696874e-06
+R* = ['X', 'restaurant', 'in the', 'riverside', 'serving', 'Italian', 'food and', 'takeaway pizza']
+-> Prob = 0.108843537415
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Italian')]
+-> Prob = 4.45956804261e-08
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'riverside', 'and', 'X', 'in the', 'Italian']
+-> Prob = 0.138693189508
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 6.14043167235e-05
+R* = ['X', 'restaurant', 'in the', 'city centre', 'offering', 'Chinese']
+-> Prob = 0.324074074074
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'pricerange', 'expensive'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.0148530454653
+R* = ['X', 'is an', 'expensive', 'restaurant']
+-> Prob = 0.80616118483
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Continental'), ('inform', 'food'), ('inform', 'food', 'French')]
+-> Prob = 4.78270583475e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'Continental', 'and', 'French']
+-> Prob = 0.148131867574
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 6.67049365193e-06
+R* = ['X', 'is a', 'expensive', 'in the', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0140448763549
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'French')]
+-> Prob = 1.24869287175e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'in the', 'French']
+-> Prob = 0.130679255743
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.0769230769231
+R* = ['X', 'restaurant', 'near', 'X']
+-> Prob = 0.587013843111
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 1.99786878639e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.254820634006
+
+S* = [('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.41935483871
+R* = ['city centre', 'near', 'X']
+-> Prob = 0.245715693521
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.00627455951325
+R* = ['X', 'is a', 'moderately priced', 'restaurant']
+-> Prob = 0.792018006148
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 9.1604189076e-05
+R* = ['X', 'in the', 'riverside', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.0334216610812
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 6.5045360478e-05
+R* = ['X', 'in', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.129027867326
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 3.46627437984e-05
+R* = ['X', 'is a', 'expensive', 'in the', 'X', 'is an', 'restaurant']
+-> Prob = 0.0163485333231
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 6.34356058029e-07
+R* = ['X', 'restaurant', 'in the', 'city centre', 'is a', 'cheap', 'in the', 'X', 'and', 'X']
+-> Prob = 0.0270974438561
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 7.45344106788e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X', 'and', 'riverside']
+-> Prob = 0.283576554763
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 4.12607854759e-07
+R* = ['X', 'is a', 'expensive', 'in the', 'X', 'near', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0180720117402
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian')]
+-> Prob = 0.000374111485223
+R* = ['X', 'restaurant', 'in the', 'riverside', 'serving', 'Indian']
+-> Prob = 0.285714285714
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 4.75812846947e-05
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.250965250965
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'food', 'Italian'), ('inform', 'food', 'Takeaway pizza')]
+-> Prob = 2.27423395272e-06
+R* = ['X', 'restaurant', 'in the', 'city centre', 'offering', 'Italian', 'takeaway pizza']
+-> Prob = 0.126984126984
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate')]
+-> Prob = 0.00697676048441
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate']
+-> Prob = 0.491665620291
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'X')]
+-> Prob = 0.000291688842813
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X']
+-> Prob = 0.364079344203
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Italian')]
+-> Prob = 0.000159903776155
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'in the', 'Italian']
+-> Prob = 0.215655718801
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Cafe food'), ('inform',), ('inform', 'food', 'English')]
+-> Prob = 1.07133074867e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'providing', 'cafe', 'which serves', 'English']
+-> Prob = 0.112520962892
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Indian')]
+-> Prob = 1.22380931481e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X', 'in the', 'Indian']
+-> Prob = 0.167114711507
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 6.92341897642e-07
+R* = ['X', 'is a', 'expensive', 'in the', 'X', 'in the', 'X', 'is an', 'restaurant']
+-> Prob = 0.00817426666156
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Italian')]
+-> Prob = 2.18521252556e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'in the', 'Italian']
+-> Prob = 0.129867583347
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 1.43481175043e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.0562081394747
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Fusion')]
+-> Prob = 0.00108225108225
+R* = ['X', 'restaurant is a', 'Chinese', 'Fusion']
+-> Prob = 0.666666666667
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'food', 'Cafe food'), ('inform',), ('inform', 'food', 'English')]
+-> Prob = 3.88054149136e-07
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'centre of the city', 'that offers', 'cafe', 'which serves', 'English']
+-> Prob = 0.0903094653095
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 0.0216644027092
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside']
+-> Prob = 0.535132745553
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+-> Prob = 8.81134901753e-06
+R* = ['X', 'restaurant', 'near', 'X', 'that offers', 'Chinese', 'food', 'Japanese']
+-> Prob = 0.752895752896
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 2.66175686137e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'X', 'and', 'X']
+-> Prob = 0.332222401585
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'food', 'Continental'), ('inform', 'food'), ('inform', 'food', 'French')]
+-> Prob = 5.28856895189e-08
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'if you are seeking something', 'expensive', 'in the', 'Continental', 'and', 'French']
+-> Prob = 0.130660548039
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.61395064853e-07
+R* = ['X', 'near', 'X', 'in the', 'moderate', 'in the', 'riverside', 'near', 'restaurant']
+-> Prob = 0.151154567162
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'food', 'Chinese')]
+-> Prob = 3.01003258939e-06
+R* = ['X', 'in', 'X', 'is a', 'restaurant', 'in the', 'Chinese']
+-> Prob = 0.154665440445
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'pricerange', 'moderate'), ('inform', 'food', 'Indian')]
+-> Prob = 7.11719913792e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'with a', 'moderate', 'Indian']
+-> Prob = 0.220619188592
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'citycentre'), ('inform',), ('inform', 'food', 'Cafe food'), ('inform',), ('inform', 'food', 'English')]
+-> Prob = 2.27423395272e-06
+R* = ['X', 'restaurant', 'in the', 'city centre', 'offering', 'cafe', 'which serves', 'English']
+-> Prob = 0.158333333333
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Italian')]
+-> Prob = 0.00020087364506
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'Italian']
+-> Prob = 0.160594684214
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 9.78394817942e-07
+R* = ['X', 'is a', 'moderate', 'in the', 'riverside', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.0101552790368
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 5.53905079656e-07
+R* = ['X', 'is a', 'moderate', 'in the', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0136130318738
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive')]
+-> Prob = 0.00761101143754
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive']
+-> Prob = 0.821139269224
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 1.17698117385e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'near', 'X', 'providing', 'Chinese']
+-> Prob = 0.310333896997
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 5.86972082637e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'and also in the', 'centre of the city', 'near', 'X', 'providing', 'Chinese']
+-> Prob = 0.47229863562
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.63118794346e-05
+R* = ['X', 'is a', 'expensive', 'in the', 'X', 'is an', 'restaurant']
+-> Prob = 0.0243593146515
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.67928113386e-05
+R* = ['X', 'in', 'X', 'near', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0946729850885
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 0.00172702440744
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X']
+-> Prob = 0.401086017524
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.000282394329928
+R* = ['X', 'in the', 'riverside,', 'near', 'restaurant']
+-> Prob = 0.219404933691
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food', 'Takeaway')]
+-> Prob = 8.7002670982e-06
+R* = ['X', 'restaurant', 'in the', 'riverside', 'serving', 'Chinese takeaway', 'takeaway']
+-> Prob = 0.0416666666667
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Indian')]
+-> Prob = 1.7481766132e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'X', 'in the', 'Indian']
+-> Prob = 0.151695676024
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap')]
+-> Prob = 0.000528680941052
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'cheap']
+-> Prob = 0.548986486486
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.000111017371354
+R* = ['X', 'in the', 'city centre', 'near', 'X', 'and', 'X', 'is an', 'restaurant']
+-> Prob = 0.0650929368586
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 3.23994545651e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'and', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.41827145025
+
+S* = [('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 0.4
+R* = ['X', 'in the', 'riverside']
+-> Prob = 0.258536997172
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Fastfood')]
+-> Prob = 0.000127483347488
+R* = ['X', 'restaurant', 'near', 'X', 'providing', 'fast food.']
+-> Prob = 0.418275418275
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese takeaway'), ('inform', 'food'), ('inform', 'food', 'Japanese')]
+-> Prob = 1.60640980461e-06
+R* = ['X', 'restaurant', 'near', 'X', 'and', 'X', 'that offers', 'Chinese', 'food', 'Japanese']
+-> Prob = 0.738551414083
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Seafood')]
+-> Prob = 0.001924001924
+R* = ['X', 'restaurant', 'providing', 'seafood.']
+-> Prob = 0.666666666667
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'food'), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 3.32719607671e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'riverside', 'serving', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.121498478294
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.285714285714
+R* = ['X', 'restaurant']
+-> Prob = 0.939393939394
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 4.81922941382e-05
+R* = ['X', 'restaurant', 'near', 'X', 'and', 'X', 'providing', 'Chinese']
+-> Prob = 0.718036097025
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.000907560021401
+R* = ['X', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.105328871286
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.00378601212394
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X']
+-> Prob = 0.163654276985
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X')]
+-> Prob = 0.0269971787607
+R* = ['X', 'is a', 'restaurant', 'in the', 'X']
+-> Prob = 0.404709410878
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'food', 'Chinese'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 6.28335307611e-05
+R* = ['X', 'in the', 'riverside', 'in the', 'Chinese', 'restaurant']
+-> Prob = 0.253561461578
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 0.00296061326989
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside']
+-> Prob = 0.322256218483
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.00187723064721
+R* = ['X', 'in the', 'city centre', 'near', 'restaurant']
+-> Prob = 0.394928880643
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'riverside')]
+-> Prob = 0.000235748516794
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'riverside']
+-> Prob = 0.257412030284
+
+S* = [('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre')]
+-> Prob = 0.366666666667
+R* = ['X', 'in the', 'city centre.']
+-> Prob = 0.0946750541752
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Chinese')]
+-> Prob = 0.000172177410051
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'in the', 'Chinese']
+-> Prob = 0.163940406801
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 0.00577200577201
+R* = ['X', 'restaurant', 'where you can find', 'Italian']
+-> Prob = 0.21164021164
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Fastfood')]
+-> Prob = 1.1439123627e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'and', 'X', 'providing', 'fast food.']
+-> Prob = 0.114389785509
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.6918809881e-05
+R* = ['X', 'near', 'X', 'in the', 'X', 'is an', 'restaurant']
+-> Prob = 0.0585160396035
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Italian')]
+-> Prob = 3.84469594632e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'expensive', 'in the', 'X', 'and', 'X', 'that', 'serves Italian food.']
+-> Prob = 0.218914090123
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian')]
+-> Prob = 2.09913454111e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'and', 'riverside', 'near', 'X', 'providing', 'Indian']
+-> Prob = 0.306105171367
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'food', 'Italian')]
+-> Prob = 1.41838512643e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'city centre', 'near', 'Italian']
+-> Prob = 0.304495931318
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'phone', 'X')]
+-> Prob = 0.001924001924
+R* = ['X', 'restaurant,', 'which can be reached at', 'X']
+-> Prob = 0.166666666667
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate')]
+-> Prob = 3.18821293734e-05
+R* = ['X', 'in', 'X', 'is a', 'restaurant', 'in the', 'moderate']
+-> Prob = 0.208137607074
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 2.37193592854e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'and', 'X', 'providing', 'Chinese']
+-> Prob = 0.200182124641
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 8.48994239111e-07
+R* = ['X', 'near', 'X', 'in the', 'riverside', 'and also in the', 'centre of the city', 'near', 'restaurant']
+-> Prob = 0.227337563568
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside')]
+-> Prob = 0.0216644027092
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside']
+-> Prob = 0.535132745553
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform',), ('inform', 'food', 'Contemporary'), ('inform', 'food', 'English')]
+-> Prob = 8.87252287123e-07
+R* = ['X', 'is a', 'restaurant', 'in the', 'moderate', 'in the', 'X', 'serving', 'Contemporary', 'English']
+-> Prob = 0.225436629647
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform',), ('inform', 'food', 'Indian')]
+-> Prob = 0.00577200577201
+R* = ['X', 'restaurant', 'that has', 'Indian']
+-> Prob = 0.222222222222
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'near', 'X')]
+-> Prob = 0.000105159560849
+R* = ['X', 'is a', 'restaurant', 'in the', 'cheap', 'in the', 'X']
+-> Prob = 0.254820634006
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'area'), ('inform', 'food', 'Continental'), ('inform', 'food'), ('inform', 'food', 'French')]
+-> Prob = 3.05952328701e-07
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'X', 'in the', 'Continental', 'and', 'French']
+-> Prob = 0.146805631984
+
+S* = [('inform', 'name', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'moderate'), ('inform', 'pricerange'), ('inform', 'area', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 6.09011533735e-06
+R* = ['X', 'is a', 'moderate', 'in the', 'X', 'is an', 'restaurant']
+-> Prob = 0.0145853912934
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'pricerange', 'cheap'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 4.43915227859e-05
+R* = ['X', 'near', 'X', 'which offers an', 'cheap.', 'restaurant']
+-> Prob = 0.0596440596441
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'citycentre')]
+-> Prob = 1.37389466192e-05
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'expensive', 'in the', 'city centre']
+-> Prob = 0.139680965369
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'pricerange'), ('inform', 'pricerange', 'expensive'), ('inform', 'pricerange'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 1.66567983599e-07
+R* = ['X', 'near', 'X', 'in the', 'expensive', 'in the', 'riverside', 'near', 'restaurant']
+-> Prob = 0.226731850742
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Chinese')]
+-> Prob = 1.77714865368e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'city centre', 'near', 'X', 'providing', 'Chinese']
+-> Prob = 0.414550915917
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 0.00342501521591
+R* = ['X', 'is a', 'restaurant', 'in the', 'X', 'near', 'X']
+-> Prob = 0.248872647153
+
+S* = [('inform', 'name', 'X'), ('inform', 'area'), ('inform', 'area', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'eattype', 'restaurant')]
+-> Prob = 9.21105693362e-05
+R* = ['X', 'in', 'X', 'near', 'X', 'is an', 'restaurant']
+-> Prob = 0.0965117485768
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'pricerange'), ('inform', 'pricerange', 'cheap'), ('inform', 'pricerange'), ('inform', 'area', 'citycentre')]
+-> Prob = 2.3290372537e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'cheap', 'in the', 'city centre']
+-> Prob = 0.149571990324
+
+S* = [('inform', 'name', 'X'), ('inform', 'eattype', 'restaurant'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'food', 'Chinese')]
+-> Prob = 2.49354951347e-07
+R* = ['X', 'restaurant', 'near', 'X', 'in the', 'riverside', 'and also in the', 'centre of the city', 'near', 'Chinese']
+-> Prob = 0.232500103325
+
+S* = [('inform', 'name', 'X'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'area', 'riverside'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 2.72732231495e-05
+R* = ['X', 'near', 'X', 'you will find the', 'riverside', 'restaurant']
+-> Prob = 0.357864357864
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'coffeeshop'), ('inform', 'eattype', 'restaurant')]
+-> Prob = 0.00145772594752
+R* = ['X', 'is a', 'cafe', 'restaurant.']
+-> Prob = 0.486413043478
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform',), ('inform', 'food', 'Indian'), ('inform', 'food'), ('inform', 'food', 'Indian takeaway')]
+-> Prob = 2.34186316945e-06
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'near', 'X', 'providing', 'Indian', 'and', 'Indian takeaway']
+-> Prob = 0.0699668963125
+
+S* = [('inform', 'name', 'X'), ('inform',), ('inform', 'eattype', 'restaurant'), ('inform', 'area'), ('inform', 'area', 'riverside'), ('inform', 'area'), ('inform', 'area', 'citycentre'), ('inform', 'near'), ('inform', 'near', 'X'), ('inform', 'near'), ('inform', 'near', 'X')]
+-> Prob = 3.11404136473e-05
+R* = ['X', 'is a', 'restaurant', 'in the', 'riverside', 'and also in the', 'centre of the city', 'near', 'X', 'and', 'X']
+-> Prob = 0.286639066081
+

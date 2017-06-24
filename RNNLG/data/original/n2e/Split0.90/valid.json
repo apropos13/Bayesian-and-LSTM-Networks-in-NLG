@@ -1,0 +1,172 @@
+#####################################################
+#####################################################
+#  PK #
+#####################################################
+#####################################################
+[
+    [
+        "inform(name=\"Jinling\";type=placetoeat;eattype=restaurant;food=Chinese)\n", 
+        "I recommend Jinling a Chinese restaurant \n"
+    ], 
+    [
+        "inform(name=\"The Golden Curry\";type=placetoeat;eattype=restaurant;food=Indian)\n", 
+        "The Golden Curry is an Indian restaurant. \n"
+    ], 
+    [
+        "inform(name=\"The Ancient Shepherds\";type=placetoeat;eattype=restaurant;food=\"Chinese takeaway\";food=Japanese)\n", 
+        "The Ancient Shepherds is a Japanese restaurant that provides Chinese takeaway. \n"
+    ], 
+    [
+        "inform(name=\"The Golden Palace\";type=placetoeat;eattype=restaurant;near=\"Cambridge University Real Tennis Club\";area=riverside;area=citycentre;food=Chinese)\n", 
+        "The Golden Palace is a Chinese restaurant in the city centre and riverside areas near Cambridge University Real Tennis Club. \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;near=\"India Palace\";area=\"addenbrookes\";food=Continental;food=French)\n", 
+        "Alimentum is a restaurant that serves French and Continental food in the addenbrookes area near India Palace. \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;area=\"addenbrookes\";pricerange=expensive;eattype=restaurant)\n", 
+        "Alimentum is an expensive restaurant in the addenbrookes area. \n"
+    ], 
+    [
+        "inform(name=\"Clowns\";type=placetoeat;eattype=restaurant;area=citycentre;food=Italian;food=\"Takeaway pizza\")\n", 
+        "Clowns is an Italian restaurant that provides takeaway pizza in the city centre area. \n"
+    ], 
+    [
+        "inform(name=\"Sitar Tandoori\";type=placetoeat;eattype=restaurant;area=\"cherryhinton\";area=\"romsey\")\n", 
+        "Sitar Tandoori is a restaurant in the cherryhinton and romsey area. \n"
+    ], 
+    [
+        "inform(name=\"Burger King\";type=placetoeat;eattype=restaurant;near=\"Caffe Uno\";food=Fastfood)\n", 
+        "Burger King is a fast food restaurant near Caffe Uno. \n"
+    ], 
+    [
+        "inform(name=\"Jesus College\";type=placetoeat;eattype=restaurant;food=\"Chinese takeaway\";food=Takeaway)\n", 
+        "The Jesus College restaurant is a Chinese takeaway restaurant. \n"
+    ], 
+    [
+        "inform(name=\"Doubletree by Hilton inCambridge Garden House\";type=placetoeat;eattype=restaurant;area=riverside)\n", 
+        "Doubletree by Hilton inCambridge Garden House is a restaurant in the riverside area. \n"
+    ], 
+    [
+        "inform(name=\"Burger King\";type=placetoeat;eattype=restaurant;food=Fastfood)\n", 
+        "Burger King is a fast food restaurant. \n"
+    ], 
+    [
+        "inform(name=\"Zizzi\";type=placetoeat;eattype=restaurant;area=citycentre;food=Italian;food=\"Takeaway pizza\")\n", 
+        "I would suggest Zizzi, an Italian restaurant in the city centre offering Takeaway pizza \n"
+    ], 
+    [
+        "inform(name=\"Teri-Aki\";type=placetoeat;near=\"Parkside Pools\";pricerange=moderate;area=riverside;eattype=restaurant)\n", 
+        "Teri-Aki is a restaurant near Parkside Pools in the riverside area in the moderate price range. \n"
+    ], 
+    [
+        "inform(name=\"Le Gros Franck\";type=placetoeat;pricerange=expensive;eattype=restaurant)\n", 
+        "Le Gros Franck is a restaurant in the expensive price range. \n"
+    ], 
+    [
+        "inform(name=\"Royal Cambridge Hotel\";type=placetoeat;pricerange=moderate;area=riverside;near=\"Cambridge Waffle Company\";eattype=restaurant)\n", 
+        "Royal Cambridge Hotel is a restaurant in the moderate price range near the Cambridge Waffle Company in the riverside area. \n"
+    ], 
+    [
+        "inform(name=\"Nanna Mexico\";type=placetoeat;eattype=restaurant;pricerange=cheap;area=citycentre)\n", 
+        "Nanna Mexico is a restaurant in the cheap price range in the city centre area. \n"
+    ], 
+    [
+        "inform(name=\"Ugly Duckling\";type=placetoeat;eattype=restaurant;near=\"John Lewis Brasserie\";food=Chinese)\n", 
+        "Ugly Duckling is a Chinese restaurant near John Lewis Brasserie. \n"
+    ], 
+    [
+        "inform(name=\"Al Casbah\";type=placetoeat;eattype=restaurant;area=\"romsey\";pricerange=moderate;near=\"Ranch\";near=\"Devonshire Arms\")\n", 
+        "Al Casbah is a restaurant in the romsey area, near Ranch and Devonshire Arms. They have a moderate price range. \n"
+    ], 
+    [
+        "inform(name=\"Blue Spice\";type=placetoeat;eattype=restaurant;near=\"Anatolia Turkish Restaurant\";pricerange=moderate;food=Indian;food=\"Indian takeaway\")\n", 
+        "Blue Spice is a restaurant near Anatolia Turkish Restaurant providing Indian food, to eat in or take away, in the moderate pricerange. \n"
+    ], 
+    [
+        "inform(name=\"The Curry House\";type=placetoeat;area=\"castlehill\";eattype=restaurant)\n", 
+        "The Curry House is a restaurant in castlehill. \n"
+    ], 
+    [
+        "inform(name=none;near=\"girton\";area=\"Nusha\")\n", 
+        "I am sorry, but there are no venues matching your constraints near girton, in the Nusha area. \n"
+    ], 
+    [
+        "inform(name=\"The Red Bull\";type=placetoeat;near=\"Courtyard Cafe at the Fitzwilliam Museum\";area=\"newnham\";area=\"fenditton\";eattype=restaurant)\n", 
+        "The Red Bull is a restaurant in newnham and fenditton, near Courtyard Cafe at the Fitzwilliam Museum. \n"
+    ], 
+    [
+        "inform(name=\"De Luca Cucina and Bar\";type=placetoeat;eattype=restaurant;area=riverside;food=Italian)\n", 
+        "De Luca Cucina and Bar is an Italian restaurant in the riverside area. \n"
+    ], 
+    [
+        "inform(name=\"Backstreet Bistro\";type=placetoeat;eattype=restaurant;pricerange=moderate;area=\"romsey\";food=Contemporary;food=English)\n", 
+        "Backstreet Bistro is a moderately priced English Contemporary restaurant in romsey \n"
+    ], 
+    [
+        "inform(name=\"The Punter\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=\"castlehill\")\n", 
+        "The Punter is an expensive restaurant in the castlehill area. \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";type=placetoeat;eattype=restaurant;area=riverside;area=citycentre;near=\"The Plough\";near=\"The Barn Tea Rooms\")\n", 
+        "Tang Chinese is a restaurant in the centre of town and riverside near The Plough and The Barn Tea Rooms. \n"
+    ], 
+    [
+        "inform(name=\"The Vaults\";type=placetoeat;eattype=restaurant;pricerange=expensive;near=\"Frankie and Benny's\";near=\"Hat and Feathers\")\n", 
+        "The Vaults is an upmarket venue. It is located near Frankie and Benny's and Hat and Feathers \n"
+    ], 
+    [
+        "inform(name=\"La Margherita\";type=placetoeat;eattype=restaurant;pricerange=expensive;near=\"Funky Fun House\";near=\"Saint Barnabas Press Gallery\";food=Italian)\n", 
+        "La Margherita is an Italian restaurant in the expensive price range near Funky Fun House and Saint Barnabas Press Gallery. \n"
+    ], 
+    [
+        "inform(name=\"Charlie Chan\";type=placetoeat;near=\"Nu-Mega Ingredients Ltd\";pricerange=expensive;eattype=restaurant)\n", 
+        "I would suggest Charlie Chan, an expensive restaurant near Nu-Mega Ingredients Ltd \n"
+    ], 
+    [
+        "inform(name=\"La Margherita\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=riverside;area=\"castlehill\";food=Italian)\n", 
+        "La Margherita is an expensive italian restaurant in the riverside and Riverside areas. \n"
+    ], 
+    [
+        "inform(name=\"Ugly Duckling\";type=placetoeat;eattype=restaurant;food=Chinese)\n", 
+        "Ugly Duckling is a restaurant and serves Chinese food \n"
+    ], 
+    [
+        "inform(name=\"Asia\";type=placetoeat;eattype=restaurant;area=riverside;area=\"addenbrookes\";near=\"B Bar and Restaurant\")\n", 
+        "Asia is a riverfront restaurant near riverside and B Bar and Restaurant \n"
+    ], 
+    [
+        "inform(name=\"d'Arry's\";type=placetoeat;eattype=restaurant;area=citycentre;near=\"Carringtons cafe restaurant\";near=\"Restaurant seventeen\";food=\"Chinese takeaway\")\n", 
+        "d'Arry's is a restaurant providing Chinese takeaway in the centre of town, near Carringtons cafe restaurant and Restaurant seventeen. \n"
+    ], 
+    [
+        "inform(name=\"Le Gros Franck\";type=placetoeat;eattype=restaurant;pricerange=expensive;near=\"Yippee Noodle Bar\";near=\"Little Seoul\";area=\"trumpington\")\n", 
+        "Le Gros Franck is a restaurant in trumpington near Yippee Noodle Bar and Little Seoul and they are on the expensive pricerange. \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;near=\"El Shaddai\";food=Continental;food=French)\n", 
+        "Alimentum is a restaurant near El Shaddai that serves Continental and French food. \n"
+    ], 
+    [
+        "inform(name=\"All Bar One\";type=placetoeat;eattype=restaurant;near=\"The Atrium Club\";area=citycentre;area=riverside)\n", 
+        "All Bar One is a restaurant in the city centre, near the riverside and The Atrium Club \n"
+    ], 
+    [
+        "inform(name=\"HK Fusion\";type=placetoeat;eattype=restaurant;area=\"cherryhinton\";food=Chinese)\n", 
+        "May I suggest the HK Fusion restaurant? It is a Chinese food restaurant near cherryhinton. \n"
+    ], 
+    [
+        "inform(name=\"Meghna\";type=placetoeat;eattype=restaurant;area=\"castlehill\";food=Indian)\n", 
+        "Meghna is a restaurant in castlehill which serves Indian food. \n"
+    ], 
+    [
+        "inform(name=\"Prezzo\";type=placetoeat;near=\"The Ancient Shepherds\";area=\"castlehill\";area=\"girton\";eattype=restaurant)\n", 
+        "Prezzo is a restaurant in castlehill and girton near The Ancient Shepherds \n"
+    ], 
+    [
+        "inform(name=chow;food='comfort food';goodformeal=dinner)",
+        "i recommend chow . it serves comfort food and good for dinner",
+        "chow is a nice place , it serves comfort food and it is good for dinner"
+    ]
+]

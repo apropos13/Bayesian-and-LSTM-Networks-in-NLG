@@ -1,0 +1,108 @@
+#####################################################
+#####################################################
+#  PK #
+#####################################################
+#####################################################
+[ 
+    [
+        "inform(name=\"The Oak Bistro\";type=placetoeat;eattype=restaurant;area=\"trumpington\";area=riverside;near=\"Primavera\";food=Indian)\n", 
+        "The Oak Bistro is an Indian restaurant in the trumpington and riverside areas near Primavera. \n"
+    ], 
+    [
+        "inform(name=\"Pizza Express\";type=placetoeat;eattype=restaurant;near=\"Le Gros Franck\";area=citycentre;food=Italian)\n", 
+        "Pizza Express is an Italian restaurant in the city centre area near Le Gros Franck. \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";eattype=restaurant;phone=\"01223902135\")\n", 
+        "Tang Chinese is a restaurant and its phone number is 01223902135. \n"
+    ], 
+    [
+        "inform(name=\"Blue Spice\";type=placetoeat;area=\"girton\";eattype=restaurant;pricerange=moderate)\n", 
+        "Blue Spice is a restaurant in the moderate price range in the girton area. \n"
+    ], 
+    [
+        "inform(name=\"Lan Hong House\";type=placetoeat;eattype=restaurant;area=riverside;near=\"Dodo Gallery\";near=\"The Empress\";food=Chinese)\n", 
+        "Lan Hong House is a Chinese restaurant in the riverside area near Dodo Gallery and The Empress. \n"
+    ], 
+    [
+        "inform(name=\"Henry's Cafe Bar\";type=placetoeat;near=\"Ugly Duckling\";area=riverside;area=citycentre;eattype=restaurant)\n", 
+        "If you would like to visit a nice restaurant, I would suggest Henry's Cafe Bar near Ugly Duckling by the riverside, in the centre of the city. \n"
+    ], 
+    [
+        "inform(name=\"Little Seoul\";type=placetoeat;eattype=restaurant;area=riverside)\n", 
+        "Little Seoul is a restaurant by the river. \n"
+    ], 
+    [
+        "inform(name=\"Backstreet Bistro\";type=placetoeat;eattype=restaurant;pricerange=moderate;area=\"romsey\";food=Contemporary;food=English)\n", 
+        "Backstreet Bistro is a restaurant in the moderate price range that offers English and Contemporary food in the romsey area. \n"
+    ], 
+    [
+        "inform(name=\"Blue Spice\";type=placetoeat;eattype=restaurant;food=Indian)\n", 
+        "Blue Spice is an Indian restaurant. \n"
+    ], 
+    [
+        "inform(name=\"The Rice Boat\";type=placetoeat;eattype=restaurant;pricerange=cheap;near=\"Earl Of Beaconsfield\")\n", 
+        "The Rice Boat is a restaurant in the cheap price range near Earl Of Beaconsfield. \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;near=\"India Palace\";area=\"addenbrookes\";food=Continental;food=French)\n", 
+        "Alimentum is a restaurant that serves French and Continental food in the addenbrookes area near India Palace. \n"
+    ], 
+    [
+        "inform(name=\"The Red Bull\";type=placetoeat;pricerange=moderate;area=\"newnham\";eattype=restaurant)\n", 
+        "The Red Bull is a restaurant in the moderate price range in the newnham area. \n"
+    ], 
+    [
+        "inform(name=\"The Rice Boat\";type=placetoeat;near=\"Hughes Hall\";pricerange=cheap;eattype=restaurant)\n", 
+        "The Rice Boat is a restaurant near Hughes Hall in the cheap price range. \n"
+    ], 
+    [
+        "inform(name=\"d'Arry's\";type=placetoeat;eattype=restaurant;near=\"Arts Picture House and Cafe-Bar\";pricerange=expensive;area=citycentre)\n", 
+        "d'Arry's is a restaurant in the expensive price range in the centre of town, near Arts Picture House and Cafe-Bar. \n"
+    ], 
+    [
+        "inform(name=\"Shiraz\";type=placetoeat;near=\"Le Gros Franck\";pricerange=expensive;area=riverside;eattype=restaurant)\n", 
+        "Shiraz is a restaurant in the expensive price range on the riverside near Le Gros Franck. \n"
+    ], 
+    [
+        "inform(name=\"Ugly Duckling\";type=placetoeat;eattype=restaurant;area=citycentre;near=\"The Fez Club\";food=Chinese)\n", 
+        "Ugly Duckling is a Chinese restaurant in the city centre near The Fez Club. \n"
+    ], 
+    [
+        "inform(name=\"Frankie and Benny's\";type=placetoeat;eattype=restaurant;area=\"romsey\";near=\"The Rice Boat\")\n", 
+        "Frankie and Benny's is a restaurant in the romsey area near The Rice Boat. \n"
+    ], 
+    [
+        "inform(name=\"Tandoori Palace\";type=placetoeat;area=\"castlehill\";near=\"Pembroke College\";eattype=restaurant)\n", 
+        "Tandoori Palace is a restaurant in the castlehill area near Pembroke College. \n"
+    ], 
+    [
+        "inform(name=\"Nanna Mexico\";type=placetoeat;eattype=restaurant;pricerange=cheap;area=citycentre)\n", 
+        "Nanna Mexico is a restaurant in the cheap price range in the city centre area. \n"
+    ], 
+    [
+        "inform(name=\"The Golden Palace\";type=placetoeat;eattype=restaurant;near=\"Cambridge University Real Tennis Club\";area=riverside;area=citycentre;food=Chinese)\n", 
+        "The Golden Palace is a Chinese restaurant in the city centre and riverside areas near Cambridge University Real Tennis Club. \n"
+    ], 
+    [
+        "inform(name=\"Fort Saint George\";type=placetoeat;near=\"The Bakers\";area=riverside;eattype=restaurant)\n", 
+        "Fort Saint George is a restaurant in the riverside area near The Bakers. \n"
+    ], 
+    [
+        "inform(name=\"Clowns\";eattype=coffeeshop;eattype=restaurant)\n", 
+        "Clowns is a cafe restaurant. \n"
+    ], 
+    [
+        "inform(name=\"Asia\";type=placetoeat;eattype=restaurant;area=riverside;near=\"The Salisbury Arms\";food=Indian;food=\"Indian takeaway\")\n", 
+        "Asia is an Indian restaurant that provides Indian takeaway in the riverside area near The Salisbury Arms. \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";type=placetoeat;eattype=restaurant;area=riverside;area=citycentre;near=\"The Plough\";near=\"The Barn Tea Rooms\")\n", 
+        "Tang Chinese is a restaurant in the centre of town and riverside near The Plough and The Barn Tea Rooms. \n"
+    ],
+    [
+        "inform(name=chow;food='comfort food';goodformeal=dinner)",
+        "i recommend chow . it serves comfort food and good for dinner",
+        "chow is a nice place , it serves comfort food and it is good for dinner"
+    ]
+]

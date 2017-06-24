@@ -1,0 +1,91 @@
+#####################################################
+#####################################################
+#  PK #
+#####################################################
+#####################################################
+[
+    [
+        "inform(name=\"The Tram Depot\";type=placetoeat;eattype=restaurant;near=\"The Panton Arms\";pricerange=cheap)\n", 
+        "The Tram Depot is a cheap restaurant near The Panton Arms \n"
+    ], 
+    [
+        "inform(name=\"Backstreet Bistro\";type=placetoeat;eattype=restaurant;area=\"romsey\";area=\"kingshedges\";food=Indian)\n", 
+        "Backstreet Bistro is an Indian restaurant in romsey near kingshedges \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";type=placetoeat;pricerange=expensive;area=riverside;eattype=restaurant)\n", 
+        "Tang Chinese is an expensive restaurant in the riverside area of town. \n"
+    ], 
+    [
+        "inform(name=\"Beall Italia Grafton Centre\";type=placetoeat;area=riverside;eattype=restaurant)\n", 
+        "Beall Italia Grafton Centre is a restaurant near the river. \n"
+    ], 
+    [
+        "inform(name=\"Al Casbah\";type=placetoeat;eattype=restaurant;pricerange=moderate;area=\"romsey\";area=\"addenbrookes\")\n", 
+        "Al Casbah is a moderately priced restaurant near romsey and addenbrookes \n"
+    ], 
+    [
+        "inform(name=\"La Tasca\";type=placetoeat;eattype=restaurant;pricerange=cheap;area=riverside;near=\"Caffe Nero\")\n", 
+        "La Tasca is a cheap restaurant in the riverside area near Caffe Nero. \n"
+    ], 
+    [
+        "inform(name=\"Midsummer House\";type=placetoeat;eattype=restaurant;area=riverside;near=\"Arts Picture House and Cafe-Bar\")\n", 
+        "Midsummer House is a restaurant in the riverside area near Arts Picture House and Cafe-Bar. \n"
+    ], 
+    [
+        "inform(name=\"Royal Standard\";type=placetoeat;eattype=restaurant;area=\"romsey\";pricerange=moderate;food=Indian)\n", 
+        "Royal Standard is an Indian restaurant in the moderate price range located in the romsey area. \n"
+    ], 
+    [
+        "inform(name=\"La Margherita\";type=placetoeat;pricerange=expensive;near=\"VUE Cinema\";near=\"Mumford Theatre\";area=\"castlehill\";eattype=restaurant)\n", 
+        "La Margherita is a restaurant in the expensive price range in the castlehill area, near VUE Cinema and Mumford Theatre. \n"
+    ], 
+    [
+        "inform(name=\"Sitar Tandoori\";type=placetoeat;eattype=restaurant;area=\"cherryhinton\";food=Indian)\n", 
+        "I recommend Sitar Tandoori, an Indian restaurant that can be found in cherryhinton \n"
+    ], 
+    [
+        "inform(name=\"The Rice Boat\";type=placetoeat;eattype=restaurant;pricerange=cheap;area=riverside;food=Indian)\n", 
+        "The Rice Boat is a cheap Indian restaurant in the riverside. \n"
+    ], 
+    [
+        "inform(name=\"The Red Bull\";type=placetoeat;near=\"Courtyard Cafe at the Fitzwilliam Museum\";area=\"newnham\";area=\"fenditton\";eattype=restaurant)\n", 
+        "The Red Bull is a restaurant in newnham and fenditton, near Courtyard Cafe at the Fitzwilliam Museum. \n"
+    ], 
+    [
+        "inform(name=\"Wok n Grill\";type=placetoeat;eattype=restaurant;area=\"trumpington\";near=\"Blue Spice\";food=Chinese)\n", 
+        "Wok n Grill is a restaurant in trumpington near Blue Spice providing Chinese food. \n"
+    ], 
+    [
+        "inform(name=\"All Bar One\";type=placetoeat;eattype=restaurant;near=\"The Atrium Club\";area=citycentre;area=riverside)\n", 
+        "All Bar One is a restaurant in the city centre, near the riverside and The Atrium Club \n"
+    ], 
+    [
+        "inform(name=\"Ali Baba\";type=placetoeat;eattype=restaurant;area=riverside;food=Indian)\n", 
+        "Ali Baba is an Indian restaurant in the riverside area. \n"
+    ], 
+    [
+        "inform(name=\"Asia\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=riverside;food=Indian)\n", 
+        "Asia is a restaurant at the riverside serving Indian food. It's in the expensive pricerange. \n"
+    ], 
+    [
+        "inform(name=\"HK Fusion\";type=placetoeat;eattype=restaurant;area=\"cherryhinton\";food=Chinese)\n", 
+        "May I suggest the HK Fusion restaurant? It is a Chinese food restaurant near cherryhinton. \n"
+    ], 
+    [
+        "inform(name=\"Green Man\";eattype=restaurant)\n", 
+        "Green Man is a restaurant. \n"
+    ], 
+    [
+        "inform(name=\"Fort Saint George\";type=placetoeat;near=\"Le Gros Franck\";area=riverside;eattype=restaurant)\n", 
+        "Fort Saint George is a restaurant near Le Gros Franck on the riverside. \n"
+    ], 
+    [
+        "inform(name=\"Blue Spice\";type=placetoeat;eattype=restaurant;near=\"Anatolia Turkish Restaurant\";pricerange=moderate;food=Indian;food=\"Indian takeaway\")\n", 
+        "Blue Spice is a restaurant near Anatolia Turkish Restaurant providing Indian food, to eat in or take away, in the moderate pricerange. \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=riverside)\n", 
+        "Tang Chinese is a restaurant on the riverside that is in the expensive price range. \n"
+    ]
+]

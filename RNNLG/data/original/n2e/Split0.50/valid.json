@@ -1,0 +1,815 @@
+#####################################################
+#####################################################
+#  PK #
+#####################################################
+#####################################################
+[
+    [
+        "inform(name=\"Asia\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=riverside;food=Indian)\n", 
+        "Asia is an expensive Indian restaurant in the riverside. \n"
+    ], 
+    [
+        "inform(name=\"India House\";type=placetoeat;eattype=restaurant;area=riverside;near=\"Caffe Uno\";food=Seafood)\n", 
+        "India House is a seafood restaurant in the riverside area near Caffe Uno. \n"
+    ], 
+    [
+        "inform(name=\"Teri-Aki\";type=placetoeat;pricerange=moderate;eattype=restaurant)\n", 
+        "Teri-Aki is a moderately priced restaurant you may want to visit. \n"
+    ], 
+    [
+        "inform(name=\"Fort Saint George\";type=placetoeat;near=\"Le Gros Franck\";area=riverside;eattype=restaurant)\n", 
+        "Fort Saint George is a restaurant near Le Gros Franck on the riverside. \n"
+    ], 
+    [
+        "inform(name=\"La Margherita\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=riverside;area=\"castlehill\";food=Italian)\n", 
+        "La Margherita is an Italian restaurant in the expensive price range in the riverside and riverside area. \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";eattype=restaurant;phone=\"01223902135\")\n", 
+        "Tang Chinese is a restaurant and its phone number is 01223902135. \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;area=\"addenbrookes\";pricerange=expensive;food=Continental;food=French)\n", 
+        "Alimentum is a restaurant that serves French food and in addenbrookes though they serve Continental food, they are in the expensive pricerange. \n"
+    ], 
+    [
+        "inform(name=\"Lan Hong House\";type=placetoeat;eattype=restaurant;area=riverside;near=\"The Plough\";near=\"The Mill\";food=Chinese)\n", 
+        "Lan Hong House is a Chinese food restaurant and is located in the riverside area near The Plough and The Mill \n"
+    ], 
+    [
+        "inform(name=\"Beall Italia Leisure Park\";type=placetoeat;eattype=restaurant;near=\"Edwinns Bar and Restaurant\";area=\"addenbrookes\";food=Italian)\n", 
+        "Beall Italia Leisure Park is an Italian restaurant in the addenbrookes area near Edwinns Bar and Restaurant. \n"
+    ], 
+    [
+        "inform(name=\"The Bombay Brasserie\";type=placetoeat;eattype=restaurant;near=\"Meghna\";pricerange=moderate;food=Indian;food=\"Indian takeaway\")\n", 
+        "The Bombay Brasserie is a restaurant near Meghna whose prices are moderate and serve both Indian and Indian takeaway foods. \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";type=placetoeat;eattype=restaurant;area=riverside;area=citycentre;near=\"Cambridge City Football Club\";food=Chinese)\n", 
+        "Tang Chinese is a restaurant serving Chinese food on the riverside and also in the centre of the city near Cambridge City Football Club \n"
+    ], 
+    [
+        "inform(name=none;near=\"kingshedges\";area=\"The Bird in Hand\")\n", 
+        "There are no venues in the The Bird in Hand area near kingshedges. \n"
+    ], 
+    [
+        "inform(name=\"Hakka\";type=placetoeat;eattype=restaurant;near=\"Cambridge University Library\";area=\"newchesterton\";food=Chinese)\n", 
+        "Hakka is a Chinese restaurant in the newchesterton area near Cambridge University Library. \n"
+    ], 
+    [
+        "inform(name=\"River Bar and Kitchen\";type=placetoeat;area=\"fenditton\";area=\"trumpington\";eattype=restaurant)\n", 
+        "River Bar and Kitchen is a restaurant in the fenditton and trumpington area. \n"
+    ], 
+    [
+        "inform(name=\"Henry's Cafe Bar\";type=placetoeat;near=\"Ugly Duckling\";area=riverside;area=citycentre;eattype=restaurant)\n", 
+        "If you would like to visit a nice restaurant, I would suggest Henry's Cafe Bar near Ugly Duckling by the riverside, in the centre of the city. \n"
+    ], 
+    [
+        "inform(name=\"Shiraz\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=riverside)\n", 
+        "If you are looking for an expensive restaurant near the river, I would suggest Shiraz. \n"
+    ], 
+    [
+        "inform(name=\"The Punter\";type=placetoeat;area=\"castlehill\";pricerange=expensive;eattype=restaurant)\n", 
+        "The Punter is an expensive restaurant in castlehill \n"
+    ], 
+    [
+        "inform(name=\"La Margherita\";type=placetoeat;pricerange=expensive;area=\"castlehill\";near=\"Gonville and Caius College\";near=\"Varsity Restaurant\";eattype=restaurant)\n", 
+        "Over in castlehill there is an expensive restaurant called La Margherita, a bit pricy but worth the trip \n"
+    ], 
+    [
+        "inform(name=\"The Agora at the Copper Kettle\";type=placetoeat;eattype=restaurant;near=\"The Maypole\";area=citycentre;food=\"Cafe food\";food=English)\n", 
+        "The Agora at the Copper Kettle is an English Cafe food restaurant in the city centre area near The Maypole \n"
+    ], 
+    [
+        "inform(name=\"The Six Bells in High Saint\";type=placetoeat;eattype=restaurant;near=\"Home from Home\";area=\"cherryhinton\";area=riverside)\n", 
+        "The Six Bells in High Saint is a restaurant located on the riverside, cherryhinton near Home from Home \n"
+    ], 
+    [
+        "inform(name=\"Web and Eat\";type=placetoeat;eattype=restaurant;area=riverside;food=\"Chinese takeaway\";food=Takeaway)\n", 
+        "Web and Eat is a take-out Chinese restaurant located by the riverside. \n"
+    ], 
+    [
+        "inform(name=\"Cafe Adriatic\";type=placetoeat;area=\"romsey\";near=\"The White Hart\";near=\"King's College\";eattype=restaurant)\n", 
+        "Cafe Adriatic is a restaurant in the romsey area near The White Hart and King's College. \n"
+    ], 
+    [
+        "inform(name=\"d'Arry's\";type=placetoeat;eattype=restaurant;area=citycentre;near=\"Carringtons cafe restaurant\";near=\"Restaurant seventeen\";food=\"Chinese takeaway\")\n", 
+        "d'Arry's is a restaurant providing Chinese takeaway in the centre of town, near Carringtons cafe restaurant and Restaurant seventeen. \n"
+    ], 
+    [
+        "inform(name=\"196 Meze Bar\";type=placetoeat;area=\"romsey\";pricerange=moderate;eattype=restaurant)\n", 
+        "May I suggest the 196 Meze Bar? It is a moderately priced restaurant near romsey. \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=riverside)\n", 
+        "Tang Chinese is a restaurant on the riverside that is in the expensive price range. \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";type=placetoeat;eattype=restaurant;area=riverside;near=\"Ranch\";food=Chinese)\n", 
+        "Tang Chinese is a Chinese restaurant in the riverside near Ranch \n"
+    ], 
+    [
+        "inform(name=\"Al Casbah\";type=placetoeat;pricerange=moderate;area=\"romsey\";area=\"cherryhinton\";eattype=restaurant)\n", 
+        "I recommend Al Casbah, a moderately priced restaurant in romsey and cherryhinton \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=\"addenbrookes\";near=\"The Clarendon Arms\";near=\"Worth House\")\n", 
+        "The restaurant Alimentum is near The Clarendon Arms and Worth House serving expensive food in the addenbrookes area. \n"
+    ], 
+    [
+        "inform(name=\"Ali Baba\";type=placetoeat;eattype=restaurant;area=\"fenditton\";food=Indian;food=\"Indian takeaway\")\n", 
+        "Ali Baba is a restaurant in fenditton and it serves Indian food and Indian takeaway too. \n"
+    ], 
+    [
+        "inform(name=\"Carluccio's\";type=placetoeat;eattype=restaurant;area=\"girton\";food=Italian)\n", 
+        "Carluccio's is a restaurant that serves Italian food in the girton area. \n"
+    ], 
+    [
+        "inform(name=\"Pizza Hut\";type=placetoeat;area=citycentre;near=\"The Rice Boat\";near=\"The Lion and Lamb\";eattype=restaurant)\n", 
+        "Pizza Hut is a restaurant in the city centre, located near The Rice Boat and The Lion and Lamb \n"
+    ], 
+    [
+        "inform(name=\"Burger King\";type=placetoeat;eattype=restaurant;near=\"The Baron of Beef\";food=Fastfood)\n", 
+        "Burger King is a fast food restaurant near The Baron of Beef \n"
+    ], 
+    [
+        "inform(name=\"Michaelhouse Centre\";type=placetoeat;eattype=restaurant;near=\"Winfield\";area=citycentre;area=riverside)\n", 
+        "Michaelhouse Centre is a restaurant in the city centre and riverside area near Winfield. \n"
+    ], 
+    [
+        "inform(name=\"India Palace\";type=placetoeat;eattype=restaurant;area=riverside;near=\"Cafe Rouge\";food=Indian;food=\"Indian takeaway\")\n", 
+        "India Palace is an Indian food restaurant with Indian food take out in the riverside near Cafe Rouge \n"
+    ], 
+    [
+        "inform(name=\"Le Gros Franck\";type=placetoeat;eattype=restaurant;near=\"The Bath House\";near=\"trumpington\";area=riverside;area=\"The Bird in Hand\")\n", 
+        "Le Gros Franck is a restaurant on the riverside close to The Bath House. It is near trumpington in riverside \n"
+    ], 
+    [
+        "inform(name=\"Rainbow Vegetarian Cafe\";type=placetoeat;near=\"The Curry Queen Tandoori\";pricerange=moderate;eattype=restaurant)\n", 
+        "Rainbow Vegetarian Cafe is a restaurant near The Curry Queen Tandoori in the moderate pricerange. \n"
+    ], 
+    [
+        "inform(name=\"Fort Saint George\";type=placetoeat;near=\"The Bakers\";area=riverside;eattype=restaurant)\n", 
+        "Fort Saint George is a restaurant in the riverside area near The Bakers. \n"
+    ], 
+    [
+        "inform(name=\"Royal Standard\";type=placetoeat;eattype=restaurant;near=\"David Lloyd Sports Club\";area=\"romsey\";food=Indian)\n", 
+        "Royal Standard is a restaurant in romsey near David Lloyd Sports Club and it serves Indian food. \n"
+    ], 
+    [
+        "inform(name=\"Tandoori Palace\";type=placetoeat;eattype=restaurant;area=\"castlehill\";area=\"arbury\")\n", 
+        "Tandoori Palace is a restaurant near castlehill and arbury \n"
+    ], 
+    [
+        "inform(name=\"The Cambridge Chop House\";eattype=restaurant;area=\"girton\")\n", 
+        "The Cambridge Chop House is a restaurant in the girton area. \n"
+    ], 
+    [
+        "inform(name=\"The Six Bells in High Saint\";type=placetoeat;eattype=restaurant;area=\"cherryhinton\";area=\"kingshedges\";food=Indian)\n", 
+        "The Six Bells in High Saint is an Indian restaurant in the cherryhinton and kingshedges areas. \n"
+    ], 
+    [
+        "inform(name=\"Doubletree by Hilton inCambridge Garden House\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=riverside;near=\"The Rock\")\n", 
+        "Doubletree by Hilton inCambridge Garden House is a restaurant on the riverside near The Rock in the expensive price range. \n"
+    ], 
+    [
+        "inform(name=\"The Vaults\";type=placetoeat;eattype=restaurant;near=\"Beall Italia Grafton Centre\")\n", 
+        "The Vaults is a restaurant near Beall Italia Grafton Centre \n"
+    ], 
+    [
+        "inform(name=\"Royal Cambridge Hotel\";type=placetoeat;pricerange=moderate;area=riverside;near=\"Cambridge Waffle Company\";eattype=restaurant)\n", 
+        "Royal Cambridge Hotel is a restaurant in the moderate price range near the Cambridge Waffle Company in the riverside area. \n"
+    ], 
+    [
+        "inform(name=\"The Tram Depot\";type=placetoeat;eattype=restaurant;pricerange=cheap;near=\"Dojo Noodle Bar\")\n", 
+        "I would suggest The Tram Depot, a cheap restaurant near Dojo Noodle Bar \n"
+    ], 
+    [
+        "inform(name=\"Clowns\";eattype=coffeeshop;eattype=restaurant)\n", 
+        "Clowns is a cafe restaurant. \n"
+    ], 
+    [
+        "inform(name=\"Caffe Uno\";type=placetoeat;eattype=restaurant;near=\"Funky Fun House\";food=Italian;food=\"Takeaway pizza\")\n", 
+        "Caffe Uno is an Italian take-out restaurant near Funky Fun House \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;near=\"Shelford Rugby Club\";pricerange=expensive)\n", 
+        "Alimentum is an expensive restaurant near Shelford Rugby Club. \n"
+    ], 
+    [
+        "inform(name=\"Le Gros Franck\";type=placetoeat;eattype=restaurant;pricerange=expensive;near=\"Yippee Noodle Bar\";near=\"Little Seoul\";area=\"trumpington\")\n", 
+        "Le Gros Franck is a restaurant in trumpington near Yippee Noodle Bar and Little Seoul and they are on the expensive pricerange. \n"
+    ], 
+    [
+        "inform(name=\"Burger King\";eattype=restaurant;postcode=\"CB1 1PS\")\n", 
+        "Burger King is a restaurant located in postcode CB1 1PS \n"
+    ], 
+    [
+        "inform(name=\"Bella Italia Leisure Park\";type=placetoeat;eattype=restaurant;near=\"The Eagle\";area=\"addenbrookes\";food=Italian)\n", 
+        "Bella Italia Leisure Park is an Italian restaurant in addenbrookes near The Eagle \n"
+    ], 
+    [
+        "inform(name=none;area=citycentre;near=\"The Alex\")\n", 
+        "There are no places you are looking for near The Alex in the centre of town. \n"
+    ], 
+    [
+        "inform(name=\"Yu Garden\";type=placetoeat;eattype=restaurant;near=\"Cambridge University Rugby Union Football Club\";near=\"Saigon City\";food=Chinese)\n", 
+        "Yu Garden is a Chinese food restaurant near Cambridge University Rugby Union Football Club and Saigon City \n"
+    ], 
+    [
+        "inform(name=\"Wok n Grill\";type=placetoeat;eattype=restaurant;area=\"trumpington\";area=riverside;near=\"The Lion and Lamb\";food=Indian)\n", 
+        "Wok n Grill is a restaurant in trumpington on the river near to The Lion and Lamb providing Indian food. \n"
+    ], 
+    [
+        "inform(name=\"Backstreet Bistro\";type=placetoeat;near=\"Parkside Pools\";pricerange=moderate;eattype=restaurant)\n", 
+        "Backstreet Bistro is a restaurant near Parkside Pools in the moderate price range. \n"
+    ], 
+    [
+        "inform(name=\"The Bombay Brasserie\";type=placetoeat;eattype=restaurant;pricerange=moderate)\n", 
+        "The Bombay Brasserie is a restaurant in the moderate price range. \n"
+    ], 
+    [
+        "inform(name=\"Backstreet Bistro\";type=placetoeat;eattype=restaurant;area=\"romsey\";food=Contemporary;food=English)\n", 
+        "Backstreet Bistro is a restaurant in romsey serving both English food and Contemporary food. \n"
+    ], 
+    [
+        "inform(name=\"The Red Bull\";type=placetoeat;near=\"Courtyard Cafe at the Fitzwilliam Museum\";area=\"newnham\";area=\"fenditton\";eattype=restaurant)\n", 
+        "The Red Bull is a restaurant in newnham and fenditton, near Courtyard Cafe at the Fitzwilliam Museum. \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;near=\"India Palace\";area=\"addenbrookes\";food=Continental;food=French)\n", 
+        "Alimentum is a restaurant that serves French and Continental food in the addenbrookes area near India Palace. \n"
+    ], 
+    [
+        "inform(name=\"Blue Spice\";type=placetoeat;eattype=restaurant;food=Indian)\n", 
+        "Blue Spice is an Indian restaurant. \n"
+    ], 
+    [
+        "inform(name=\"The Curry House\";type=placetoeat;eattype=restaurant;near=\"Taxi Gallery\";food=Indian)\n", 
+        "The Curry House is a restaurant offering Indian food near Taxi Gallery \n"
+    ], 
+    [
+        "inform(name=\"Shiraz\";type=placetoeat;area=riverside;near=\"Kettle's Yard\";near=\"Nu-Mega Ingredients Ltd\";eattype=restaurant)\n", 
+        "Shiraz is a riverside area restaurant near Kettle's Yard and Nu-Mega Ingredients Ltd. \n"
+    ], 
+    [
+        "inform(name=\"Shiraz\";type=placetoeat;near=\"Le Gros Franck\";pricerange=expensive;area=riverside;eattype=restaurant)\n", 
+        "Shiraz is a restaurant in the expensive price range on the riverside near Le Gros Franck. \n"
+    ], 
+    [
+        "inform(name=\"Lan Hong House\";type=placetoeat;eattype=restaurant;area=riverside;food=Chinese)\n", 
+        "Lan Hong House is a Chinese food restaurant in the riverside area. \n"
+    ], 
+    [
+        "inform(name=\"Burger King\";area=riverside;eattype=restaurant;food=Fastfood;pricerange=cheap)\n", 
+        "Burger King is a cheap fast food restaurant near the river. \n"
+    ], 
+    [
+        "inform(name=\"Brasserie Gerard\";type=placetoeat;eattype=restaurant;area=riverside;near=\"Sitar Tandoori\";near=\"Blue Spice\";food=French)\n", 
+        "Brasserie Gerard is a French restaurant in the riverside, close to Sitar Tandoori and Blue Spice \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;near=\"Cambridge City Football Club\";near=\"addenbrookes\";area=riverside;area=\"Subway\")\n", 
+        "Alimentum is a restaurant in the riverside and riverside area near Cambridge City Football Club and addenbrookes. \n"
+    ], 
+    [
+        "inform(name=\"The Curry House\";type=placetoeat;area=\"castlehill\";area=\"arbury\";eattype=restaurant)\n", 
+        "The Curry House is a restaurant in the castlehill and arbury areas. \n"
+    ], 
+    [
+        "inform(name=\"CB two\";type=placetoeat;eattype=restaurant;area=riverside;area=\"romsey\";near=\"Cambridge Contemporary Art\";near=\"The Pickerel Inn\")\n", 
+        "CB two is a restaurant in the riverside and riverside area near Cambridge Contemporary Art and The Pickerel Inn. \n"
+    ], 
+    [
+        "inform(name=\"Blue Spice\";type=placetoeat;eattype=restaurant;pricerange=moderate;area=\"girton\";food=Indian)\n", 
+        "Blue Spice is a restaurant in the girton area which serves Indian food in the moderate price range \n"
+    ], 
+    [
+        "inform(name=\"Lan Hong House\";type=placetoeat;eattype=restaurant;near=\"Great Saint Mary's Church\";area=riverside;food=Chinese)\n", 
+        "Lan Hong House is a Chinese restaurant next to the river, near Great Saint Mary's Church \n"
+    ], 
+    [
+        "inform(name=\"All Bar One\";type=placetoeat;eattype=restaurant;near=\"The Atrium Club\";area=citycentre;area=riverside)\n", 
+        "All Bar One is a restaurant in the city centre, near the riverside and The Atrium Club \n"
+    ], 
+    [
+        "inform(name=\"Blue Spice\";type=placetoeat;area=\"girton\";eattype=restaurant;pricerange=moderate)\n", 
+        "Blue Spice is a restaurant in the moderate price range in the girton area. \n"
+    ], 
+    [
+        "inform(name=\"Blue Spice\";type=placetoeat;area=\"girton\";eattype=restaurant;pricerange=moderate)\n", 
+        "I recommend Blue Spice a moderately priced restaurant in girton \n"
+    ], 
+    [
+        "inform(name=\"Pizza Hut\";type=placetoeat;eattype=restaurant;area=citycentre;near=\"Cambridge Contemporary Art\";near=\"Zizzi\";food=Italian)\n", 
+        "Pizza Hut is an Italian restaurant in the city centre near Cambridge Contemporary Art and Zizzi. \n"
+    ], 
+    [
+        "inform(name=\"The Snug East Road\";type=placetoeat;eattype=restaurant;near=\"Cineworld Cinema\";area=riverside)\n", 
+        "The Snug East Road is a restaurant in the riverside area near Cineworld Cinema. \n"
+    ], 
+    [
+        "inform(name=\"Wheatsheaf\";type=placetoeat;eattype=restaurant;area=\"barnwell\";near=\"Allenbell\";near=\"Club Salsa\")\n", 
+        "Wheatsheaf is a restaurant in the barnwell area, near Allenbell and Club Salsa. \n"
+    ], 
+    [
+        "inform(name=\"Backstreet Bistro\";type=placetoeat;eattype=restaurant;area=\"romsey\";near=\"Victoria Internet Cafe\";food=Contemporary;food=English)\n", 
+        "Backstreet Bistro is a restaurant located in romsey serving fashionable and English-style food, and is located near Victoria Internet Cafe \n"
+    ], 
+    [
+        "inform(name=\"Zizzi\";type=placetoeat;eattype=restaurant;area=citycentre)\n", 
+        "Zizzi is a restaurant in the city centre. \n"
+    ], 
+    [
+        "inform(name=\"The Red Bull\";type=placetoeat;pricerange=moderate;area=\"newnham\";eattype=restaurant)\n", 
+        "The Red Bull is a restaurant in the moderate price range in the newnham area. \n"
+    ], 
+    [
+        "inform(name=\"Nanna Mexico\";type=placetoeat;eattype=restaurant;pricerange=cheap;area=citycentre)\n", 
+        "Nanna Mexico is a cheap restaurant in the city centre. \n"
+    ], 
+    [
+        "inform(name=\"Beall Italia Grafton Centre\";type=placetoeat;eattype=restaurant;area=riverside;food=Italian;food=\"Takeaway pizza\")\n", 
+        "Beall Italia Grafton Centre is an Italian restaurant near the river serving takeaway pizza too. \n"
+    ], 
+    [
+        "inform(name=\"Eraina Taverna\";type=placetoeat;eattype=restaurant;area=citycentre;near=\"Ask Restaurant\")\n", 
+        "Eraina Taverna is a restaurant near Ask Restaurant in the centre of town. \n"
+    ], 
+    [
+        "inform(name=\"Blue Spice\";type=placetoeat;eattype=restaurant;near=\"Anatolia Turkish Restaurant\";pricerange=moderate;food=Indian;food=\"Indian takeaway\")\n", 
+        "Blue Spice is a restaurant near Anatolia Turkish Restaurant providing Indian food, to eat in or take away, in the moderate pricerange. \n"
+    ], 
+    [
+        "inform(name=\"Nanna Mexico\";type=placetoeat;pricerange=cheap;area=citycentre;near=\"Hamilton Lodge\";eattype=restaurant)\n", 
+        "I recommend the Nanna Mexico restaurant near Hamilton Lodge in the city centre, it is cheap. \n"
+    ], 
+    [
+        "inform(name=\"Le Gros Franck\";eattype=restaurant;near=\"Cambridge University Engineering Department\")\n", 
+        "Le Gros Franck is a restaurant near the Cambridge University Engineering Department \n"
+    ], 
+    [
+        "inform(name=\"Backstreet Bistro\";type=placetoeat;eattype=restaurant;area=\"romsey\";food=Contemporary;food=English)\n", 
+        "How about Backstreet Bistro It's a restaurant in romsey that serves contemporary English food. \n"
+    ], 
+    [
+        "inform(name=\"Giraffe\";type=placetoeat;eattype=restaurant;area=citycentre;near=\"Saint Catharine's College\")\n", 
+        "Giraffe is a restaurant located near Saint Catharine's College in the city's centre. \n"
+    ], 
+    [
+        "inform(name=\"De Luca Cucina and Bar\";type=placetoeat;eattype=restaurant;near=\"Iceland Foods Plc\";area=riverside;food=Italian)\n", 
+        "De Luca Cucina and Bar is a restaurant near Iceland Foods Plc on the riverside that serves Italian cuisine. \n"
+    ], 
+    [
+        "inform(name=\"La Raza\";type=placetoeat;eattype=restaurant;near=\"Finches Bed and Breakfast\";food=\"Chinese takeaway\";food=Fusion)\n", 
+        "La Raza is a restaurant that serves Fusion Chinese takeaway, and it is found near Finches Bed and Breakfast \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";type=placetoeat;eattype=restaurant;near=\"The Rice Boat\";food=\"Chinese takeaway\";food=Fusion)\n", 
+        "Tang Chinese is a Chinese fusion takeaway restaurant, located near The Rice Boat. \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;area=\"addenbrookes\";food=Continental;food=French)\n", 
+        "Alimentum is a French and Continental restaurant near addenbrookes \n"
+    ], 
+    [
+        "inform(name=\"Burger King\";type=placetoeat;eattype=restaurant;food=Fastfood)\n", 
+        "Burger King is a restaurant providing fast food. \n"
+    ], 
+    [
+        "inform(name=\"De Luca Cucina and Bar\";type=placetoeat;eattype=restaurant;area=riverside;food=Italian)\n", 
+        "De Luca Cucina and Bar is an Italian restaurant in the riverside area. \n"
+    ], 
+    [
+        "inform(name=\"Sitar Tandoori\";type=placetoeat;eattype=restaurant;area=\"cherryhinton\";food=Indian)\n", 
+        "I recommend Sitar Tandoori, an Indian restaurant that can be found in cherryhinton \n"
+    ], 
+    [
+        "inform(name=\"The Snug in East Road\";type=placetoeat;area=riverside;near=\"The Portland Arms\";eattype=restaurant)\n", 
+        "The Snug in East Road is a restaurant in the riverside area, near The Portland Arms. \n"
+    ], 
+    [
+        "inform(name=\"Rainbow Vegetarian Cafe\";type=placetoeat;eattype=restaurant;pricerange=moderate;area=\"girton\";area=\"fenditton\")\n", 
+        "Rainbow Vegetarian Cafe is a restaurant in girton and fenditton and their prices are moderate. \n"
+    ], 
+    [
+        "inform(name=none;near=\"Michaelhouse Centre\";area=citycentre)\n", 
+        "I am sorry there is no information about a venue in the city centre near Michaelhouse Centre. \n"
+    ], 
+    [
+        "inform(name=\"Little Seoul\";type=placetoeat;eattype=restaurant;area=riverside)\n", 
+        "Little Seoul is a restaurant by the river. \n"
+    ], 
+    [
+        "inform(name=\"The Rice Boat\";type=placetoeat;eattype=restaurant;pricerange=cheap;area=riverside;food=Indian)\n", 
+        "The Rice Boat is a cheap Indian restaurant in the riverside. \n"
+    ], 
+    [
+        "inform(name=\"Prezzo\";type=placetoeat;eattype=restaurant;food=Italian;food=\"Takeaway pizza\")\n", 
+        "Prezzo is an Italian restaurant that provides takeaway pizza. \n"
+    ], 
+    [
+        "inform(name=\"Charlie Chan\";type=placetoeat;eattype=restaurant;near=\"The Phoenix Chinese Restaurant\";pricerange=expensive;food=Chinese)\n", 
+        "Charlie Chan is an expensive Chinese restaurant near The Phoenix Chinese Restaurant. \n"
+    ], 
+    [
+        "inform(name=\"Doubletree by Hilton inCambridge Garden House\";type=placetoeat;near=\"Autumn House\";area=riverside;area=citycentre;eattype=restaurant)\n", 
+        "Doubletree by Hilton inCambridge Garden House is a restaurant in the centre of town in the riverside area near Autumn House \n"
+    ], 
+    [
+        "inform(name=\"The Punter\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=\"castlehill\")\n", 
+        "The Punter is an expensive restaurant in the castlehill area. \n"
+    ], 
+    [
+        "inform(name=\"Twenty-four\";type=placetoeat;eattype=restaurant;food=Seafood)\n", 
+        "Twenty-four is a seafood restaurant. \n"
+    ], 
+    [
+        "inform(name=\"La Margherita\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=\"castlehill\";near=\"Yippee Noodle Bar\")\n", 
+        "La Margherita is a high-end restaurant located in castlehill near Yippee Noodle Bar \n"
+    ], 
+    [
+        "inform(name=\"Cafe Adriatic\";type=placetoeat;eattype=restaurant;near=\"Burger King\";pricerange=expensive)\n", 
+        "Cafe Adriatic is a restaurant near Burger King which offers an expensive price range. \n"
+    ], 
+    [
+        "inform(name=\"The Punter\";type=placetoeat;eattype=restaurant;pricerange=expensive;near=\"ADC Theatre\")\n", 
+        "The Punter is an expensive restaurant near ADC Theatre \n"
+    ], 
+    [
+        "inform(name=\"Rainbow Vegetarian Cafe\";type=placetoeat;eattype=restaurant;near=\"The Phoenix Chinese Restaurant\";area=\"girton\";area=\"romsey\")\n", 
+        "Located in girton the romsey area restaurant The Rainbow Vegetarian Cafe can be found close by The Phoenix Chinese Restaurant \n"
+    ], 
+    [
+        "inform(name=\"De Luca Cucina and Bar\";type=placetoeat;eattype=restaurant;area=riverside;food=Italian)\n", 
+        "De Luca Cucina and Bar is an Italian restaurant in the Riverside area. \n"
+    ], 
+    [
+        "inform(name=\"The Golden Curry\";type=placetoeat;eattype=restaurant;near=\"The Six Bells in High Saint\";area=\"romsey\";food=Indian)\n", 
+        "The Golden Curry is an Indian restaurant in romsey near The Six Bells in High Saint \n"
+    ], 
+    [
+        "inform(name=\"The Bombay Brasserie\";type=placetoeat;eattype=restaurant;area=riverside;food=Indian)\n", 
+        "The Bombay Brasserie is an Indian restaurant in the riverside. \n"
+    ], 
+    [
+        "inform(name=\"The Fountain Inn\";type=placetoeat;eattype=restaurant;pricerange=cheap;area=citycentre;near=\"The Elm Tree\")\n", 
+        "The Fountain Inn is a restaurant in the centre of town near The Elm Tree whose prices are cheap. \n"
+    ], 
+    [
+        "inform(name=\"Royal Cambridge Hotel\";eattype=restaurant;addr=\"Trumpington Street\";phone=\"01223351631\")\n", 
+        "Royal Cambridge Hotel is a restaurant on Trumpington Street. Its phone number is 01223351631. \n"
+    ], 
+    [
+        "inform(name=\"Hotel du Vin and Bistro\";type=placetoeat;eattype=restaurant;area=riverside;food=French)\n", 
+        "Hotel du Vin and Bistro is a French restaurant on the riverside. \n"
+    ], 
+    [
+        "inform(name=\"La Margherita\";type=placetoeat;eattype=restaurant;area=\"castlehill\";near=\"Milton Country Park\";near=\"Browns Restaurant\";food=Italian)\n", 
+        "La Margherita is an Italian restaurant in castlehill, near Milton Country Park and Browns Restaurant. \n"
+    ], 
+    [
+        "inform(name=\"Royal Standard\";type=placetoeat;eattype=restaurant;area=\"romsey\";pricerange=moderate;food=Indian)\n", 
+        "Royal Standard is a moderately priced Indian restaurant located in the romsey area. \n"
+    ], 
+    [
+        "inform(name=\"Mai Thai\";type=placetoeat;eattype=restaurant;food=\"Cafe food\";food=English)\n", 
+        "Mai Thai restaurant is a cafe which serves English food. \n"
+    ], 
+    [
+        "inform(name=\"The Red Bull\";type=placetoeat;eattype=restaurant;food=Italian)\n", 
+        "The Red Bull is a restaurant that serves Italian food. \n"
+    ], 
+    [
+        "inform(name=\"Cafe Adriatic\";type=placetoeat;eattype=restaurant;near=\"Cambridge Lawn Tennis Club\";food=\"Chinese takeaway\";food=Japanese)\n", 
+        "Cafe Adriatic is a Japanese restaurant near Cambridge Lawn Tennis Club that offers Chinese food to take away. \n"
+    ], 
+    [
+        "inform(name=\"The Punter\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=\"castlehill\";near=\"The Glassworks\";near=\"Rainbow Vegetarian Cafe\")\n", 
+        "The Punter is an expensive restaurant in the castlehill area near The Glassworks and Rainbow Vegetarian Cafe. \n"
+    ], 
+    [
+        "inform(name=\"The Fountain Inn\";type=placetoeat;eattype=restaurant;area=citycentre;pricerange=cheap;near=\"The Golden Curry\";near=\"El Shaddai\")\n", 
+        "The Fountain Inn is a cheap restaurant in the city centre, near The Golden Curry and El Shaddai. \n"
+    ], 
+    [
+        "inform(name=\"The Fountain Inn\";type=placetoeat;area=citycentre;eattype=restaurant)\n", 
+        "The Fountain Inn is a restaurant in the city centre. \n"
+    ], 
+    [
+        "inform(name=\"Cafe Rouge\";type=placetoeat;eattype=restaurant;area=riverside;food=Fastfood)\n", 
+        "Cafe Rouge is a fastfood restaurant in the riverside area \n"
+    ], 
+    [
+        "inform(name=\"The Old Crown\";eattype=restaurant;area=\"girton\")\n", 
+        "The Old Crown is a restaurant in the girton area. \n"
+    ], 
+    [
+        "inform(name=\"Brasserie Gerard\";type=placetoeat;eattype=restaurant;near=\"Grand Arcade\";food=French)\n", 
+        "Brasserie Gerard is a French restaurant near Grand Arcade. \n"
+    ], 
+    [
+        "inform(name=\"Lan Hong House\";type=placetoeat;eattype=restaurant;area=riverside;area=citycentre;near=\"Camboats\";food=Chinese)\n", 
+        "Lan Hong House is a Chinese restaurant in the city centre and riverside area near Camboats. \n"
+    ], 
+    [
+        "inform(name=\"Wagamama\";type=placetoeat;eattype=restaurant;area=citycentre)\n", 
+        "Wagamama is a restaurant in the centre of town. \n"
+    ], 
+    [
+        "inform(name=\"Wok n Grill\";area=\"trumpington\";eattype=restaurant;food=Chinese)\n", 
+        "Wok n Grill is a Chinese restaurant in trumpington \n"
+    ], 
+    [
+        "inform(name=\"Ugly Duckling\";type=placetoeat;eattype=restaurant;food=Chinese)\n", 
+        "Ugly Duckling is a restaurant and serves Chinese food \n"
+    ], 
+    [
+        "inform(name=\"Charlie Chan\";type=placetoeat;near=\"Nu-Mega Ingredients Ltd\";pricerange=expensive;eattype=restaurant)\n", 
+        "I would suggest Charlie Chan, an expensive restaurant near Nu-Mega Ingredients Ltd \n"
+    ], 
+    [
+        "inform(name=\"La Margherita\";type=placetoeat;eattype=restaurant;near=\"Beall Italia Grafton Centre\";food=Seafood)\n", 
+        "La Margherita is a seafood restaurant near Beall Italia Grafton Centre. \n"
+    ], 
+    [
+        "inform(name=\"Blue Spice\";type=placetoeat;eattype=restaurant;pricerange=moderate;area=\"girton\";food=Indian)\n", 
+        "Blue Spice is a restaurant that has Indian food at a moderate price in girton \n"
+    ], 
+    [
+        "inform(name=\"Backstreet Bistro\";type=placetoeat;eattype=restaurant;area=\"romsey\";area=\"kingshedges\";food=Indian)\n", 
+        "Backstreet Bistro is an Indian restaurant in romsey near kingshedges \n"
+    ], 
+    [
+        "inform(name=\"Asia\";type=placetoeat;eattype=restaurant;area=riverside;area=\"addenbrookes\";near=\"B Bar and Restaurant\")\n", 
+        "Asia is a riverfront restaurant near riverside and B Bar and Restaurant \n"
+    ], 
+    [
+        "inform(name=\"Sitar Tandoori\";type=placetoeat;eattype=restaurant;area=\"cherryhinton\";near=\"Kings Hedges Learner Pool\";food=Indian;food=\"Indian takeaway\")\n", 
+        "Sitar Tandoori is an Indian and Indian takeaway restaurant in cherryhinton near Kings Hedges Learner Pool \n"
+    ], 
+    [
+        "inform(name=\"The Tram Depot\";type=placetoeat;eattype=restaurant;pricerange=cheap;area=riverside;near=\"The Oak Bistro\")\n", 
+        "The Tram Depot is a cheap restaurant located at the riverside near The Oak Bistro \n"
+    ], 
+    [
+        "inform(name=\"Fort Saint George\";type=placetoeat;eattype=restaurant;area=riverside;near=\"The Snug East Road\";near=\"Tang Chinese\";food=Fastfood)\n", 
+        "Fort Saint George is a fast food restaurant on the riverside near The Snug East Road and Tang Chinese \n"
+    ], 
+    [
+        "inform(name=\"Teri-Aki\";eattype=restaurant;postcode=\"CB5 8AB\")\n", 
+        "Teri-Aki is a restaurant in the CB5 8AB postcode. \n"
+    ], 
+    [
+        "inform(name=none;area=citycentre;near=\"d'Arry's\")\n", 
+        "I am sorry but there are no venues near d'Arry's in the city centre. \n"
+    ], 
+    [
+        "inform(name=\"The Vaults\";type=placetoeat;eattype=restaurant;near=\"The White Hart\";pricerange=expensive;area=citycentre)\n", 
+        "The Vaults is an expensive restaurant, in the middle of town near The White Hart \n"
+    ], 
+    [
+        "inform(name=\"Rainbow Vegetarian Cafe\";type=placetoeat;eattype=restaurant;pricerange=moderate;area=\"girton\")\n", 
+        "Rainbow Vegetarian Cafe is a restaurant in girton with a moderately priced menu. \n"
+    ], 
+    [
+        "inform(name=\"Zizzi\";type=placetoeat;eattype=restaurant;area=citycentre;food=Italian;food=\"Takeaway pizza\")\n", 
+        "I would suggest Zizzi, an Italian restaurant in the city centre offering Takeaway pizza \n"
+    ], 
+    [
+        "inform(name=\"Royal Cambridge Hotel\";type=placetoeat;eattype=restaurant;near=\"Stazione Restaurant and Coffee bar\";near=\"Cambridge Waffle Company\";food=\"Cafe food\";food=English)\n", 
+        "Royal Cambridge Hotel is an English cafe food restaurant near Stazione Restaurant and Coffee bar and Cambridge Waffle Company. \n"
+    ], 
+    [
+        "inform(name=\"Dojo Noodle Bar\";eattype=restaurant)\n", 
+        "Dojo Noodle Bar is a restaurant. \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;pricerange=expensive;area=\"addenbrookes\";near=\"Kettle's Yard\")\n", 
+        "Alimentum is an expensive restaurant in the addenbrookes area near Kettle's Yard. \n"
+    ], 
+    [
+        "inform(name=\"Wok n Grill\";type=placetoeat;eattype=restaurant;area=\"trumpington\";near=\"Blue Spice\";food=Chinese)\n", 
+        "Wok n Grill is a restaurant in trumpington near Blue Spice providing Chinese food. \n"
+    ], 
+    [
+        "inform(name=\"The Golden Palace\";type=placetoeat;eattype=restaurant;near=\"Cambridge University Real Tennis Club\";area=riverside;area=citycentre;food=Chinese)\n", 
+        "The Golden Palace is a Chinese restaurant in the city centre and riverside areas near Cambridge University Real Tennis Club. \n"
+    ], 
+    [
+        "inform(name=\"The Curry House\";type=placetoeat;area=\"castlehill\";eattype=restaurant)\n", 
+        "The Curry House is a restaurant in castlehill. \n"
+    ], 
+    [
+        "inform(name=\"Sitar Tandoori\";eattype=restaurant;addr=\"43 High Street in Cherry Hinton\")\n", 
+        "Sitar Tandoori is a restaurant located at 43 High Street in Cherry Hinton. \n"
+    ], 
+    [
+        "inform(name=\"Doubletree by Hilton inCambridge Garden House\";type=placetoeat;near=\"The Boathouse\";pricerange=expensive;eattype=restaurant)\n", 
+        "Doubletree by Hilton inCambridge Garden House is an expensive restaurant near The Boathouse. \n"
+    ], 
+    [
+        "inform(name=\"Green Man\";type=placetoeat;eattype=restaurant;area=\"trumpington\")\n", 
+        "Green Man is a restaurant in the trumpington area. \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";type=placetoeat;pricerange=expensive;area=riverside;eattype=restaurant)\n", 
+        "Tang Chinese is an expensive restaurant in the riverside area of town. \n"
+    ], 
+    [
+        "inform(name=\"Hakka\";type=placetoeat;eattype=restaurant;near=\"Cocum\";area=\"newchesterton\";food=Chinese)\n", 
+        "Hakka is a restaurant near Cocum in the newchesterton area that serves Chinese food. \n"
+    ], 
+    [
+        "inform(name=\"Doubletree by Hilton inCambridge Garden House\";type=placetoeat;near=\"Polonia\";pricerange=expensive;area=riverside;eattype=restaurant)\n", 
+        "Doubletree by Hilton inCambridge Garden House is an expensive restaurant near Polonia and the river. \n"
+    ], 
+    [
+        "inform(name=\"Cafe Rouge\";type=placetoeat;eattype=restaurant;area=riverside;near=\"H.F.C Bank\";food=French)\n", 
+        "Cafe Rouge is a restaurant in the riverside area that serves French food. It is near the H.F.C Bank \n"
+    ], 
+    [
+        "inform(name=\"Charlie Chan\";type=placetoeat;eattype=restaurant;area=citycentre;food=Chinese)\n", 
+        "Charlie Chan is a Chinese restaurant in the city centre area. \n"
+    ], 
+    [
+        "inform(name=\"De Luca Cucina and Bar\";type=placetoeat;eattype=restaurant;area=riverside;near=\"Hat and Feathers\";near=\"Kettle's Yard\";food=Italian)\n", 
+        "De Luca Cucina and Bar is an Italian restaurant in the riverside area near Hat and Feathers and Kettle's Yard \n"
+    ], 
+    [
+        "inform(name=\"Pizza Hut\";type=placetoeat;eattype=restaurant;food=Italian;food=\"Takeaway pizza\")\n", 
+        "Pizza Hut is a takeaway restaurant where you can find Italian food. \n"
+    ], 
+    [
+        "inform(name=\"Cafe Naz\";type=placetoeat;area=\"castlehill\";near=\"Tree Hugging Hippy Juice Bar\";eattype=restaurant)\n", 
+        "Cafe Naz is a restaurant in castlehill near Tree Hugging Hippy Juice Bar \n"
+    ], 
+    [
+        "inform(name=\"Lan Hong House\";food=Chinese;eattype=restaurant;area=riverside)\n", 
+        "A Chinese restaurant alternative for riverside dining is the Lan Hong House \n"
+    ], 
+    [
+        "inform(name=\"d'Arry's\";eattype=restaurant;addr=\"2-4 King Street\";phone=\"01223902119\")\n", 
+        "d'Arry's is a restaurant located at 2-4 King Street and its phone number is 01223902119 \n"
+    ], 
+    [
+        "inform(name=\"Brasserie Gerard\";type=placetoeat;eattype=restaurant;area=riverside;near=\"Wagamama\")\n", 
+        "I would recommend Brasserie Gerard a restaurant near Wagamama in the riverside \n"
+    ], 
+    [
+        "inform(name=\"Prezzo\";type=placetoeat;eattype=restaurant;area=\"castlehill\";food=Italian)\n", 
+        "Prezzo is an Italian restaurant in castlehill \n"
+    ], 
+    [
+        "inform(name=\"De Luca Cucina and Bar\";type=placetoeat;eattype=restaurant;pricerange=expensive;near=\"Pipasha Restaurant\";food=Italian)\n", 
+        "De Luca Cucina and Bar is an expensive restaurant near Pipasha Restaurant that serves Italian food. \n"
+    ], 
+    [
+        "inform(name=\"Thanh Binh\";type=placetoeat;eattype=restaurant;food=\"Cafe food\";food=English)\n", 
+        "Thanh Binh is a restaurant specialising in English cafe food. \n"
+    ], 
+    [
+        "inform(name=\"The Red Bull\";type=placetoeat;pricerange=moderate;area=\"newnham\";area=\"cherryhinton\";eattype=restaurant)\n", 
+        "The Red Bull is a restaurant in the moderate price range in the newnham and cherryhinton area. \n"
+    ], 
+    [
+        "inform(name=\"Ugly Duckling\";type=placetoeat;eattype=restaurant;area=citycentre;near=\"The Fez Club\";food=Chinese)\n", 
+        "Ugly Duckling is a Chinese restaurant in the city centre near The Fez Club. \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;area=\"addenbrookes\";pricerange=expensive;eattype=restaurant)\n", 
+        "Alimentum is an expensive restaurant in the addenbrookes area. \n"
+    ], 
+    [
+        "inform(name=\"The Lion and Lamb\";type=placetoeat;eattype=restaurant;pricerange=moderate)\n", 
+        "The Lion and Lamb is a restaurant in the moderate pricerange. \n"
+    ], 
+    [
+        "inform(name=\"Asia\";type=placetoeat;pricerange=expensive;area=riverside;eattype=restaurant)\n", 
+        "Asia is a restaurant in the expensive price range in the riverside area. \n"
+    ], 
+    [
+        "inform(name=\"Ugly Duckling\";type=placetoeat;eattype=restaurant;area=citycentre;food=Chinese)\n", 
+        "Ugly Duckling is a Chinese restaurant near the centre of town. \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;near=\"Clare Hall\";near=\"Trinity Street Post Office\";food=French)\n", 
+        "Alimentum is a French restaurant near Clare Hall and Trinity Street Post Office \n"
+    ], 
+    [
+        "inform(name=\"Tandoori Palace\";type=placetoeat;near=\"Cambridge University Engineering Department\";area=\"castlehill\";eattype=restaurant)\n", 
+        "Tandoori Palace is a restaurant in the castlehill area near the Cambridge University Engineering Department. \n"
+    ], 
+    [
+        "inform(name=\"Green Man\";eattype=restaurant)\n", 
+        "Green Man is a restaurant. \n"
+    ], 
+    [
+        "inform(name=\"d'Arry's\";type=placetoeat;eattype=restaurant;near=\"Arts Picture House and Cafe-Bar\";pricerange=expensive;area=citycentre)\n", 
+        "d'Arry's is a restaurant in the expensive price range in the centre of town, near Arts Picture House and Cafe-Bar. \n"
+    ], 
+    [
+        "inform(name=\"The Vaults\";type=placetoeat;eattype=restaurant;near=\"Riverside Restaurant and Granta Bar\";area=citycentre)\n", 
+        "The Vaults is a restaurant in the city centre near Riverside Restaurant and Granta Bar. \n"
+    ], 
+    [
+        "inform(name=\"The Punter\";type=placetoeat;pricerange=expensive;near=\"The Empress\";near=\"Cambridge University Library\";eattype=restaurant)\n", 
+        "The Punter is a restaurant near The Empress and Cambridge University Library in the expensive price range. \n"
+    ], 
+    [
+        "inform(name=none;near=\"girton\";area=\"Nusha\")\n", 
+        "I am sorry, but there are no venues matching your constraints near girton, in the Nusha area. \n"
+    ], 
+    [
+        "inform(name=\"Ugly Duckling\";type=placetoeat;eattype=restaurant;near=\"John Lewis Brasserie\";food=Chinese)\n", 
+        "Ugly Duckling is a Chinese restaurant near John Lewis Brasserie. \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;pricerange=expensive)\n", 
+        "Alimentum is a restaurant in the expensive price range. \n"
+    ], 
+    [
+        "inform(name=\"Charlie Chan\";type=placetoeat;eattype=restaurant;area=citycentre;near=\"The Fez Club\";food=Chinese)\n", 
+        "Charlie Chan is a Chinese restaurant near The Fez Club located in the city centre area. \n"
+    ], 
+    [
+        "inform(name=\"The Vaults\";type=placetoeat;area=citycentre;near=\"Green Man\";eattype=restaurant)\n", 
+        "The Vaults is a restaurant near Green Man and the city centre. \n"
+    ], 
+    [
+        "inform(name=\"Shiraz\";type=placetoeat;eattype=restaurant;near=\"Corpus Christi\";area=riverside;pricerange=expensive)\n", 
+        "Shiraz is a restaurant near the river near Corpus Christi. The price ranges a bit higher. \n"
+    ], 
+    [
+        "inform(name=\"Shiraz\";type=placetoeat;eattype=restaurant;pricerange=expensive;near=\"The Clarendon Arms\")\n", 
+        "Shiraz is a restaurant in the expensive price range near The Clarendon Arms. \n"
+    ], 
+    [
+        "inform(name=\"196 Meze Bar\";type=placetoeat;pricerange=moderate;area=\"romsey\";near=\"Barclays Bank PLC\";eattype=restaurant)\n", 
+        "196 Meze Bar is a restaurant in the moderate price range in the romsey area near Barclays Bank PLC. \n"
+    ], 
+    [
+        "inform(name=\"Mai Thai\";type=placetoeat;eattype=restaurant;area=riverside;area=citycentre;near=\"Grand Arcade\";near=\"Ranch\")\n", 
+        "Mai Thai is a restaurant in the centre of town, on the riverside, near to Grand Arcade and Ranch \n"
+    ], 
+    [
+        "inform(name=\"Beall Italia Grafton Centre\";type=placetoeat;eattype=restaurant;area=riverside;food=Italian;food=\"Takeaway pizza\")\n", 
+        "Beall Italia Grafton Centre is an Italian restaurant in the riverside area, providing take-away pizza . \n"
+    ], 
+    [
+        "inform(name=\"The Oak Bistro\";type=placetoeat;eattype=restaurant;area=\"trumpington\";area=riverside;near=\"Primavera\";food=Indian)\n", 
+        "The Oak Bistro is an Indian restaurant in the trumpington and riverside areas near Primavera. \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";type=placetoeat;eattype=restaurant;near=\"Cambridge Police Station\";area=riverside;area=\"trumpington\")\n", 
+        "Tang Chinese is a restaurant in the riverside and riverside areas, near Cambridge Police Station. \n"
+    ], 
+    [
+        "inform(name=\"The Unicorn Steak and Ale House\";type=placetoeat;eattype=restaurant;area=\"trumpington\";near=\"The Cherry Hinton Village Centre\";near=\"Mumford Theatre\")\n", 
+        "I recommend the restaurant The Unicorn Steak and Ale House near The Cherry Hinton Village Centre and Mumford Theatre in trumpington \n"
+    ], 
+    [
+        "inform(name=\"The Saffron Brasserie\";type=placetoeat;eattype=restaurant;area=riverside;food=Indian;food=\"Indian takeaway\")\n", 
+        "The Saffron Brasserie is an Indian restaurant which offers take-out service located near the riverside. \n"
+    ], 
+    [
+        "inform(name=\"Alimentum\";type=placetoeat;eattype=restaurant;near=\"Broughton House Gallery\";food=Continental;food=French)\n", 
+        "Alimentum is a French and Continental restaurant near Broughton House Gallery \n"
+    ], 
+    [
+        "inform(name=\"Tang Chinese\";type=placetoeat;eattype=restaurant;near=\"Gonville and Caius College\")\n", 
+        "You may want to visit Tang Chinese restaurant near Gonville and Caius College. \n"
+    ], 
+    [
+        "inform(name=\"Backstreet Bistro\";type=placetoeat;eattype=restaurant;near=\"Alpha-Milton Guest House\";food=Contemporary;food=English)\n", 
+        "Backstreet Bistro is an English restaurant that serves Contemporary food near Alpha-Milton Guest House. \n"
+    ], 
+    [
+        "inform(name=\"Pizza Hut\";type=placetoeat;eattype=restaurant;near=\"The Fitzwilliam Museum\";area=citycentre;food=Italian)\n", 
+        "Pizza Hut is an Italian restaurant near The Fitzwilliam Museum in the city centre. \n"
+    ], 
+    [
+        "inform(name=\"The Wrestlers\";type=placetoeat;eattype=restaurant;near=\"The Snug in East Road\";area=riverside;area=\"romsey\")\n", 
+        "The Wrestlers is a restaurant along the side of the river in riverside It is located near The Snug in East Road \n"
+    ], 
+    [
+        "inform(name=\"La Mimosa\";type=placetoeat;eattype=restaurant;area=\"girton\";near=\"Cazimir\";near=\"Ugly Duckling\";food=Italian)\n", 
+        "La Mimosa is an Italian restaurant in girton near Cazimir and Ugly Duckling \n"
+    ], 
+    [
+        "inform(name=\"La Tasca\";type=placetoeat;eattype=restaurant;pricerange=cheap;area=riverside;near=\"Caffe Nero\")\n", 
+        "La Tasca is a cheap restaurant in the riverside area near Caffe Nero. \n"
+    ], 
+    [
+        "inform(name=none;type=placetoeat;eattype=restaurant;near=\"Nu-Mega Ingredients Ltd\";food=English)\n", 
+        "There are no restaurants near Nu-Mega Ingredients Ltd which serve English food. \n"
+    ], 
+    [
+        "inform(name=\"HK Fusion\";type=placetoeat;eattype=restaurant;area=\"cherryhinton\";food=Chinese)\n", 
+        "May I suggest the HK Fusion restaurant? It is a Chinese food restaurant near cherryhinton. \n"
+    ], 
+    [
+        "inform(name=\"Zizzi\";type=placetoeat;eattype=restaurant;near=\"Legends Bar in Cambridge City Football Club\";food=Italian)\n", 
+        "Zizzi is an Italian restaurant near Legends Bar in Cambridge City Football Club. \n"
+    ]
+]
